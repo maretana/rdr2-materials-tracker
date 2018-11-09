@@ -2,6 +2,7 @@
   "name": "rdr2-materials-tracker",
   "main": "node_modules/expo/AppEntry.js",
   "private": true,
+  "license": "MPL-2.0",
   "scripts": {
     "start": "npx expo start",
     "android": "npx expo start --android",
