@@ -1,0 +1,1611 @@
+{
+  "name": "Trapper",
+  "ingredients": [
+    {
+      "name": "Clothing",
+      "ingredients": [
+        {
+          "name": "Hats",
+          "ingredients": [
+            {
+              "name": "Badger Mountain Hat",
+              "ingredients": [
+                {
+                  "name": "Perfect Badger Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 26
+            },
+            {
+              "name": "Beaver Mountain Hat",
+              "ingredients": [
+                {
+                  "name": "Pefect Beaver Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 28
+            },
+            {
+              "name": "Fox Mountain Hat",
+              "ingredients": [
+                {
+                  "name": "Perfect Fox Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 30
+            },
+            {
+              "name": "Skunk Mountain Hat",
+              "ingredients": [
+                {
+                  "name": "Perfect Skunk Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 23
+            },
+            {
+              "name": "Bear Grenadier Hat",
+              "ingredients": [
+                {
+                  "name": "Perfect Black Bear Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 24
+            },
+            {
+              "name": "Squirrel Flat Cap",
+              "ingredients": [
+                {
+                  "name": "Perfect Squirrel Pelt",
+                  "quantity": 6
+                }
+              ],
+              "_cost": 16
+            },
+            {
+              "name": "Rat Flat Cap",
+              "ingredients": [
+                {
+                  "name": "Perfect Rat Pelt",
+                  "quantity": 10
+                }
+              ],
+              "_cost": 12
+            },
+            {
+              "name": "Snake Bulldogger Hat",
+              "ingredients": [
+                {
+                  "name": "Perfect Sheep Hide",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Snake Skin",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 23
+            },
+            {
+              "name": "Iguana Big Valley Hat",
+              "ingredients": [
+                {
+                  "name": "Perfect Cow Hide",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Iguana Skin",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 14
+            },
+            {
+              "name": "Gila Monster Gambler’s Hat",
+              "ingredients": [
+                {
+                  "name": "Perfect Elk Pelt",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Gila Monster Skin",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 16
+            },
+            {
+              "name": "Pronghorn Flop Hat",
+              "ingredients": [
+                {
+                  "name": "Pronghorn Hide",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Opossum Pelt",
+                  "quantity": 4
+                }
+              ],
+              "_cost": 12
+            },
+            {
+              "name": "Deer Cavalry Hat",
+              "ingredients": [
+                {
+                  "name": "Perfect Deer Pelt",
+                  "quantity": 1
+                },
+                {
+                  "name": "Raven Feather",
+                  "quantity": 10
+                }
+              ],
+              "_cost": 20
+            },
+            {
+              "name": "Bison Gambler’s Hat",
+              "ingredients": [
+                {
+                  "name": "Perfect Bison Pelt",
+                  "quantity": 1
+                },
+                {
+                  "name": "Robin Feather,",
+                  "quantity": 4
+                },
+                {
+                  "name": "Oriole Feather",
+                  "quantity": 4
+                }
+              ],
+              "_cost": 18
+            },
+            {
+              "name": "Rat Infantry Hardee Hat",
+              "ingredients": [
+                {
+                  "name": "Perfect Goat Hide",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Rat Pelt",
+                  "quantity": 6
+                }
+              ],
+              "_cost": 17
+            },
+            {
+              "name": "Stalker Accessory",
+              "ingredients": [
+                {
+                  "name": "loon Feather",
+                  "quantity": 2
+                },
+                {
+                  "name": "Condor Feather,",
+                  "quantity": 1
+                },
+                {
+                  "name": "Raven Feather",
+                  "quantity": 3
+                }
+              ],
+              "_cost": 13
+            },
+            {
+              "name": "Scavanger Accessory",
+              "ingredients": [
+                {
+                  "name": "Vulture Feather",
+                  "quantity": 1
+                },
+                {
+                  "name": "Seagull Feather",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 11
+            },
+            {
+              "name": "Native Accessory",
+              "ingredients": [
+                {
+                  "name": "Pheasant Feather",
+                  "quantity": 1
+                },
+                {
+                  "name": "Sparrow Feather,",
+                  "quantity": 4
+                },
+                {
+                  "name": "Robin Feather",
+                  "quantity": 3
+                }
+              ],
+              "_cost": 10
+            },
+            {
+              "name": "Pilgrim Accessory",
+              "ingredients": [
+                {
+                  "name": "Turkey Feather",
+                  "quantity": 1
+                },
+                {
+                  "name": "Cedar Waxwing Feather,",
+                  "quantity": 2
+                },
+                {
+                  "name": "Blue Jay Feather",
+                  "quantity": 3
+                }
+              ],
+              "_cost": 11
+            },
+            {
+              "name": "Huntsman Accessory",
+              "ingredients": [
+                {
+                  "name": "Perfect Boar Pelt",
+                  "quantity": 1
+                },
+                {
+                  "name": "Hawk Feather,",
+                  "quantity": 1
+                },
+                {
+                  "name": "Quail Feather",
+                  "quantity": 2
+                }
+              ],
+              "_cost": 10
+            },
+            {
+              "name": "Pioneer Accessory",
+              "ingredients": [
+                {
+                  "name": "Turkey Feather",
+                  "quantity": 3
+                },
+                {
+                  "name": "Duck Feather,",
+                  "quantity": 3
+                },
+                {
+                  "name": "Chicken Feather",
+                  "quantity": 3
+                }
+              ],
+              "_cost": 11
+            },
+            {
+              "name": "Rococo Accessory",
+              "ingredients": [
+                {
+                  "name": "Crow Feather",
+                  "quantity": 2
+                },
+                {
+                  "name": "Cardinal Feather",
+                  "quantity": 2
+                }
+              ],
+              "_cost": 15
+            },
+            {
+              "name": "Glorious Accessory",
+              "ingredients": [
+                {
+                  "name": "Oriole Feather",
+                  "quantity": 1
+                },
+                {
+                  "name": "Woodpecker Feather",
+                  "quantity": 4
+                }
+              ],
+              "_cost": 10
+            },
+            {
+              "name": "Pursuer Accessory",
+              "ingredients": [
+                {
+                  "name": "Eagle Feather",
+                  "quantity": 2
+                },
+                {
+                  "name": "Pigeon Feather",
+                  "quantity": 2
+                }
+              ],
+              "_cost": 13
+            },
+            {
+              "name": "Majestic Accessory",
+              "ingredients": [
+                {
+                  "name": "Rooster Feather",
+                  "quantity": 4
+                },
+                {
+                  "name": "Woodpecker Feather,",
+                  "quantity": 2
+                },
+                {
+                  "name": "Songbird Feather",
+                  "quantity": 2
+                }
+              ],
+              "_cost": 15
+            },
+            {
+              "name": "Homestead Accessory",
+              "ingredients": [
+                {
+                  "name": "Chicken Feather",
+                  "quantity": 1
+                },
+                {
+                  "name": "Goose Feather",
+                  "quantity": 2
+                }
+              ],
+              "_cost": 10
+            },
+            {
+              "name": "Judicious Accessory",
+              "ingredients": [
+                {
+                  "name": "Pheasant Feather",
+                  "quantity": 1
+                },
+                {
+                  "name": "Owl Feather",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 10
+            }
+          ]
+        },
+        {
+          "name": "Vests",
+          "ingredients": [
+            {
+              "name": "Rugged Wrangler Vest",
+              "ingredients": [
+                {
+                  "name": "Perfect Pig Hide",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "name": "Hinterland Vest",
+              "ingredients": [
+                {
+                  "name": "Perfect Ram Hide",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "name": "Rustic Vest",
+              "ingredients": [
+                {
+                  "name": "Perfect Cougar Pelt",
+                  "quantity": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chaps",
+          "ingredients": [
+            {
+              "name": "Bear Batwing Chaps",
+              "ingredients": [
+                {
+                  "name": "Perfect Bear Pelt",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "name": "Ox Fringed Shotgun Chaps",
+              "ingredients": [
+                {
+                  "name": "Perfect Ox Hide",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "name": "Elk Fringed Shotgun Chaps",
+              "ingredients": [
+                {
+                  "name": "Perfect Elk Pelt",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "name": "Moose Batwing Chaps",
+              "ingredients": [
+                {
+                  "name": "Perfect Moose Pelt",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "name": "Batwing Chaps",
+              "ingredients": [
+                {
+                  "name": "Perfect Deer Pelt",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "name": "Bear Fringed Shotgun Chaps",
+              "ingredients": [
+                {
+                  "name": "Perfect Black Bear Pelt",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "name": "Sheep Batwing Chaps",
+              "ingredients": [
+                {
+                  "name": "Perfect Sheep Hide",
+                  "quantity": 2
+                }
+              ]
+            },
+            {
+              "name": "Muskrat Half Chaps",
+              "ingredients": [
+                {
+                  "name": "Perfect Muskrat Pelt",
+                  "quantity": 2
+                }
+              ]
+            },
+            {
+              "name": "Deer Pelt Half Chaps",
+              "ingredients": [
+                {
+                  "name": "Perfect Deer Pelt",
+                  "quantity": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Boots",
+          "ingredients": [
+            {
+              "name": "Javelina Moccasins",
+              "ingredients": [
+                {
+                  "name": "Perfect Collared Peccary Pig Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 33
+            },
+            {
+              "name": "Skunk Trapper Boots",
+              "ingredients": [
+                {
+                  "name": "Pefect Skunk Pelt",
+                  "quantity": 2
+                }
+              ],
+              "_cost": 39
+            },
+            {
+              "name": "Moccasins",
+              "ingredients": [
+                {
+                  "name": "Perfect Buck Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Garment Sets",
+      "ingredients": [
+        {
+          "name": "The Bear Hunter",
+          "ingredients": [
+            {
+              "name": "Legendary Bear Head Hat",
+              "ingredients": [
+                {
+                  "name": "Legendary Bear Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 40
+            },
+            {
+              "name": "Legendary Bear Coat",
+              "ingredients": [
+                {
+                  "name": "Legendary Bear Pelt",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Bison Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 28
+            },
+            {
+              "name": "Legendary Bear Roper",
+              "ingredients": [
+                {
+                  "name": "Legendary Bear Pelt",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Bull Hide",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 34
+            },
+            {
+              "name": "Boar Riding Gloves",
+              "ingredients": [
+                {
+                  "name": "Perfect Boar Pelt",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Rabbit Pelt",
+                  "quantity": 2
+                }
+              ],
+              "_cost": 15
+            }
+          ]
+        },
+        {
+          "name": "The Trophy Buck",
+          "ingredients": [
+            {
+              "name": "Raccoon Mountain Hat",
+              "ingredients": [
+                {
+                  "name": "Perfect Raccoon Pelt",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Beaver Pelt",
+                  "quantity": 1
+                },
+                {
+                  "name": "Hawk Feather",
+                  "quantity": 2
+                }
+              ],
+              "_cost": 21
+            },
+            {
+              "name": "Legendary Buck Vest",
+              "ingredients": [
+                {
+                  "name": "Legendary Buck Pelt",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Ram Hide",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 26
+            },
+            {
+              "name": "Legendary Fox Moccasins",
+              "ingredients": [
+                {
+                  "name": "Perfect Elk Pelt",
+                  "quantity": 1
+                },
+                {
+                  "name": "Legendary Fox Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 40
+            },
+            {
+              "name": "Legendary Buck and Fox Range Gloves",
+              "ingredients": [
+                {
+                  "name": "Legendary Buck Pelt",
+                  "quantity": 1
+                },
+                {
+                  "name": "Legendary Fox Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 28
+            }
+          ]
+        },
+        {
+          "name": "The Dreamcatcher",
+          "ingredients": [
+            {
+              "name": "Legendary Beaver Flop Hat",
+              "ingredients": [
+                {
+                  "name": "Legendary Beaver Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 22
+            },
+            {
+              "name": "Legendary Bison Vest",
+              "ingredients": [
+                {
+                  "name": "Legendary Tatanka Bison Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 30
+            },
+            {
+              "name": "Legendary Bison Batwing Chaps",
+              "ingredients": [
+                {
+                  "name": "Legendary Tatanka Bison Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 32
+            },
+            {
+              "name": "Legendary Boar and Bison Fowlers",
+              "ingredients": [
+                {
+                  "name": "Legendary Boar Pelt",
+                  "quantity": 1
+                },
+                {
+                  "name": "Legendary Tatanka Bison Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 37
+            },
+            {
+              "name": "Legendary Beaver Cavalry Gloves",
+              "ingredients": [
+                {
+                  "name": "Legendary Beaver Cavalry",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 18
+            }
+          ]
+        },
+        {
+          "name": "The Beast of Prey",
+          "ingredients": [
+            {
+              "name": "Legendary Cougar Flop Hat",
+              "ingredients": [
+                {
+                  "name": "Legendary Cougar Pelt",
+                  "quantity": 1
+                },
+                {
+                  "name": "x Turkey",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 19
+            },
+            {
+              "name": "Legendary Cougar and Wolf Vest",
+              "ingredients": [
+                {
+                  "name": "Legendary Cougar Pelt",
+                  "quantity": 1
+                },
+                {
+                  "name": "Legendary Wolf Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 42
+            },
+            {
+              "name": "Legendary Wolf Batwing Chaps",
+              "ingredients": [
+                {
+                  "name": "Legendary Wolf Pelt",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Goat Hide",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 34
+            },
+            {
+              "name": "Bull Fowler Boots",
+              "ingredients": [
+                {
+                  "name": "Perfect Boar Pelt",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Bull Hide",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 29
+            },
+            {
+              "name": "Legendary Cougar Riding Gloves",
+              "ingredients": [
+                {
+                  "name": "Legendary Cougar Pelt",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Boar Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 20
+            }
+          ]
+        },
+        {
+          "name": "The Huntsman",
+          "ingredients": [
+            {
+              "name": "Legendary Coyote Mountain Hat",
+              "ingredients": [
+                {
+                  "name": "Legendary Coyote Pelt",
+                  "quantity": 1
+                },
+                {
+                  "name": "Eagle Feather",
+                  "quantity": 2
+                }
+              ],
+              "_cost": 23
+            },
+            {
+              "name": "Legendary Pronghorn Coat",
+              "ingredients": [
+                {
+                  "name": "Legendary Pronghorn Hide",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Moose Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 35
+            },
+            {
+              "name": "Legendary Coyote Half Chaps",
+              "ingredients": [
+                {
+                  "name": "Legendary Coyote Pelt",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Fox Pelt",
+                  "quantity": 2
+                }
+              ],
+              "_cost": 20
+            },
+            {
+              "name": "Workman's Pride Boots",
+              "ingredients": [
+                {
+                  "name": "Perfect Cow Hide",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Goat",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 28
+            },
+            {
+              "name": "Legendary Pronghorn Range Gloves",
+              "ingredients": [
+                {
+                  "name": "Legendary Pronghorn Hide",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Muskrat Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 17
+            }
+          ]
+        },
+        {
+          "name": "The Death Roll",
+          "ingredients": [
+            {
+              "name": "Legendary Alligator Gambler's Hat",
+              "ingredients": [
+                {
+                  "name": "Legendary Alligator Skin",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Snake Skin",
+                  "quantity": 2
+                }
+              ],
+              "_cost": 22
+            },
+            {
+              "name": "Legendary Panther Cloak",
+              "ingredients": [
+                {
+                  "name": "Legendary Panther Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 45
+            },
+            {
+              "name": "Legendary Alligator Vest",
+              "ingredients": [
+                {
+                  "name": "Legendary Alligator Skin",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 35
+            },
+            {
+              "name": "Legendary Alligator Fowlers",
+              "ingredients": [
+                {
+                  "name": "Legendary Alligator Skin",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 35
+            },
+            {
+              "name": "Legendary Panther Range Gloves",
+              "ingredients": [
+                {
+                  "name": "Legendary Panther Pelt",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Gila Monster Skin",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 30
+            }
+          ]
+        },
+        {
+          "name": "The Stalker",
+          "ingredients": [
+            {
+              "name": "Legendary Ram Hat",
+              "ingredients": [
+                {
+                  "name": "Legendary Ram Hide",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 17
+            },
+            {
+              "name": "Legendary Moose Hunting Jacket",
+              "ingredients": [
+                {
+                  "name": "Legendary Moose Pelt",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Wolf Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 24
+            },
+            {
+              "name": "Legendary Ram Batwing Chaps",
+              "ingredients": [
+                {
+                  "name": "Legendary Ram Hide",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 33
+            },
+            {
+              "name": "Legendary Moose Moccasins",
+              "ingredients": [
+                {
+                  "name": "Legendary Moose Pelt",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Cow Hide",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 22
+            },
+            {
+              "name": "Legendary Ram Rifleman Gloves",
+              "ingredients": [
+                {
+                  "name": "Legendary Ram Hide",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Boar Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 12
+            }
+          ]
+        },
+        {
+          "name": "The Ghost Bison",
+          "ingredients": [
+            {
+              "name": "Legendary White Bison Hat",
+              "ingredients": [
+                {
+                  "name": "Legendary White Bison Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 45
+            },
+            {
+              "name": "Legendary White Bison Coat",
+              "ingredients": [
+                {
+                  "name": "Legendary White Bison Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 29
+            },
+            {
+              "name": "Legendary Elk Half Chaps",
+              "ingredients": [
+                {
+                  "name": "Legendary Elk Pelt",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Sheep Hide",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 16
+            },
+            {
+              "name": "Legendary Elk Moccasins",
+              "ingredients": [
+                {
+                  "name": "Legendary Elk Pelt",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Goat Hide",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 30
+            },
+            {
+              "name": "Legendary Elk Range Gloves",
+              "ingredients": [
+                {
+                  "name": "Legendary Elk Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 13
+            }
+          ]
+        },
+        {
+          "name": "The Rattler",
+          "ingredients": [
+            {
+              "name": "Ram Sombrero",
+              "ingredients": [
+                {
+                  "name": "Perfect Ram Hide",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 10
+            },
+            {
+              "name": "Outdoorsmen Vest",
+              "ingredients": [
+                {
+                  "name": "Perfect Pronghorn Hide",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 22
+            },
+            {
+              "name": "Javelina Half Chaps",
+              "ingredients": [
+                {
+                  "name": "Perfect Collared Peccary Pig Pelt",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Snake Skin",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 18
+            },
+            {
+              "name": "Iguana Range Gloves",
+              "ingredients": [
+                {
+                  "name": "Perfect Collared Peccary Pig Pelt",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Iguana Skin",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 27
+            }
+          ]
+        },
+        {
+          "name": "The Wrangler",
+          "ingredients": [
+            {
+              "name": "Goat Flop Hat",
+              "ingredients": [
+                {
+                  "name": "Perfect Pronghorn Hide",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Goat Hide",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 12
+            },
+            {
+              "name": "Trapper's Cloak",
+              "ingredients": [
+                {
+                  "name": "Perfect Sheep Hide",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 32
+            },
+            {
+              "name": "No-Man's Vest",
+              "ingredients": [
+                {
+                  "name": "Perfect Panther Hide",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Goat Hide",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 27
+            },
+            {
+              "name": "Two Toned Moccasins",
+              "ingredients": [
+                {
+                  "name": "Perfect Buck Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 15
+            },
+            {
+              "name": "Moose Range Gloves",
+              "ingredients": [
+                {
+                  "name": "Perfect Moose Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 22
+            }
+          ]
+        },
+        {
+          "name": "The Bronco Buster",
+          "ingredients": [
+            {
+              "name": "Elk Flop Hat",
+              "ingredients": [
+                {
+                  "name": "Perfect Elk Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 12
+            },
+            {
+              "name": "Coyote Scout Jacket",
+              "ingredients": [
+                {
+                  "name": "Perfect Ox Hide",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Coyote Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 20
+            },
+            {
+              "name": "Huntsman Vest",
+              "ingredients": [
+                {
+                  "name": "Perfect Sheep Hide",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Deer Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 25
+            },
+            {
+              "name": "Boar Fringed Shotgun Chaps",
+              "ingredients": [
+                {
+                  "name": "Perfect Boar Pelt",
+                  "quantity": 2
+                }
+              ],
+              "_cost": 25
+            },
+            {
+              "name": "Pigskin Rifleman Gloves",
+              "ingredients": [
+                {
+                  "name": "Perfect Pig Hide",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 8
+            }
+          ]
+        },
+        {
+          "name": "The Marauder",
+          "ingredients": [
+            {
+              "name": "Muskrat Cavalry Hat",
+              "ingredients": [
+                {
+                  "name": "Perfect Rabbit Pelt",
+                  "quantity": 4
+                },
+                {
+                  "name": "Perfect Muskrat Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 15
+            },
+            {
+              "name": "Principal Vest",
+              "ingredients": [
+                {
+                  "name": "Perfect Cow Hide",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Deer Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 18
+            },
+            {
+              "name": "Bull Fringed Shotgun Chaps",
+              "ingredients": [
+                {
+                  "name": "Perfect Bull Hide",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 18
+            },
+            {
+              "name": "Snakeskin Cavalry Gloves",
+              "ingredients": [
+                {
+                  "name": "Perfect Boar Pelt",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Snake Skin",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 26
+            }
+          ]
+        },
+        {
+          "name": "The Bounty Hunter",
+          "ingredients": [
+            {
+              "name": "Plantation Slouch Hat",
+              "ingredients": [
+                {
+                  "name": "Perfect Bison Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 15
+            },
+            {
+              "name": "Beaver Hunting Jacket",
+              "ingredients": [
+                {
+                  "name": "Perfect Cow Hide",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Beaver Pelt",
+                  "quantity": 2
+                }
+              ],
+              "_cost": 21
+            },
+            {
+              "name": "Sheepskin Vest",
+              "ingredients": [
+                {
+                  "name": "Perfect Sheep Hide",
+                  "quantity": 2
+                }
+              ],
+              "_cost": 20
+            },
+            {
+              "name": "Pronghorn Half Chaps",
+              "ingredients": [
+                {
+                  "name": "Perfect Pronghorn Hide",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 7
+            },
+            {
+              "name": "Buck Riding Gloves",
+              "ingredients": [
+                {
+                  "name": "Perfect Buck Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 5
+            }
+          ]
+        },
+        {
+          "name": "The Desperado",
+          "ingredients": [
+            {
+              "name": "Beaver Drifter Hat",
+              "ingredients": [
+                {
+                  "name": "Perfect Beaver Pelt",
+                  "quantity": 2
+                }
+              ],
+              "_cost": 20
+            },
+            {
+              "name": "Wolf Coat",
+              "ingredients": [
+                {
+                  "name": "Perfect Ram Hide",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Wolf Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 25
+            },
+            {
+              "name": "Billy Vest",
+              "ingredients": [
+                {
+                  "name": "Perfect Armadillo Skin",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Goat Hide",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 32
+            },
+            {
+              "name": "Boar and Bull Fowler Boots",
+              "ingredients": [
+                {
+                  "name": "Perfect Ox Hide",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Boar Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 31
+            },
+            {
+              "name": "Winter Cavalry Gloves",
+              "ingredients": [
+                {
+                  "name": "Perfect Rabbit Pelt",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Muskrat Pelt",
+                  "quantity": 2
+                }
+              ],
+              "_cost": 25
+            }
+          ]
+        },
+        {
+          "name": "The Night Wrangler",
+          "ingredients": [
+            {
+              "name": "Coyote Gambler's Hat",
+              "ingredients": [
+                {
+                  "name": "Perfect Coyote Pelt",
+                  "quantity": 2
+                }
+              ],
+              "_cost": 16
+            },
+            {
+              "name": "Cougar Cutaway Coat",
+              "ingredients": [
+                {
+                  "name": "Perfect Cougar Pelt",
+                  "quantity": 2
+                },
+                {
+                  "name": "Perfect Black Bear Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 39
+            },
+            {
+              "name": "Wilderness Vest",
+              "ingredients": [
+                {
+                  "name": "Perfect Wolf Pelt",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Panther Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 28
+            },
+            {
+              "name": "Moose Half Chaps",
+              "ingredients": [
+                {
+                  "name": "Perfect Moose Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 10
+            },
+            {
+              "name": "Badger Rifleman Gloves",
+              "ingredients": [
+                {
+                  "name": "Perfect Badger Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 10
+            }
+          ]
+        },
+        {
+          "name": "The Mountain Man",
+          "ingredients": [
+            {
+              "name": "Grenadier Hat",
+              "ingredients": [
+                {
+                  "name": "Perfect Muskrat Pelt",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Beaver Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 24
+            },
+            {
+              "name": "Ram Shotgun Coat",
+              "ingredients": [
+                {
+                  "name": "Perfect Ram Hide",
+                  "quantity": 2
+                }
+              ],
+              "_cost": 45
+            },
+            {
+              "name": "Country Vest",
+              "ingredients": [
+                {
+                  "name": "Perfect Buck Pelt",
+                  "quantity": 1
+                },
+                {
+                  "name": "Perfect Beaver Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 25
+            },
+            {
+              "name": "Elk Riding Gloves",
+              "ingredients": [
+                {
+                  "name": "Perfect Elk Pelt",
+                  "quantity": 1
+                }
+              ],
+              "_cost": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Saddles",
+      "ingredients": [
+        {
+          "name": "Rattlesnake Vaquero Saddle",
+          "ingredients": [
+            {
+              "name": "Perfect Snake Skin",
+              "quantity": 10
+            }
+          ]
+        },
+        {
+          "name": "Cougar McClelland Saddle",
+          "ingredients": [
+            {
+              "name": "Pefect Cougar Pelt",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "name": "Boar Mother Hubbard Saddle",
+          "ingredients": [
+            {
+              "name": "Perfect Boar Pelt",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "name": "Alligator Ranch Cutter Saddle",
+          "ingredients": [
+            {
+              "name": "Perfect Alligator Skin",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "name": "Bear Dakota Saddle",
+          "ingredients": [
+            {
+              "name": "Perfect Bear Pelt",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "name": "Beaver Roping Saddle",
+          "ingredients": [
+            {
+              "name": "Perfect Beaver Pelt",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "name": "Panther Trail Saddle",
+          "ingredients": [
+            {
+              "name": "Perfect Panther Pelt",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
