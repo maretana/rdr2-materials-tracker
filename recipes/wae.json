@@ -1,0 +1,35 @@
+{
+  "name": "wildlifeArtExhibition.name",
+  "ingredients": [
+    {
+      "name": "wildlifeArtExhibition.partOne",
+      "ingredients": [
+        {
+          "name": "materials.perfectRabbitCarcass",
+          "quantity": 1
+        },
+        {
+          "name": "materials.perfectSquirrelCarcass",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "wildlifeArtExhibition.partTwo",
+      "ingredients": [
+        {
+          "name": "materials.perfectCardinalCarcass",
+          "quantity": 1
+        },
+        {
+          "name": "materials.perfectRatCarcass",
+          "quantity": 1
+        },
+        {
+          "name": "materials.perfectWoodpeckerCarcass",
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,130 +1,130 @@
 {
-  "name": "Camp",
+  "name": "camp.name",
   "ingredients": [
     {
-      "name": "Satchel",
+      "name": "camp.satchel",
       "ingredients": [
         {
-          "name": "Tonics Satchel",
+          "name": "camp.tonicsSatchel",
           "ingredients": [
             {
-              "name": "Perfect Deer Pelt",
+              "name": "materials.perfectDeerPelt",
               "quantity": 1
             },
             {
-              "name": "Perfect Buck Pelt",
+              "name": "materials.perfectBuckPelt",
               "quantity": 1
             },
             {
-              "name": "Perfect Elk Pelt",
+              "name": "materials.perfectElkPelt",
               "quantity": 1
             }
           ],
           "_cost": 0
         },
         {
-          "name": "Ingredients Satchel",
+          "name": "camp.ingredientsSatchel",
           "ingredients": [
             {
-              "name": "Perfect Deer Pelt",
+              "name": "materials.perfectDeerPelt",
               "quantity": 1
             },
             {
-              "name": "Perfect Badger Pelt",
+              "name": "materials.perfectBadgerPelt",
               "quantity": 1
             },
             {
-              "name": "Perfect Squirrel Pelt",
+              "name": "materials.perfectSquirrelPelt",
               "quantity": 1
             }
           ],
           "_cost": 0
         },
         {
-          "name": "Kit Satchel",
+          "name": "camp.kitSatchel",
           "ingredients": [
             {
-              "name": "Perfect Deer Pelt",
+              "name": "materials.perfectDeerPelt",
               "quantity": 1
             },
             {
-              "name": "Perfect Elk Pelt",
+              "name": "materials.perfectElkPelt",
               "quantity": 1
             },
             {
-              "name": "Perfect Panther Pelt",
+              "name": "materials.perfectPantherPelt",
               "quantity": 1
             }
           ],
           "_cost": 0
         },
         {
-          "name": "Provisions Satchel",
+          "name": "camp.provisionsSatchel",
           "ingredients": [
             {
-              "name": "Perfect Deer Pelt",
+              "name": "materials.perfectDeerPelt",
               "quantity": 1
             },
             {
-              "name": "Perfect Bison Pelt",
+              "name": "materials.perfectBisonPelt",
               "quantity": 1
             },
             {
-              "name": "Perfect Racoon Pelt",
+              "name": "materials.perfectRacoonPelt",
               "quantity": 1
             }
           ],
           "_cost": 0
         },
         {
-          "name": "Materials Satchel",
+          "name": "camp.materialsSatchel",
           "ingredients": [
             {
-              "name": "Perfect Deer Pelt",
+              "name": "materials.perfectDeerPelt",
               "quantity": 1
             },
             {
-              "name": "Perfect Boar Pelt",
+              "name": "materials.perfectBoarPelt",
               "quantity": 1
             },
             {
-              "name": "Perfect Iguana Skin",
+              "name": "materials.perfectIguanaSkin",
               "quantity": 1
             }
           ],
           "_cost": 0
         },
         {
-          "name": "Valuables Satchel",
+          "name": "camp.valuablesSatchel",
           "ingredients": [
             {
-              "name": "Perfect Deer Pelt",
+              "name": "materials.perfectDeerPelt",
               "quantity": 1
             },
             {
-              "name": "Perfect Beaver Pelt",
+              "name": "materials.perfectBeaverPelt",
               "quantity": 1
             },
             {
-              "name": "Perfect Rabbit Pelt",
+              "name": "materials.perfectRabbitPelt",
               "quantity": 1
             }
           ],
           "_cost": 0
         },
         {
-          "name": "Legend of the East Satchel",
+          "name": "camp.legendOfTheEastSatchel",
           "ingredients": [
             {
-              "name": "Perfect Deer Pelt",
+              "name": "materials.perfectDeerPelt",
               "quantity": 1
             },
             {
-              "name": "Perfect Cougar Pelt",
+              "name": "materials.perfectCougarPelt",
               "quantity": 1
             },
             {
-              "name": "Perfect Wolf Pelt",
+              "name": "materials.perfectWolfPelt",
               "quantity": 1
             }
           ],
@@ -133,206 +133,206 @@
       ]
     },
     {
-      "name": "Arthur's Lodging",
+      "name": "camp.arthursLodging",
       "ingredients": [
         {
-          "name": "Alligator Skull",
+          "name": "camp.alligatorSkull",
           "ingredients": [
             {
-              "name": "Perfect Alligator Skin",
+              "name": "materials.perfectAlligatorSkin",
               "quantity": 1
             }
           ],
           "_cost": 0
         },
         {
-          "name": "Big Horn Ram Skull",
+          "name": "camp.bigHornRamSkull",
           "ingredients": [
             {
-              "name": "Perfect Ram Carcass",
+              "name": "materials.perfectRamCarcass",
               "quantity": 1
             }
           ],
           "_cost": 0
         },
         {
-          "name": "Cougar Pelt Covered Chest",
+          "name": "camp.cougarPeltCoveredChest",
           "ingredients": [
             {
-              "name": "Perfect Cougar Pelts",
+              "name": "materials.perfectCougarPelts",
               "quantity": 2
             }
           ],
           "_cost": 0
         },
         {
-          "name": "Boar Skin Table Cover",
+          "name": "camp.boarSkinTableCover",
           "ingredients": [
             {
-              "name": "Perfect Boar Pelt",
+              "name": "materials.perfectBoarPelt",
               "quantity": 1
             }
           ],
           "_cost": 0
         },
         {
-          "name": "Ox Hide Rug",
+          "name": "camp.oxHideRug",
           "ingredients": [
             {
-              "name": "Perfect Ox Hide",
+              "name": "materials.perfectOxHide",
               "quantity": 2
             }
           ],
           "_cost": 0
         }
-      ],
+      ]
     },
     {
-      "name": "John's Lodging",
+      "name": "camp.johnsLodging",
       "ingredients": [
         {
-          "name": "Boar Skin Rug",
+          "name": "camp.boarSkinRug",
           "ingredients": [
             {
-              "name": "Perfect Boar Pelt",
+              "name": "materials.perfectBoarPelt",
               "quantity": 4
             }
           ],
           "_cost": 0
         }
-      ],
+      ]
     },
     {
-      "name": "Camp Table",
+      "name": "camp.campTable",
       "ingredients": [
         {
-          "name": "Pronghorn Leather Table Tops",
+          "name": "camp.pronghornLeatherTableTops",
           "ingredients": [
             {
-              "name": "Perfect Pronghorn Hide",
+              "name": "materials.perfectPronghornHide",
               "quantity": 2
             }
           ],
           "_cost": 0
         }
-      ],
+      ]
     },
     {
-      "name": "Chuckwagon",
+      "name": "camp.chuckwagon",
       "ingredients": [
         {
-          "name": "Pronghorn Skull",
+          "name": "camp.pronghornSkull",
           "ingredients": [
             {
-              "name": "Perfect Pronghorn Carcass",
+              "name": "materials.perfectPronghornCarcass",
               "quantity": 1
             }
           ],
           "_cost": 0
         }
-      ],
+      ]
     },
     {
-      "name": "Main Campfire",
+      "name": "camp.mainCampfire",
       "ingredients": [
         {
-          "name": "Moose Antlers",
+          "name": "camp.mooseAntlers",
           "ingredients": [
             {
-              "name": "Moose Antler",
+              "name": "materials.mooseAntler",
               "quantity": 1
             }
           ],
           "_cost": 0
         },
         {
-          "name": "Wolf Skull",
+          "name": "camp.wolfSkull",
           "ingredients": [
             {
-              "name": "Perfect Wolf Carcass",
+              "name": "materials.perfectWolfCarcass",
               "quantity": 1
             }
           ],
           "_cost": 0
         },
         {
-          "name": "Snake Skin Banjo Head",
+          "name": "camp.snakeSkinBanjoHead",
           "ingredients": [
             {
-              "name": "Perfect Snake Skin",
+              "name": "materials.perfectSnakeSkin",
               "quantity": 2
             }
           ],
           "_cost": 0
         },
         {
-          "name": "Campfire Seat Cover",
+          "name": "camp.campfireSeatCover",
           "ingredients": [
             {
-              "name": "Perfect Beaver Pelt",
+              "name": "materials.perfectBeaverPelt",
               "quantity": 1
             },
             {
-              "name": "Perfect Muskrat Pelt",
+              "name": "materials.perfectMuskratPelt",
               "quantity": 1
             },
             {
-              "name": "Perfect Fox Pelt",
+              "name": "materials.PerfectFoxPelt",
               "quantity": 1
             }
           ],
           "_cost": 0
         },
         {
-          "name": "Capfire Log Seat Cover",
+          "name": "camp.capfireLogSeatCover",
           "ingredients": [
             {
-              "name": "Perfect Wolf Pelt",
+              "name": "materials.perfectWolfPelt",
               "quantity": 2
             }
           ],
           "_cost": 0
         },
         {
-          "name": "Lean-to Cow Hide Ground Cover",
+          "name": "camp.lean-ToCowHideGroundCover",
           "ingredients": [
             {
-              "name": "Perfect Cow Hide",
+              "name": "materials.perfectCowHide",
               "quantity": 1
             }
           ],
           "_cost": 0
         }
-      ],
+      ]
     },
     {
-      "name": "Scout Campfire",
+      "name": "camp.scoutCampfire",
       "ingredients": [
         {
-          "name": "Scout Fire Ground Cover",
+          "name": "camp.scoutFireGroundCover",
           "ingredients": [
             {
-              "name": "Perfect Goat Hide",
+              "name": "materials.perfectGoatHide",
               "quantity": 2
             }
           ],
           "_cost": 0
         },
         {
-          "name": "Elk Antlers",
+          "name": "camp.elkAntlers",
           "ingredients": [
             {
-              "name": "Elk Antler",
+              "name": "materials.elkAntler",
               "quantity": 1
             }
           ],
           "_cost": 0
         },
         {
-          "name": "Hanging Bones",
+          "name": "camp.hangingBones",
           "ingredients": [
             {
-              "name": "Buck Antlers",
+              "name": "materials.buckAntlers",
               "quantity": 1
             }
           ],

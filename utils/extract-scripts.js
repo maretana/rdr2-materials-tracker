@@ -108,3 +108,33 @@ let getCampUpgradeArray = table => Array.from(table.querySelectorAll('tbody tr')
 )
 let z = getCampUpgradeArray(document.querySelector('table'))
 copy(z)
+
+////////////////////////////////////////////////////////////////////////////////
+////////// Localize
+////////////////////////////////////////////////////////////////////////////////
+String.prototype.toCamelCase = function() {
+  return this.replace(/'/g, '').replace(/(?:^\w|[A-Z]|\b\w|\s+)/g, function(match, index) {
+    if (+match === 0) return ""; // or if (/\s+/.test(match)) for white spaces
+    return index == 0 ? match.toLowerCase() : match.toUpperCase();
+  })
+}
+
+let localizeNames = (jsonTree, locale) => {
+  let queue = [...jsonTree.ingredients]
+  const prefix = jsonTree.name.toCamelCase()
+  locale[prefix] = { name: jsonTree.name }
+  jsonTree.name = `${prefix}.name`
+
+  while (queue.length) {
+    const node = queue.shift()
+    const name = node.name.toCamelCase()
+    if (node.ingredients) {
+      locale[prefix][name] = node.name
+      node.name = `${prefix}.${name}`
+      queue = [...queue, ...node.ingredients]
+    } else {
+      locale.materials[name] = node.name
+      node.name = `materials.${name}`
+    }
+  }
+}

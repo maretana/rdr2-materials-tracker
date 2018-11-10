@@ -1,371 +1,371 @@
 {
-  "name": "Trapper",
+  "name": "trapper.name",
   "ingredients": [
     {
-      "name": "Clothing",
+      "name": "trapper.clothing",
       "ingredients": [
         {
-          "name": "Hats",
+          "name": "trapper.hats",
           "ingredients": [
             {
-              "name": "Badger Mountain Hat",
+              "name": "trapper.badgerMountainHat",
               "ingredients": [
                 {
-                  "name": "Perfect Badger Pelt",
+                  "name": "materials.perfectBadgerPelt",
                   "quantity": 1
                 }
               ],
               "_cost": 26
             },
             {
-              "name": "Beaver Mountain Hat",
+              "name": "trapper.beaverMountainHat",
               "ingredients": [
                 {
-                  "name": "Pefect Beaver Pelt",
+                  "name": "materials.pefectBeaverPelt",
                   "quantity": 1
                 }
               ],
               "_cost": 28
             },
             {
-              "name": "Fox Mountain Hat",
+              "name": "trapper.foxMountainHat",
               "ingredients": [
                 {
-                  "name": "Perfect Fox Pelt",
+                  "name": "materials.perfectFoxPelt",
                   "quantity": 1
                 }
               ],
               "_cost": 30
             },
             {
-              "name": "Skunk Mountain Hat",
+              "name": "trapper.skunkMountainHat",
               "ingredients": [
                 {
-                  "name": "Perfect Skunk Pelt",
+                  "name": "materials.perfectSkunkPelt",
                   "quantity": 1
                 }
               ],
               "_cost": 23
             },
             {
-              "name": "Bear Grenadier Hat",
+              "name": "trapper.bearGrenadierHat",
               "ingredients": [
                 {
-                  "name": "Perfect Black Bear Pelt",
+                  "name": "materials.perfectBlackBearPelt",
                   "quantity": 1
                 }
               ],
               "_cost": 24
             },
             {
-              "name": "Squirrel Flat Cap",
+              "name": "trapper.squirrelFlatCap",
               "ingredients": [
                 {
-                  "name": "Perfect Squirrel Pelt",
+                  "name": "materials.perfectSquirrelPelt",
                   "quantity": 6
                 }
               ],
               "_cost": 16
             },
             {
-              "name": "Rat Flat Cap",
+              "name": "trapper.ratFlatCap",
               "ingredients": [
                 {
-                  "name": "Perfect Rat Pelt",
+                  "name": "materials.perfectRatPelt",
                   "quantity": 10
                 }
               ],
               "_cost": 12
             },
             {
-              "name": "Snake Bulldogger Hat",
+              "name": "trapper.snakeBulldoggerHat",
               "ingredients": [
                 {
-                  "name": "Perfect Sheep Hide",
+                  "name": "materials.perfectSheepHide",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Snake Skin",
+                  "name": "materials.perfectSnakeSkin",
                   "quantity": 1
                 }
               ],
               "_cost": 23
             },
             {
-              "name": "Iguana Big Valley Hat",
+              "name": "trapper.iguanaBigValleyHat",
               "ingredients": [
                 {
-                  "name": "Perfect Cow Hide",
+                  "name": "materials.perfectCowHide",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Iguana Skin",
+                  "name": "materials.perfectIguanaSkin",
                   "quantity": 1
                 }
               ],
               "_cost": 14
             },
             {
-              "name": "Gila Monster Gambler’s Hat",
+              "name": "trapper.gilaMonsterGambler’SHat",
               "ingredients": [
                 {
-                  "name": "Perfect Elk Pelt",
+                  "name": "materials.perfectElkPelt",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Gila Monster Skin",
+                  "name": "materials.perfectGilaMonsterSkin",
                   "quantity": 1
                 }
               ],
               "_cost": 16
             },
             {
-              "name": "Pronghorn Flop Hat",
+              "name": "trapper.pronghornFlopHat",
               "ingredients": [
                 {
-                  "name": "Pronghorn Hide",
+                  "name": "materials.pronghornHide",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Opossum Pelt",
+                  "name": "materials.perfectOpossumPelt",
                   "quantity": 4
                 }
               ],
               "_cost": 12
             },
             {
-              "name": "Deer Cavalry Hat",
+              "name": "trapper.deerCavalryHat",
               "ingredients": [
                 {
-                  "name": "Perfect Deer Pelt",
+                  "name": "materials.perfectDeerPelt",
                   "quantity": 1
                 },
                 {
-                  "name": "Raven Feather",
+                  "name": "materials.ravenFeather",
                   "quantity": 10
                 }
               ],
               "_cost": 20
             },
             {
-              "name": "Bison Gambler’s Hat",
+              "name": "trapper.bisonGambler’SHat",
               "ingredients": [
                 {
-                  "name": "Perfect Bison Pelt",
+                  "name": "materials.perfectBisonPelt",
                   "quantity": 1
                 },
                 {
-                  "name": "Robin Feather,",
+                  "name": "materials.robinFeather,",
                   "quantity": 4
                 },
                 {
-                  "name": "Oriole Feather",
+                  "name": "materials.orioleFeather",
                   "quantity": 4
                 }
               ],
               "_cost": 18
             },
             {
-              "name": "Rat Infantry Hardee Hat",
+              "name": "trapper.ratInfantryHardeeHat",
               "ingredients": [
                 {
-                  "name": "Perfect Goat Hide",
+                  "name": "materials.perfectGoatHide",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Rat Pelt",
+                  "name": "materials.perfectRatPelt",
                   "quantity": 6
                 }
               ],
               "_cost": 17
             },
             {
-              "name": "Stalker Accessory",
+              "name": "trapper.stalkerAccessory",
               "ingredients": [
                 {
-                  "name": "loon Feather",
+                  "name": "materials.loonFeather",
                   "quantity": 2
                 },
                 {
-                  "name": "Condor Feather,",
+                  "name": "materials.condorFeather,",
                   "quantity": 1
                 },
                 {
-                  "name": "Raven Feather",
+                  "name": "materials.ravenFeather",
                   "quantity": 3
                 }
               ],
               "_cost": 13
             },
             {
-              "name": "Scavanger Accessory",
+              "name": "trapper.scavangerAccessory",
               "ingredients": [
                 {
-                  "name": "Vulture Feather",
+                  "name": "materials.vultureFeather",
                   "quantity": 1
                 },
                 {
-                  "name": "Seagull Feather",
+                  "name": "materials.seagullFeather",
                   "quantity": 1
                 }
               ],
               "_cost": 11
             },
             {
-              "name": "Native Accessory",
+              "name": "trapper.nativeAccessory",
               "ingredients": [
                 {
-                  "name": "Pheasant Feather",
+                  "name": "materials.pheasantFeather",
                   "quantity": 1
                 },
                 {
-                  "name": "Sparrow Feather,",
+                  "name": "materials.sparrowFeather,",
                   "quantity": 4
                 },
                 {
-                  "name": "Robin Feather",
+                  "name": "materials.robinFeather",
                   "quantity": 3
                 }
               ],
               "_cost": 10
             },
             {
-              "name": "Pilgrim Accessory",
+              "name": "trapper.pilgrimAccessory",
               "ingredients": [
                 {
-                  "name": "Turkey Feather",
+                  "name": "materials.turkeyFeather",
                   "quantity": 1
                 },
                 {
-                  "name": "Cedar Waxwing Feather,",
+                  "name": "materials.cedarWaxwingFeather,",
                   "quantity": 2
                 },
                 {
-                  "name": "Blue Jay Feather",
+                  "name": "materials.blueJayFeather",
                   "quantity": 3
                 }
               ],
               "_cost": 11
             },
             {
-              "name": "Huntsman Accessory",
+              "name": "trapper.huntsmanAccessory",
               "ingredients": [
                 {
-                  "name": "Perfect Boar Pelt",
+                  "name": "materials.perfectBoarPelt",
                   "quantity": 1
                 },
                 {
-                  "name": "Hawk Feather,",
+                  "name": "materials.hawkFeather,",
                   "quantity": 1
                 },
                 {
-                  "name": "Quail Feather",
+                  "name": "materials.quailFeather",
                   "quantity": 2
                 }
               ],
               "_cost": 10
             },
             {
-              "name": "Pioneer Accessory",
+              "name": "trapper.pioneerAccessory",
               "ingredients": [
                 {
-                  "name": "Turkey Feather",
+                  "name": "materials.turkeyFeather",
                   "quantity": 3
                 },
                 {
-                  "name": "Duck Feather,",
+                  "name": "materials.duckFeather,",
                   "quantity": 3
                 },
                 {
-                  "name": "Chicken Feather",
+                  "name": "materials.chickenFeather",
                   "quantity": 3
                 }
               ],
               "_cost": 11
             },
             {
-              "name": "Rococo Accessory",
+              "name": "trapper.rococoAccessory",
               "ingredients": [
                 {
-                  "name": "Crow Feather",
+                  "name": "materials.crowFeather",
                   "quantity": 2
                 },
                 {
-                  "name": "Cardinal Feather",
+                  "name": "materials.cardinalFeather",
                   "quantity": 2
                 }
               ],
               "_cost": 15
             },
             {
-              "name": "Glorious Accessory",
+              "name": "trapper.gloriousAccessory",
               "ingredients": [
                 {
-                  "name": "Oriole Feather",
+                  "name": "materials.orioleFeather",
                   "quantity": 1
                 },
                 {
-                  "name": "Woodpecker Feather",
+                  "name": "materials.woodpeckerFeather",
                   "quantity": 4
                 }
               ],
               "_cost": 10
             },
             {
-              "name": "Pursuer Accessory",
+              "name": "trapper.pursuerAccessory",
               "ingredients": [
                 {
-                  "name": "Eagle Feather",
+                  "name": "materials.eagleFeather",
                   "quantity": 2
                 },
                 {
-                  "name": "Pigeon Feather",
+                  "name": "materials.pigeonFeather",
                   "quantity": 2
                 }
               ],
               "_cost": 13
             },
             {
-              "name": "Majestic Accessory",
+              "name": "trapper.majesticAccessory",
               "ingredients": [
                 {
-                  "name": "Rooster Feather",
+                  "name": "materials.roosterFeather",
                   "quantity": 4
                 },
                 {
-                  "name": "Woodpecker Feather,",
+                  "name": "materials.woodpeckerFeather,",
                   "quantity": 2
                 },
                 {
-                  "name": "Songbird Feather",
+                  "name": "materials.songbirdFeather",
                   "quantity": 2
                 }
               ],
               "_cost": 15
             },
             {
-              "name": "Homestead Accessory",
+              "name": "trapper.homesteadAccessory",
               "ingredients": [
                 {
-                  "name": "Chicken Feather",
+                  "name": "materials.chickenFeather",
                   "quantity": 1
                 },
                 {
-                  "name": "Goose Feather",
+                  "name": "materials.gooseFeather",
                   "quantity": 2
                 }
               ],
               "_cost": 10
             },
             {
-              "name": "Judicious Accessory",
+              "name": "trapper.judiciousAccessory",
               "ingredients": [
                 {
-                  "name": "Pheasant Feather",
+                  "name": "materials.pheasantFeather",
                   "quantity": 1
                 },
                 {
-                  "name": "Owl Feather",
+                  "name": "materials.owlFeather",
                   "quantity": 1
                 }
               ],
@@ -374,31 +374,31 @@
           ]
         },
         {
-          "name": "Vests",
+          "name": "trapper.vests",
           "ingredients": [
             {
-              "name": "Rugged Wrangler Vest",
+              "name": "trapper.ruggedWranglerVest",
               "ingredients": [
                 {
-                  "name": "Perfect Pig Hide",
+                  "name": "materials.perfectPigHide",
                   "quantity": 1
                 }
               ]
             },
             {
-              "name": "Hinterland Vest",
+              "name": "trapper.hinterlandVest",
               "ingredients": [
                 {
-                  "name": "Perfect Ram Hide",
+                  "name": "materials.perfectRamHide",
                   "quantity": 1
                 }
               ]
             },
             {
-              "name": "Rustic Vest",
+              "name": "trapper.rusticVest",
               "ingredients": [
                 {
-                  "name": "Perfect Cougar Pelt",
+                  "name": "materials.perfectCougarPelt",
                   "quantity": 1
                 }
               ]
@@ -406,85 +406,85 @@
           ]
         },
         {
-          "name": "Chaps",
+          "name": "trapper.chaps",
           "ingredients": [
             {
-              "name": "Bear Batwing Chaps",
+              "name": "trapper.bearBatwingChaps",
               "ingredients": [
                 {
-                  "name": "Perfect Bear Pelt",
+                  "name": "materials.perfectBearPelt",
                   "quantity": 1
                 }
               ]
             },
             {
-              "name": "Ox Fringed Shotgun Chaps",
+              "name": "trapper.oxFringedShotgunChaps",
               "ingredients": [
                 {
-                  "name": "Perfect Ox Hide",
+                  "name": "materials.perfectOxHide",
                   "quantity": 1
                 }
               ]
             },
             {
-              "name": "Elk Fringed Shotgun Chaps",
+              "name": "trapper.elkFringedShotgunChaps",
               "ingredients": [
                 {
-                  "name": "Perfect Elk Pelt",
+                  "name": "materials.perfectElkPelt",
                   "quantity": 1
                 }
               ]
             },
             {
-              "name": "Moose Batwing Chaps",
+              "name": "trapper.mooseBatwingChaps",
               "ingredients": [
                 {
-                  "name": "Perfect Moose Pelt",
+                  "name": "materials.perfectMoosePelt",
                   "quantity": 1
                 }
               ]
             },
             {
-              "name": "Batwing Chaps",
+              "name": "trapper.batwingChaps",
               "ingredients": [
                 {
-                  "name": "Perfect Deer Pelt",
+                  "name": "materials.perfectDeerPelt",
                   "quantity": 1
                 }
               ]
             },
             {
-              "name": "Bear Fringed Shotgun Chaps",
+              "name": "trapper.bearFringedShotgunChaps",
               "ingredients": [
                 {
-                  "name": "Perfect Black Bear Pelt",
+                  "name": "materials.perfectBlackBearPelt",
                   "quantity": 1
                 }
               ]
             },
             {
-              "name": "Sheep Batwing Chaps",
+              "name": "trapper.sheepBatwingChaps",
               "ingredients": [
                 {
-                  "name": "Perfect Sheep Hide",
+                  "name": "materials.perfectSheepHide",
                   "quantity": 2
                 }
               ]
             },
             {
-              "name": "Muskrat Half Chaps",
+              "name": "trapper.muskratHalfChaps",
               "ingredients": [
                 {
-                  "name": "Perfect Muskrat Pelt",
+                  "name": "materials.perfectMuskratPelt",
                   "quantity": 2
                 }
               ]
             },
             {
-              "name": "Deer Pelt Half Chaps",
+              "name": "trapper.deerPeltHalfChaps",
               "ingredients": [
                 {
-                  "name": "Perfect Deer Pelt",
+                  "name": "materials.perfectDeerPelt",
                   "quantity": 1
                 }
               ]
@@ -492,33 +492,33 @@
           ]
         },
         {
-          "name": "Boots",
+          "name": "trapper.boots",
           "ingredients": [
             {
-              "name": "Javelina Moccasins",
+              "name": "trapper.javelinaMoccasins",
               "ingredients": [
                 {
-                  "name": "Perfect Collared Peccary Pig Pelt",
+                  "name": "materials.perfectCollaredPeccaryPigPelt",
                   "quantity": 1
                 }
               ],
               "_cost": 33
             },
             {
-              "name": "Skunk Trapper Boots",
+              "name": "trapper.skunkTrapperBoots",
               "ingredients": [
                 {
-                  "name": "Pefect Skunk Pelt",
+                  "name": "materials.pefectSkunkPelt",
                   "quantity": 2
                 }
               ],
               "_cost": 39
             },
             {
-              "name": "Moccasins",
+              "name": "trapper.moccasins",
               "ingredients": [
                 {
-                  "name": "Perfect Buck Pelt",
+                  "name": "materials.perfectBuckPelt",
                   "quantity": 1
                 }
               ],
@@ -529,58 +529,58 @@
       ]
     },
     {
-      "name": "Garment Sets",
+      "name": "trapper.garmentSets",
       "ingredients": [
         {
-          "name": "The Bear Hunter",
+          "name": "trapper.theBearHunter",
           "ingredients": [
             {
-              "name": "Legendary Bear Head Hat",
+              "name": "trapper.legendaryBearHeadHat",
               "ingredients": [
                 {
-                  "name": "Legendary Bear Pelt",
+                  "name": "materials.legendaryBearPelt",
                   "quantity": 1
                 }
               ],
               "_cost": 40
             },
             {
-              "name": "Legendary Bear Coat",
+              "name": "trapper.legendaryBearCoat",
               "ingredients": [
                 {
-                  "name": "Legendary Bear Pelt",
+                  "name": "materials.legendaryBearPelt",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Bison Pelt",
+                  "name": "materials.perfectBisonPelt",
                   "quantity": 1
                 }
               ],
               "_cost": 28
             },
             {
-              "name": "Legendary Bear Roper",
+              "name": "trapper.legendaryBearRoper",
               "ingredients": [
                 {
-                  "name": "Legendary Bear Pelt",
+                  "name": "materials.legendaryBearPelt",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Bull Hide",
+                  "name": "materials.perfectBullHide",
                   "quantity": 1
                 }
               ],
               "_cost": 34
             },
             {
-              "name": "Boar Riding Gloves",
+              "name": "trapper.boarRidingGloves",
               "ingredients": [
                 {
-                  "name": "Perfect Boar Pelt",
+                  "name": "materials.perfectBoarPelt",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Rabbit Pelt",
+                  "name": "materials.perfectRabbitPelt",
                   "quantity": 2
                 }
               ],
@@ -589,63 +589,63 @@
           ]
         },
         {
-          "name": "The Trophy Buck",
+          "name": "trapper.theTrophyBuck",
           "ingredients": [
             {
-              "name": "Raccoon Mountain Hat",
+              "name": "trapper.raccoonMountainHat",
               "ingredients": [
                 {
-                  "name": "Perfect Raccoon Pelt",
+                  "name": "materials.perfectRaccoonPelt",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Beaver Pelt",
+                  "name": "materials.perfectBeaverPelt",
                   "quantity": 1
                 },
                 {
-                  "name": "Hawk Feather",
+                  "name": "materials.hawkFeather",
                   "quantity": 2
                 }
               ],
               "_cost": 21
             },
             {
-              "name": "Legendary Buck Vest",
+              "name": "trapper.legendaryBuckVest",
               "ingredients": [
                 {
-                  "name": "Legendary Buck Pelt",
+                  "name": "materials.legendaryBuckPelt",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Ram Hide",
+                  "name": "materials.perfectRamHide",
                   "quantity": 1
                 }
               ],
               "_cost": 26
             },
             {
-              "name": "Legendary Fox Moccasins",
+              "name": "trapper.legendaryFoxMoccasins",
               "ingredients": [
                 {
-                  "name": "Perfect Elk Pelt",
+                  "name": "materials.perfectElkPelt",
                   "quantity": 1
                 },
                 {
-                  "name": "Legendary Fox Pelt",
+                  "name": "materials.legendaryFoxPelt",
                   "quantity": 1
                 }
               ],
               "_cost": 40
             },
             {
-              "name": "Legendary Buck and Fox Range Gloves",
+              "name": "trapper.legendaryBuckAndFoxRangeGloves",
               "ingredients": [
                 {
-                  "name": "Legendary Buck Pelt",
+                  "name": "materials.legendaryBuckPelt",
                   "quantity": 1
                 },
                 {
-                  "name": "Legendary Fox Pelt",
+                  "name": "materials.legendaryFoxPelt",
                   "quantity": 1
                 }
               ],
@@ -654,57 +654,57 @@
           ]
         },
         {
-          "name": "The Dreamcatcher",
+          "name": "trapper.theDreamcatcher",
           "ingredients": [
             {
-              "name": "Legendary Beaver Flop Hat",
+              "name": "trapper.legendaryBeaverFlopHat",
               "ingredients": [
                 {
-                  "name": "Legendary Beaver Pelt",
+                  "name": "materials.legendaryBeaverPelt",
                   "quantity": 1
                 }
               ],
               "_cost": 22
             },
             {
-              "name": "Legendary Bison Vest",
+              "name": "trapper.legendaryBisonVest",
               "ingredients": [
                 {
-                  "name": "Legendary Tatanka Bison Pelt",
+                  "name": "materials.legendaryTatankaBisonPelt",
                   "quantity": 1
                 }
               ],
               "_cost": 30
             },
             {
-              "name": "Legendary Bison Batwing Chaps",
+              "name": "trapper.legendaryBisonBatwingChaps",
               "ingredients": [
                 {
-                  "name": "Legendary Tatanka Bison Pelt",
+                  "name": "materials.legendaryTatankaBisonPelt",
                   "quantity": 1
                 }
               ],
               "_cost": 32
             },
             {
-              "name": "Legendary Boar and Bison Fowlers",
+              "name": "trapper.legendaryBoarAndBisonFowlers",
               "ingredients": [
                 {
-                  "name": "Legendary Boar Pelt",
+                  "name": "materials.legendaryBoarPelt",
                   "quantity": 1
                 },
                 {
-                  "name": "Legendary Tatanka Bison Pelt",
+                  "name": "materials.legendaryTatankaBisonPelt",
                   "quantity": 1
                 }
               ],
               "_cost": 37
             },
             {
-              "name": "Legendary Beaver Cavalry Gloves",
+              "name": "trapper.legendaryBeaverCavalryGloves",
               "ingredients": [
                 {
-                  "name": "Legendary Beaver Cavalry",
+                  "name": "materials.legendaryBeaverCavalry",
                   "quantity": 1
                 }
               ],
@@ -713,73 +713,73 @@
           ]
         },
         {
-          "name": "The Beast of Prey",
+          "name": "trapper.theBeastOfPrey",
           "ingredients": [
             {
-              "name": "Legendary Cougar Flop Hat",
+              "name": "trapper.legendaryCougarFlopHat",
               "ingredients": [
                 {
-                  "name": "Legendary Cougar Pelt",
+                  "name": "materials.legendaryCougarPelt",
                   "quantity": 1
                 },
                 {
-                  "name": "x Turkey",
-                  "quantity": 1
+                  "name": "materials.turkeyFeather",
+                  "quantity": 2
                 }
               ],
               "_cost": 19
             },
             {
-              "name": "Legendary Cougar and Wolf Vest",
+              "name": "trapper.legendaryCougarAndWolfVest",
               "ingredients": [
                 {
-                  "name": "Legendary Cougar Pelt",
+                  "name": "materials.legendaryCougarPelt",
                   "quantity": 1
                 },
                 {
-                  "name": "Legendary Wolf Pelt",
+                  "name": "materials.legendaryWolfPelt",
                   "quantity": 1
                 }
               ],
               "_cost": 42
             },
             {
-              "name": "Legendary Wolf Batwing Chaps",
+              "name": "trapper.legendaryWolfBatwingChaps",
               "ingredients": [
                 {
-                  "name": "Legendary Wolf Pelt",
+                  "name": "materials.legendaryWolfPelt",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Goat Hide",
+                  "name": "materials.perfectGoatHide",
                   "quantity": 1
                 }
               ],
               "_cost": 34
             },
             {
-              "name": "Bull Fowler Boots",
+              "name": "trapper.bullFowlerBoots",
               "ingredients": [
                 {
-                  "name": "Perfect Boar Pelt",
+                  "name": "materials.perfectBoarPelt",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Bull Hide",
+                  "name": "materials.perfectBullHide",
                   "quantity": 1
                 }
               ],
               "_cost": 29
             },
             {
-              "name": "Legendary Cougar Riding Gloves",
+              "name": "trapper.legendaryCougarRidingGloves",
               "ingredients": [
                 {
-                  "name": "Legendary Cougar Pelt",
+                  "name": "materials.legendaryCougarPelt",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Boar Pelt",
+                  "name": "materials.perfectBoarPelt",
                   "quantity": 1
                 }
               ],
@@ -788,73 +788,73 @@
           ]
         },
         {
-          "name": "The Huntsman",
+          "name": "trapper.theHuntsman",
           "ingredients": [
             {
-              "name": "Legendary Coyote Mountain Hat",
+              "name": "trapper.legendaryCoyoteMountainHat",
               "ingredients": [
                 {
-                  "name": "Legendary Coyote Pelt",
+                  "name": "materials.legendaryCoyotePelt",
                   "quantity": 1
                 },
                 {
-                  "name": "Eagle Feather",
+                  "name": "materials.eagleFeather",
                   "quantity": 2
                 }
               ],
               "_cost": 23
             },
             {
-              "name": "Legendary Pronghorn Coat",
+              "name": "trapper.legendaryPronghornCoat",
               "ingredients": [
                 {
-                  "name": "Legendary Pronghorn Hide",
+                  "name": "materials.legendaryPronghornHide",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Moose Pelt",
+                  "name": "materials.perfectMoosePelt",
                   "quantity": 1
                 }
               ],
               "_cost": 35
             },
             {
-              "name": "Legendary Coyote Half Chaps",
+              "name": "trapper.legendaryCoyoteHalfChaps",
               "ingredients": [
                 {
-                  "name": "Legendary Coyote Pelt",
+                  "name": "materials.legendaryCoyotePelt",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Fox Pelt",
+                  "name": "materials.perfectFoxPelt",
                   "quantity": 2
                 }
               ],
               "_cost": 20
             },
             {
-              "name": "Workman's Pride Boots",
+              "name": "trapper.workmansPrideBoots",
               "ingredients": [
                 {
-                  "name": "Perfect Cow Hide",
+                  "name": "materials.perfectCowHide",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Goat",
+                  "name": "materials.perfectGoatHide",
                   "quantity": 1
                 }
               ],
               "_cost": 28
             },
             {
-              "name": "Legendary Pronghorn Range Gloves",
+              "name": "trapper.legendaryPronghornRangeGloves",
               "ingredients": [
                 {
-                  "name": "Legendary Pronghorn Hide",
+                  "name": "materials.legendaryPronghornHide",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Muskrat Pelt",
+                  "name": "materials.perfectMuskratPelt",
                   "quantity": 1
                 }
               ],
@@ -863,61 +863,61 @@
           ]
         },
         {
-          "name": "The Death Roll",
+          "name": "trapper.theDeathRoll",
           "ingredients": [
             {
-              "name": "Legendary Alligator Gambler's Hat",
+              "name": "trapper.legendaryAlligatorGamblersHat",
               "ingredients": [
                 {
-                  "name": "Legendary Alligator Skin",
+                  "name": "materials.legendaryAlligatorSkin",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Snake Skin",
+                  "name": "materials.perfectSnakeSkin",
                   "quantity": 2
                 }
               ],
               "_cost": 22
             },
             {
-              "name": "Legendary Panther Cloak",
+              "name": "trapper.legendaryPantherCloak",
               "ingredients": [
                 {
-                  "name": "Legendary Panther Pelt",
+                  "name": "materials.legendaryPantherPelt",
                   "quantity": 1
                 }
               ],
               "_cost": 45
             },
             {
-              "name": "Legendary Alligator Vest",
+              "name": "trapper.legendaryAlligatorVest",
               "ingredients": [
                 {
-                  "name": "Legendary Alligator Skin",
+                  "name": "materials.legendaryAlligatorSkin",
                   "quantity": 1
                 }
               ],
               "_cost": 35
             },
             {
-              "name": "Legendary Alligator Fowlers",
+              "name": "trapper.legendaryAlligatorFowlers",
               "ingredients": [
                 {
-                  "name": "Legendary Alligator Skin",
+                  "name": "materials.legendaryAlligatorSkin",
                   "quantity": 1
                 }
               ],
               "_cost": 35
             },
             {
-              "name": "Legendary Panther Range Gloves",
+              "name": "trapper.legendaryPantherRangeGloves",
               "ingredients": [
                 {
-                  "name": "Legendary Panther Pelt",
+                  "name": "materials.legendaryPantherPelt",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Gila Monster Skin",
+                  "name": "materials.perfectGilaMonsterSkin",
                   "quantity": 1
                 }
               ],
@@ -926,65 +926,65 @@
           ]
         },
         {
-          "name": "The Stalker",
+          "name": "trapper.theStalker",
           "ingredients": [
             {
-              "name": "Legendary Ram Hat",
+              "name": "trapper.legendaryRamHat",
               "ingredients": [
                 {
-                  "name": "Legendary Ram Hide",
+                  "name": "materials.legendaryRamHide",
                   "quantity": 1
                 }
               ],
               "_cost": 17
             },
             {
-              "name": "Legendary Moose Hunting Jacket",
+              "name": "trapper.legendaryMooseHuntingJacket",
               "ingredients": [
                 {
-                  "name": "Legendary Moose Pelt",
+                  "name": "materials.legendaryMoosePelt",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Wolf Pelt",
+                  "name": "materials.perfectWolfPelt",
                   "quantity": 1
                 }
               ],
               "_cost": 24
             },
             {
-              "name": "Legendary Ram Batwing Chaps",
+              "name": "trapper.legendaryRamBatwingChaps",
               "ingredients": [
                 {
-                  "name": "Legendary Ram Hide",
+                  "name": "materials.legendaryRamHide",
                   "quantity": 1
                 }
               ],
               "_cost": 33
             },
             {
-              "name": "Legendary Moose Moccasins",
+              "name": "trapper.legendaryMooseMoccasins",
               "ingredients": [
                 {
-                  "name": "Legendary Moose Pelt",
+                  "name": "materials.legendaryMoosePelt",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Cow Hide",
+                  "name": "materials.perfectCowHide",
                   "quantity": 1
                 }
               ],
               "_cost": 22
             },
             {
-              "name": "Legendary Ram Rifleman Gloves",
+              "name": "trapper.legendaryRamRiflemanGloves",
               "ingredients": [
                 {
-                  "name": "Legendary Ram Hide",
+                  "name": "materials.legendaryRamHide",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Boar Pelt",
+                  "name": "materials.perfectBoarPelt",
                   "quantity": 1
                 }
               ],
@@ -993,61 +993,61 @@
           ]
         },
         {
-          "name": "The Ghost Bison",
+          "name": "trapper.theGhostBison",
           "ingredients": [
             {
-              "name": "Legendary White Bison Hat",
+              "name": "trapper.legendaryWhiteBisonHat",
               "ingredients": [
                 {
-                  "name": "Legendary White Bison Pelt",
+                  "name": "materials.legendaryWhiteBisonPelt",
                   "quantity": 1
                 }
               ],
               "_cost": 45
             },
             {
-              "name": "Legendary White Bison Coat",
+              "name": "trapper.legendaryWhiteBisonCoat",
               "ingredients": [
                 {
-                  "name": "Legendary White Bison Pelt",
+                  "name": "materials.legendaryWhiteBisonPelt",
                   "quantity": 1
                 }
               ],
               "_cost": 29
             },
             {
-              "name": "Legendary Elk Half Chaps",
+              "name": "trapper.legendaryElkHalfChaps",
               "ingredients": [
                 {
-                  "name": "Legendary Elk Pelt",
+                  "name": "materials.legendaryElkPelt",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Sheep Hide",
+                  "name": "materials.perfectSheepHide",
                   "quantity": 1
                 }
               ],
               "_cost": 16
             },
             {
-              "name": "Legendary Elk Moccasins",
+              "name": "trapper.legendaryElkMoccasins",
               "ingredients": [
                 {
-                  "name": "Legendary Elk Pelt",
+                  "name": "materials.legendaryElkPelt",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Goat Hide",
+                  "name": "materials.perfectGoatHide",
                   "quantity": 1
                 }
               ],
               "_cost": 30
             },
             {
-              "name": "Legendary Elk Range Gloves",
+              "name": "trapper.legendaryElkRangeGloves",
               "ingredients": [
                 {
-                  "name": "Legendary Elk Pelt",
+                  "name": "materials.legendaryElkPelt",
                   "quantity": 1
                 }
               ],
@@ -1056,51 +1056,51 @@
           ]
         },
         {
-          "name": "The Rattler",
+          "name": "trapper.theRattler",
           "ingredients": [
             {
-              "name": "Ram Sombrero",
+              "name": "trapper.ramSombrero",
               "ingredients": [
                 {
-                  "name": "Perfect Ram Hide",
+                  "name": "materials.perfectRamHide",
                   "quantity": 1
                 }
               ],
               "_cost": 10
             },
             {
-              "name": "Outdoorsmen Vest",
+              "name": "trapper.outdoorsmenVest",
               "ingredients": [
                 {
-                  "name": "Perfect Pronghorn Hide",
+                  "name": "materials.perfectPronghornHide",
                   "quantity": 1
                 }
               ],
               "_cost": 22
             },
             {
-              "name": "Javelina Half Chaps",
+              "name": "trapper.javelinaHalfChaps",
               "ingredients": [
                 {
-                  "name": "Perfect Collared Peccary Pig Pelt",
+                  "name": "materials.perfectCollaredPeccaryPigPelt",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Snake Skin",
+                  "name": "materials.perfectSnakeSkin",
                   "quantity": 1
                 }
               ],
               "_cost": 18
             },
             {
-              "name": "Iguana Range Gloves",
+              "name": "trapper.iguanaRangeGloves",
               "ingredients": [
                 {
-                  "name": "Perfect Collared Peccary Pig Pelt",
+                  "name": "materials.perfectCollaredPeccaryPigPelt",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Iguana Skin",
+                  "name": "materials.perfectIguanaSkin",
                   "quantity": 1
                 }
               ],
@@ -1109,61 +1109,61 @@
           ]
         },
         {
-          "name": "The Wrangler",
+          "name": "trapper.theWrangler",
           "ingredients": [
             {
-              "name": "Goat Flop Hat",
+              "name": "trapper.goatFlopHat",
               "ingredients": [
                 {
-                  "name": "Perfect Pronghorn Hide",
+                  "name": "materials.perfectPronghornHide",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Goat Hide",
+                  "name": "materials.perfectGoatHide",
                   "quantity": 1
                 }
               ],
               "_cost": 12
             },
             {
-              "name": "Trapper's Cloak",
+              "name": "trapper.trappersCloak",
               "ingredients": [
                 {
-                  "name": "Perfect Sheep Hide",
+                  "name": "materials.perfectSheepHide",
                   "quantity": 1
                 }
               ],
               "_cost": 32
             },
             {
-              "name": "No-Man's Vest",
+              "name": "trapper.no-MansVest",
               "ingredients": [
                 {
-                  "name": "Perfect Panther Hide",
+                  "name": "materials.perfectPantherHide",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Goat Hide",
+                  "name": "materials.perfectGoatHide",
                   "quantity": 1
                 }
               ],
               "_cost": 27
             },
             {
-              "name": "Two Toned Moccasins",
+              "name": "trapper.twoTonedMoccasins",
               "ingredients": [
                 {
-                  "name": "Perfect Buck Pelt",
+                  "name": "materials.perfectBuckPelt",
                   "quantity": 1
                 }
               ],
               "_cost": 15
             },
             {
-              "name": "Moose Range Gloves",
+              "name": "trapper.mooseRangeGloves",
               "ingredients": [
                 {
-                  "name": "Perfect Moose Pelt",
+                  "name": "materials.perfectMoosePelt",
                   "quantity": 1
                 }
               ],
@@ -1172,61 +1172,61 @@
           ]
         },
         {
-          "name": "The Bronco Buster",
+          "name": "trapper.theBroncoBuster",
           "ingredients": [
             {
-              "name": "Elk Flop Hat",
+              "name": "trapper.elkFlopHat",
               "ingredients": [
                 {
-                  "name": "Perfect Elk Pelt",
+                  "name": "materials.perfectElkPelt",
                   "quantity": 1
                 }
               ],
               "_cost": 12
             },
             {
-              "name": "Coyote Scout Jacket",
+              "name": "trapper.coyoteScoutJacket",
               "ingredients": [
                 {
-                  "name": "Perfect Ox Hide",
+                  "name": "materials.perfectOxHide",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Coyote Pelt",
+                  "name": "materials.perfectCoyotePelt",
                   "quantity": 1
                 }
               ],
               "_cost": 20
             },
             {
-              "name": "Huntsman Vest",
+              "name": "trapper.huntsmanVest",
               "ingredients": [
                 {
-                  "name": "Perfect Sheep Hide",
+                  "name": "materials.perfectSheepHide",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Deer Pelt",
+                  "name": "materials.perfectDeerPelt",
                   "quantity": 1
                 }
               ],
               "_cost": 25
             },
             {
-              "name": "Boar Fringed Shotgun Chaps",
+              "name": "trapper.boarFringedShotgunChaps",
               "ingredients": [
                 {
-                  "name": "Perfect Boar Pelt",
+                  "name": "materials.perfectBoarPelt",
                   "quantity": 2
                 }
               ],
               "_cost": 25
             },
             {
-              "name": "Pigskin Rifleman Gloves",
+              "name": "trapper.pigskinRiflemanGloves",
               "ingredients": [
                 {
-                  "name": "Perfect Pig Hide",
+                  "name": "materials.perfectPigHide",
                   "quantity": 1
                 }
               ],
@@ -1235,55 +1235,55 @@
           ]
         },
         {
-          "name": "The Marauder",
+          "name": "trapper.theMarauder",
           "ingredients": [
             {
-              "name": "Muskrat Cavalry Hat",
+              "name": "trapper.muskratCavalryHat",
               "ingredients": [
                 {
-                  "name": "Perfect Rabbit Pelt",
+                  "name": "materials.perfectRabbitPelt",
                   "quantity": 4
                 },
                 {
-                  "name": "Perfect Muskrat Pelt",
+                  "name": "materials.perfectMuskratPelt",
                   "quantity": 1
                 }
               ],
               "_cost": 15
             },
             {
-              "name": "Principal Vest",
+              "name": "trapper.principalVest",
               "ingredients": [
                 {
-                  "name": "Perfect Cow Hide",
+                  "name": "materials.perfectCowHide",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Deer Pelt",
+                  "name": "materials.perfectDeerPelt",
                   "quantity": 1
                 }
               ],
               "_cost": 18
             },
             {
-              "name": "Bull Fringed Shotgun Chaps",
+              "name": "trapper.bullFringedShotgunChaps",
               "ingredients": [
                 {
-                  "name": "Perfect Bull Hide",
+                  "name": "materials.perfectBullHide",
                   "quantity": 1
                 }
               ],
               "_cost": 18
             },
             {
-              "name": "Snakeskin Cavalry Gloves",
+              "name": "trapper.snakeskinCavalryGloves",
               "ingredients": [
                 {
-                  "name": "Perfect Boar Pelt",
+                  "name": "materials.perfectBoarPelt",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Snake Skin",
+                  "name": "materials.perfectSnakeSkin",
                   "quantity": 1
                 }
               ],
@@ -1292,57 +1292,57 @@
           ]
         },
         {
-          "name": "The Bounty Hunter",
+          "name": "trapper.theBountyHunter",
           "ingredients": [
             {
-              "name": "Plantation Slouch Hat",
+              "name": "trapper.plantationSlouchHat",
               "ingredients": [
                 {
-                  "name": "Perfect Bison Pelt",
+                  "name": "materials.perfectBisonPelt",
                   "quantity": 1
                 }
               ],
               "_cost": 15
             },
             {
-              "name": "Beaver Hunting Jacket",
+              "name": "trapper.beaverHuntingJacket",
               "ingredients": [
                 {
-                  "name": "Perfect Cow Hide",
+                  "name": "materials.perfectCowHide",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Beaver Pelt",
+                  "name": "materials.perfectBeaverPelt",
                   "quantity": 2
                 }
               ],
               "_cost": 21
             },
             {
-              "name": "Sheepskin Vest",
+              "name": "trapper.sheepskinVest",
               "ingredients": [
                 {
-                  "name": "Perfect Sheep Hide",
+                  "name": "materials.perfectSheepHide",
                   "quantity": 2
                 }
               ],
               "_cost": 20
             },
             {
-              "name": "Pronghorn Half Chaps",
+              "name": "trapper.pronghornHalfChaps",
               "ingredients": [
                 {
-                  "name": "Perfect Pronghorn Hide",
+                  "name": "materials.perfectPronghornHide",
                   "quantity": 1
                 }
               ],
               "_cost": 7
             },
             {
-              "name": "Buck Riding Gloves",
+              "name": "trapper.buckRidingGloves",
               "ingredients": [
                 {
-                  "name": "Perfect Buck Pelt",
+                  "name": "materials.perfectBuckPelt",
                   "quantity": 1
                 }
               ],
@@ -1351,69 +1351,69 @@
           ]
         },
         {
-          "name": "The Desperado",
+          "name": "trapper.theDesperado",
           "ingredients": [
             {
-              "name": "Beaver Drifter Hat",
+              "name": "trapper.beaverDrifterHat",
               "ingredients": [
                 {
-                  "name": "Perfect Beaver Pelt",
+                  "name": "materials.perfectBeaverPelt",
                   "quantity": 2
                 }
               ],
               "_cost": 20
             },
             {
-              "name": "Wolf Coat",
+              "name": "trapper.wolfCoat",
               "ingredients": [
                 {
-                  "name": "Perfect Ram Hide",
+                  "name": "materials.perfectRamHide",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Wolf Pelt",
+                  "name": "materials.perfectWolfPelt",
                   "quantity": 1
                 }
               ],
               "_cost": 25
             },
             {
-              "name": "Billy Vest",
+              "name": "trapper.billyVest",
               "ingredients": [
                 {
-                  "name": "Perfect Armadillo Skin",
+                  "name": "materials.perfectArmadilloSkin",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Goat Hide",
+                  "name": "materials.perfectGoatHide",
                   "quantity": 1
                 }
               ],
               "_cost": 32
             },
             {
-              "name": "Boar and Bull Fowler Boots",
+              "name": "trapper.boarAndBullFowlerBoots",
               "ingredients": [
                 {
-                  "name": "Perfect Ox Hide",
+                  "name": "materials.perfectOxHide",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Boar Pelt",
+                  "name": "materials.perfectBoarPelt",
                   "quantity": 1
                 }
               ],
               "_cost": 31
             },
             {
-              "name": "Winter Cavalry Gloves",
+              "name": "trapper.winterCavalryGloves",
               "ingredients": [
                 {
-                  "name": "Perfect Rabbit Pelt",
+                  "name": "materials.perfectRabbitPelt",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Muskrat Pelt",
+                  "name": "materials.perfectMuskratPelt",
                   "quantity": 2
                 }
               ],
@@ -1422,61 +1422,61 @@
           ]
         },
         {
-          "name": "The Night Wrangler",
+          "name": "trapper.theNightWrangler",
           "ingredients": [
             {
-              "name": "Coyote Gambler's Hat",
+              "name": "trapper.coyoteGamblersHat",
               "ingredients": [
                 {
-                  "name": "Perfect Coyote Pelt",
+                  "name": "materials.perfectCoyotePelt",
                   "quantity": 2
                 }
               ],
               "_cost": 16
             },
             {
-              "name": "Cougar Cutaway Coat",
+              "name": "trapper.cougarCutawayCoat",
               "ingredients": [
                 {
-                  "name": "Perfect Cougar Pelt",
+                  "name": "materials.perfectCougarPelt",
                   "quantity": 2
                 },
                 {
-                  "name": "Perfect Black Bear Pelt",
+                  "name": "materials.perfectBlackBearPelt",
                   "quantity": 1
                 }
               ],
               "_cost": 39
             },
             {
-              "name": "Wilderness Vest",
+              "name": "trapper.wildernessVest",
               "ingredients": [
                 {
-                  "name": "Perfect Wolf Pelt",
+                  "name": "materials.perfectWolfPelt",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Panther Pelt",
+                  "name": "materials.perfectPantherPelt",
                   "quantity": 1
                 }
               ],
               "_cost": 28
             },
             {
-              "name": "Moose Half Chaps",
+              "name": "trapper.mooseHalfChaps",
               "ingredients": [
                 {
-                  "name": "Perfect Moose Pelt",
+                  "name": "materials.perfectMoosePelt",
                   "quantity": 1
                 }
               ],
               "_cost": 10
             },
             {
-              "name": "Badger Rifleman Gloves",
+              "name": "trapper.badgerRiflemanGloves",
               "ingredients": [
                 {
-                  "name": "Perfect Badger Pelt",
+                  "name": "materials.perfectBadgerPelt",
                   "quantity": 1
                 }
               ],
@@ -1485,51 +1485,51 @@
           ]
         },
         {
-          "name": "The Mountain Man",
+          "name": "trapper.theMountainMan",
           "ingredients": [
             {
-              "name": "Grenadier Hat",
+              "name": "trapper.grenadierHat",
               "ingredients": [
                 {
-                  "name": "Perfect Muskrat Pelt",
+                  "name": "materials.perfectMuskratPelt",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Beaver Pelt",
+                  "name": "materials.perfectBeaverPelt",
                   "quantity": 1
                 }
               ],
               "_cost": 24
             },
             {
-              "name": "Ram Shotgun Coat",
+              "name": "trapper.ramShotgunCoat",
               "ingredients": [
                 {
-                  "name": "Perfect Ram Hide",
+                  "name": "materials.perfectRamHide",
                   "quantity": 2
                 }
               ],
               "_cost": 45
             },
             {
-              "name": "Country Vest",
+              "name": "trapper.countryVest",
               "ingredients": [
                 {
-                  "name": "Perfect Buck Pelt",
+                  "name": "materials.perfectBuckPelt",
                   "quantity": 1
                 },
                 {
-                  "name": "Perfect Beaver Pelt",
+                  "name": "materials.perfectBeaverPelt",
                   "quantity": 1
                 }
               ],
               "_cost": 25
             },
             {
-              "name": "Elk Riding Gloves",
+              "name": "trapper.elkRidingGloves",
               "ingredients": [
                 {
-                  "name": "Perfect Elk Pelt",
+                  "name": "materials.perfectElkPelt",
                   "quantity": 1
                 }
               ],
@@ -1540,67 +1540,67 @@
       ]
     },
     {
-      "name": "Saddles",
+      "name": "trapper.saddles",
       "ingredients": [
         {
-          "name": "Rattlesnake Vaquero Saddle",
+          "name": "trapper.rattlesnakeVaqueroSaddle",
           "ingredients": [
             {
-              "name": "Perfect Snake Skin",
+              "name": "materials.perfectSnakeSkin",
               "quantity": 10
             }
           ]
         },
         {
-          "name": "Cougar McClelland Saddle",
+          "name": "trapper.cougarMcClellandSaddle",
           "ingredients": [
             {
-              "name": "Pefect Cougar Pelt",
+              "name": "materials.pefectCougarPelt",
               "quantity": 1
             }
           ]
         },
         {
-          "name": "Boar Mother Hubbard Saddle",
+          "name": "trapper.boarMotherHubbardSaddle",
           "ingredients": [
             {
-              "name": "Perfect Boar Pelt",
+              "name": "materials.perfectBoarPelt",
               "quantity": 1
             }
           ]
         },
         {
-          "name": "Alligator Ranch Cutter Saddle",
+          "name": "trapper.alligatorRanchCutterSaddle",
           "ingredients": [
             {
-              "name": "Perfect Alligator Skin",
+              "name": "materials.perfectAlligatorSkin",
               "quantity": 1
             }
           ]
         },
         {
-          "name": "Bear Dakota Saddle",
+          "name": "trapper.bearDakotaSaddle",
           "ingredients": [
             {
-              "name": "Perfect Bear Pelt",
+              "name": "materials.perfectBearPelt",
               "quantity": 1
             }
           ]
         },
         {
-          "name": "Beaver Roping Saddle",
+          "name": "trapper.beaverRopingSaddle",
           "ingredients": [
             {
-              "name": "Perfect Beaver Pelt",
+              "name": "materials.perfectBeaverPelt",
               "quantity": 1
             }
           ]
         },
         {
-          "name": "Panther Trail Saddle",
+          "name": "trapper.pantherTrailSaddle",
           "ingredients": [
             {
-              "name": "Perfect Panther Pelt",
+              "name": "materials.perfectPantherPelt",
               "quantity": 1
             }
           ]
