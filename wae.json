@@ -1,0 +1,35 @@
+{
+  "name": "Wildlife Art Exhibition",
+  "ingredients": [
+    {
+      "name": "Part One",
+      "ingredients": [
+        {
+          "name": "Perfect Rabbit Carcass",
+          "quantity": 1
+        },
+        {
+          "name": "Perfect Squirrel Carcass",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Part Two",
+      "ingredients": [
+        {
+          "name": "Perfect Cardinal Carcass",
+          "quantity": 1
+        },
+        {
+          "name": "Perfect Rat Carcass",
+          "quantity": 1
+        },
+        {
+          "name": "Perfect Woodpecker Carcass",
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}

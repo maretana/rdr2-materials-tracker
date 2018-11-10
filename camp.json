@@ -1,0 +1,344 @@
+{
+  "name": "Camp",
+  "ingredients": [
+    {
+      "name": "Satchel",
+      "ingredients": [
+        {
+          "name": "Tonics Satchel",
+          "ingredients": [
+            {
+              "name": "Perfect Deer Pelt",
+              "quantity": 1
+            },
+            {
+              "name": "Perfect Buck Pelt",
+              "quantity": 1
+            },
+            {
+              "name": "Perfect Elk Pelt",
+              "quantity": 1
+            }
+          ],
+          "_cost": 0
+        },
+        {
+          "name": "Ingredients Satchel",
+          "ingredients": [
+            {
+              "name": "Perfect Deer Pelt",
+              "quantity": 1
+            },
+            {
+              "name": "Perfect Badger Pelt",
+              "quantity": 1
+            },
+            {
+              "name": "Perfect Squirrel Pelt",
+              "quantity": 1
+            }
+          ],
+          "_cost": 0
+        },
+        {
+          "name": "Kit Satchel",
+          "ingredients": [
+            {
+              "name": "Perfect Deer Pelt",
+              "quantity": 1
+            },
+            {
+              "name": "Perfect Elk Pelt",
+              "quantity": 1
+            },
+            {
+              "name": "Perfect Panther Pelt",
+              "quantity": 1
+            }
+          ],
+          "_cost": 0
+        },
+        {
+          "name": "Provisions Satchel",
+          "ingredients": [
+            {
+              "name": "Perfect Deer Pelt",
+              "quantity": 1
+            },
+            {
+              "name": "Perfect Bison Pelt",
+              "quantity": 1
+            },
+            {
+              "name": "Perfect Racoon Pelt",
+              "quantity": 1
+            }
+          ],
+          "_cost": 0
+        },
+        {
+          "name": "Materials Satchel",
+          "ingredients": [
+            {
+              "name": "Perfect Deer Pelt",
+              "quantity": 1
+            },
+            {
+              "name": "Perfect Boar Pelt",
+              "quantity": 1
+            },
+            {
+              "name": "Perfect Iguana Skin",
+              "quantity": 1
+            }
+          ],
+          "_cost": 0
+        },
+        {
+          "name": "Valuables Satchel",
+          "ingredients": [
+            {
+              "name": "Perfect Deer Pelt",
+              "quantity": 1
+            },
+            {
+              "name": "Perfect Beaver Pelt",
+              "quantity": 1
+            },
+            {
+              "name": "Perfect Rabbit Pelt",
+              "quantity": 1
+            }
+          ],
+          "_cost": 0
+        },
+        {
+          "name": "Legend of the East Satchel",
+          "ingredients": [
+            {
+              "name": "Perfect Deer Pelt",
+              "quantity": 1
+            },
+            {
+              "name": "Perfect Cougar Pelt",
+              "quantity": 1
+            },
+            {
+              "name": "Perfect Wolf Pelt",
+              "quantity": 1
+            }
+          ],
+          "_cost": 0
+        }
+      ]
+    },
+    {
+      "name": "Arthur's Lodging",
+      "ingredients": [
+        {
+          "name": "Alligator Skull",
+          "ingredients": [
+            {
+              "name": "Perfect Alligator Skin",
+              "quantity": 1
+            }
+          ],
+          "_cost": 0
+        },
+        {
+          "name": "Big Horn Ram Skull",
+          "ingredients": [
+            {
+              "name": "Perfect Ram Carcass",
+              "quantity": 1
+            }
+          ],
+          "_cost": 0
+        },
+        {
+          "name": "Cougar Pelt Covered Chest",
+          "ingredients": [
+            {
+              "name": "Perfect Cougar Pelts",
+              "quantity": 2
+            }
+          ],
+          "_cost": 0
+        },
+        {
+          "name": "Boar Skin Table Cover",
+          "ingredients": [
+            {
+              "name": "Perfect Boar Pelt",
+              "quantity": 1
+            }
+          ],
+          "_cost": 0
+        },
+        {
+          "name": "Ox Hide Rug",
+          "ingredients": [
+            {
+              "name": "Perfect Ox Hide",
+              "quantity": 2
+            }
+          ],
+          "_cost": 0
+        }
+      ],
+    },
+    {
+      "name": "John's Lodging",
+      "ingredients": [
+        {
+          "name": "Boar Skin Rug",
+          "ingredients": [
+            {
+              "name": "Perfect Boar Pelt",
+              "quantity": 4
+            }
+          ],
+          "_cost": 0
+        }
+      ],
+    },
+    {
+      "name": "Camp Table",
+      "ingredients": [
+        {
+          "name": "Pronghorn Leather Table Tops",
+          "ingredients": [
+            {
+              "name": "Perfect Pronghorn Hide",
+              "quantity": 2
+            }
+          ],
+          "_cost": 0
+        }
+      ],
+    },
+    {
+      "name": "Chuckwagon",
+      "ingredients": [
+        {
+          "name": "Pronghorn Skull",
+          "ingredients": [
+            {
+              "name": "Perfect Pronghorn Carcass",
+              "quantity": 1
+            }
+          ],
+          "_cost": 0
+        }
+      ],
+    },
+    {
+      "name": "Main Campfire",
+      "ingredients": [
+        {
+          "name": "Moose Antlers",
+          "ingredients": [
+            {
+              "name": "Moose Antler",
+              "quantity": 1
+            }
+          ],
+          "_cost": 0
+        },
+        {
+          "name": "Wolf Skull",
+          "ingredients": [
+            {
+              "name": "Perfect Wolf Carcass",
+              "quantity": 1
+            }
+          ],
+          "_cost": 0
+        },
+        {
+          "name": "Snake Skin Banjo Head",
+          "ingredients": [
+            {
+              "name": "Perfect Snake Skin",
+              "quantity": 2
+            }
+          ],
+          "_cost": 0
+        },
+        {
+          "name": "Campfire Seat Cover",
+          "ingredients": [
+            {
+              "name": "Perfect Beaver Pelt",
+              "quantity": 1
+            },
+            {
+              "name": "Perfect Muskrat Pelt",
+              "quantity": 1
+            },
+            {
+              "name": "Perfect Fox Pelt",
+              "quantity": 1
+            }
+          ],
+          "_cost": 0
+        },
+        {
+          "name": "Capfire Log Seat Cover",
+          "ingredients": [
+            {
+              "name": "Perfect Wolf Pelt",
+              "quantity": 2
+            }
+          ],
+          "_cost": 0
+        },
+        {
+          "name": "Lean-to Cow Hide Ground Cover",
+          "ingredients": [
+            {
+              "name": "Perfect Cow Hide",
+              "quantity": 1
+            }
+          ],
+          "_cost": 0
+        }
+      ],
+    },
+    {
+      "name": "Scout Campfire",
+      "ingredients": [
+        {
+          "name": "Scout Fire Ground Cover",
+          "ingredients": [
+            {
+              "name": "Perfect Goat Hide",
+              "quantity": 2
+            }
+          ],
+          "_cost": 0
+        },
+        {
+          "name": "Elk Antlers",
+          "ingredients": [
+            {
+              "name": "Elk Antler",
+              "quantity": 1
+            }
+          ],
+          "_cost": 0
+        },
+        {
+          "name": "Hanging Bones",
+          "ingredients": [
+            {
+              "name": "Buck Antlers",
+              "quantity": 1
+            }
+          ],
+          "_cost": 0
+        }
+      ]
+    }
+  ]
+}

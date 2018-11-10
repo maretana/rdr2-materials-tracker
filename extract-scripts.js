@@ -52,3 +52,59 @@ let getClothingArray = table => Array.from(table.querySelectorAll('tr')).splice(
 )
 
 let z = getClothingArray($0)
+
+////////////////////////////////////////////////////////////////////////////////
+////////// Camp Upgrades
+////////////////////////////////////////////////////////////////////////////////
+let parseMaterials = materialsText => {
+  let regex = /(\d+)\s?x (\D+)/g
+  let materialsArray = [];
+  while ((match = regex.exec(materialsText)) !== null) {
+    materialsArray.push({
+      name: match[2].trim(),
+      quantity: parseInt(match[1] || "1")
+    })
+  }
+  return materialsArray
+}
+
+let getCampUpgradeArray = table => Array.from(table.querySelectorAll('tbody tr')).map(
+  row => {
+    let rowData = Array.from(row.querySelectorAll('td'))
+    return {
+      name: rowData[0].innerText.trim(),
+      ingredients: parseMaterials(rowData[3].innerText.trim().replace('.','')),
+      _cost: 0
+    }
+  }
+)
+let z = Array.from(document.querySelectorAll('table')).map(table => getCampUpgradeArray(table))
+copy(z)
+
+////////////////////////////////////////////////////////////////////////////////
+////////// Satchel
+////////////////////////////////////////////////////////////////////////////////
+let parseMaterials = materialsText => {
+  let regex = /(\d+)\s?x (\D+)/g
+  let materialsArray = [];
+  while ((match = regex.exec(materialsText)) !== null) {
+    materialsArray.push({
+      name: match[2].trim(),
+      quantity: parseInt(match[1] || "1")
+    })
+  }
+  return materialsArray
+}
+
+let getCampUpgradeArray = table => Array.from(table.querySelectorAll('tbody tr')).map(
+  row => {
+    let rowData = Array.from(row.querySelectorAll('td'))
+    return {
+      name: rowData[0].innerText.trim(),
+      ingredients: parseMaterials(rowData[4].innerText.trim().replace('.','')),
+      _cost: 0
+    }
+  }
+)
+let z = getCampUpgradeArray(document.querySelector('table'))
+copy(z)
