@@ -21,7 +21,7 @@
               "name": "trapper.beaverMountainHat",
               "ingredients": [
                 {
-                  "name": "materials.pefectBeaverPelt",
+                  "name": "materials.perfectBeaverPelt",
                   "quantity": 1
                 }
               ],
@@ -106,7 +106,7 @@
               "_cost": 14
             },
             {
-              "name": "trapper.gilaMonsterGambler’SHat",
+              "name": "trapper.gilaMonstergamblersHat",
               "ingredients": [
                 {
                   "name": "materials.perfectElkPelt",
@@ -148,14 +148,14 @@
               "_cost": 20
             },
             {
-              "name": "trapper.bisonGambler’SHat",
+              "name": "trapper.bisongamblersHat",
               "ingredients": [
                 {
                   "name": "materials.perfectBisonPelt",
                   "quantity": 1
                 },
                 {
-                  "name": "materials.robinFeather,",
+                  "name": "materials.robinFeather",
                   "quantity": 4
                 },
                 {
@@ -187,7 +187,7 @@
                   "quantity": 2
                 },
                 {
-                  "name": "materials.condorFeather,",
+                  "name": "materials.condorFeather",
                   "quantity": 1
                 },
                 {
@@ -219,7 +219,7 @@
                   "quantity": 1
                 },
                 {
-                  "name": "materials.sparrowFeather,",
+                  "name": "materials.sparrowFeather",
                   "quantity": 4
                 },
                 {
@@ -237,7 +237,7 @@
                   "quantity": 1
                 },
                 {
-                  "name": "materials.cedarWaxwingFeather,",
+                  "name": "materials.cedarWaxwingFeather",
                   "quantity": 2
                 },
                 {
@@ -255,7 +255,7 @@
                   "quantity": 1
                 },
                 {
-                  "name": "materials.hawkFeather,",
+                  "name": "materials.hawkFeather",
                   "quantity": 1
                 },
                 {
@@ -273,7 +273,7 @@
                   "quantity": 3
                 },
                 {
-                  "name": "materials.duckFeather,",
+                  "name": "materials.duckFeather",
                   "quantity": 3
                 },
                 {
@@ -333,7 +333,7 @@
                   "quantity": 4
                 },
                 {
-                  "name": "materials.woodpeckerFeather,",
+                  "name": "materials.woodpeckerFeather",
                   "quantity": 2
                 },
                 {
@@ -508,7 +508,7 @@
               "name": "trapper.skunkTrapperBoots",
               "ingredients": [
                 {
-                  "name": "materials.pefectSkunkPelt",
+                  "name": "materials.perfectSkunkPelt",
                   "quantity": 2
                 }
               ],
@@ -1555,7 +1555,7 @@
           "name": "trapper.cougarMcClellandSaddle",
           "ingredients": [
             {
-              "name": "materials.pefectCougarPelt",
+              "name": "materials.perfectCougarPelt",
               "quantity": 1
             }
           ]

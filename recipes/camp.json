@@ -159,7 +159,7 @@
           "name": "camp.cougarPeltCoveredChest",
           "ingredients": [
             {
-              "name": "materials.perfectCougarPelts",
+              "name": "materials.perfectCougarPelt",
               "quantity": 2
             }
           ],
