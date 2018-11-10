@@ -1136,7 +1136,7 @@
               "_cost": 32
             },
             {
-              "name": "trapper.no-MansVest",
+              "name": "trapper.noMansVest",
               "ingredients": [
                 {
                   "name": "materials.perfectPantherHide",
