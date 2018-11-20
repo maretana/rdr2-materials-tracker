@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "RDR2: Materials Tracker",
+    "name": "RDR2: Hunt Log",
     "description": "An app to help keep track of crafting materials, such as pelts, a player needs and already has delivered.",
-    "slug": "rdr2-materials-tracker",
+    "slug": "rdr2-hunt-log",
     "privacy": "public",
     "sdkVersion": "31.0.0",
     "platforms": ["ios", "android"],
