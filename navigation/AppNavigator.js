@@ -4,11 +4,13 @@ import HomeScreen from '../screens/HomeScreen'
 import SecondScreen from '../screens/SecondScreen'
 import { TouchableOpacity } from 'react-native'
 import { Icon } from 'expo'
+import { getString } from '../utils/localization'
 
-const MainStack = createStackNavigator({
+const RecipesStack = createStackNavigator({
   Home: HomeScreen,
   SecondScreen
 }, {
+  initialRouteName: 'Home',
   navigationOptions: ({ navigation }) => ({
     headerRight: (
       <TouchableOpacity
@@ -26,5 +28,10 @@ const MainStack = createStackNavigator({
 })
 
 export default createDrawerNavigator({
-  Main: MainStack
+  Recipes: {
+    screen: RecipesStack,
+    navigationOptions: {
+      drawerLabel: getString('app.recipes')
+    }
+  }
 })

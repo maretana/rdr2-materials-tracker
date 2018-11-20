@@ -279,5 +279,8 @@
     "name": "Exhibición de la fauna silvestre",
     "partOne": "Parte uno",
     "partTwo": "Parte dos"
+  },
+  "app": {
+    "home": "Inicio"
   }
 }

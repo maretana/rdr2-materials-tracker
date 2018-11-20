@@ -279,5 +279,9 @@
     "name": "Wildlife Art Exhibition",
     "partOne": "Part One",
     "partTwo": "Part Two"
+  },
+  "app": {
+    "home": "Home",
+    "recipes": "Recipes"
   }
 }
