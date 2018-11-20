@@ -2,6 +2,7 @@
 
 import React from 'react'
 import {
+  Button,
   Image,
   Platform,
   ScrollView,
@@ -16,7 +17,7 @@ import { MonoText } from '../components/StyledText'
 
 export default class HomeScreen extends React.Component {
   static navigationOptions = {
-    header: null
+    title: 'Home'
   };
 
   render () {
@@ -53,6 +54,8 @@ export default class HomeScreen extends React.Component {
               <Text style={styles.helpLinkText}>Help, it didn’t automatically reload!</Text>
             </TouchableOpacity>
           </View>
+
+          <Button title='Go to next screen' onPress={() => this.props.navigation.navigate('SecondScreen')} />
         </ScrollView>
 
         <View style={styles.tabBarInfoContainer}>
