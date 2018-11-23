@@ -23,11 +23,11 @@ export default class RecipeScreen extends React.Component {
   render () {
     const ingredients = this.props.navigation.getParam('ingredients', [])
     return (
-      <ScrollView styles={styles.container}>
+      <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
         {ingredients.map(ingredient => {
           if (this.isItem(ingredient)) {
             return (
-              <Text key={ingredient.name}>
+              <Text key={ingredient.name} style={styles.text}>
                 {`${getString(ingredient.name)} x${ingredient.quantity}`}
               </Text>
             )
@@ -47,8 +47,13 @@ export default class RecipeScreen extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    justifyContent: 'space-around',
+    backgroundColor: '#000'
+  },
+  contentContainer: {
     paddingHorizontal: 20
+  },
+  text: {
+    color: 'white',
+    fontSize: 18
   }
 })

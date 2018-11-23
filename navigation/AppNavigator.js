@@ -24,6 +24,11 @@ const RecipesStack = createStackNavigator({
       color: 'black',
       marginRight: 20
     }
+  }),
+  transitionConfig: () => ({
+    transitionSpec: {
+      duration: 0
+    }
   })
 })
 

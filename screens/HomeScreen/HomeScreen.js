@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'space-around',
-    backgroundColor: '#fff'
+    backgroundColor: '#000'
   },
   developmentModeText: {
     marginBottom: 20,
