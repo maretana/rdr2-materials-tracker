@@ -14,12 +14,12 @@ export default class HomeScreen extends React.Component {
   render () {
     return (
       <View style={styles.container}>
-        {this.props.markets.map(recipe => {
+        {this.props.markets.map(market => {
           return (
             <Button
-              key={recipe.name}
-              title={getString(recipe.name)}
-              onPress={() => { this.props.navigation.navigate('Recipe', { recipeName: getString(recipe.name), ingredients: recipe.ingredients }) }}
+              key={market.name}
+              title={getString(market.name)}
+              onPress={() => { this.props.navigation.navigate('Market', { data: market }) }}
             />
           )
         })}
