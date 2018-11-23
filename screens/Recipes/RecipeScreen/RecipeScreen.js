@@ -1,6 +1,6 @@
 import React from 'react'
 import { ScrollView, Button, StyleSheet, Text } from 'react-native'
-import { getString } from '../../utils/localization'
+import { getString } from 'utils/localization'
 
 export default class RecipeScreen extends React.Component {
   static navigationOptions = ({ navigation }) => ({

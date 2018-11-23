@@ -1,10 +1,10 @@
 import React from 'react'
 import { createStackNavigator, createDrawerNavigator } from 'react-navigation'
-import HomeScreen from '../screens/HomeScreen'
-import RecipeScreen from '../screens/RecipeScreen'
+import HomeScreen from 'screens/Recipes/HomeScreen'
+import RecipeScreen from 'screens/Recipes/RecipeScreen'
 import { TouchableOpacity } from 'react-native'
 import { Icon } from 'expo'
-import { getString } from '../utils/localization'
+import { getString } from 'utils/localization'
 
 const RecipesStack = createStackNavigator({
   Home: HomeScreen,
