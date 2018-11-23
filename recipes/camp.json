@@ -284,7 +284,7 @@
           "_cost": 0
         },
         {
-          "name": "camp.capfireLogSeatCover",
+          "name": "camp.campfireLogSeatCover",
           "ingredients": [
             {
               "name": "materials.perfectWolfPelt",
