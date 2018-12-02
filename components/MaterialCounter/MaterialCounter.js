@@ -57,7 +57,10 @@ export default class MaterialCounter extends React.Component {
   }
 
   componentDidMount () {
-    this.props.getMaterialCount(this.props.materialKey)
+    const { materialCount, materialKey, shopKey, getMaterialCount } = this.props
+    if (!materialCount[shopKey]) {
+      getMaterialCount(materialKey)
+    }
   }
 
   render () {
