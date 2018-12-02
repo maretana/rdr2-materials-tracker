@@ -1,10 +1,11 @@
-import * as trapper from '../recipes/trapper.json'
-import * as camp from '../recipes/camp.json'
-import * as wae from '../recipes/wae.json'
+import * as trapper from '../shops/trapper.json'
+import * as camp from '../shops/camp.json'
+import * as wae from '../shops/wae.json'
 import reducer from './reducers'
 
 const initialState = {
-  markets: [trapper, camp, wae]
+  shops: [trapper, camp, wae],
+  materials: {}
 }
 
 export default function (state = initialState, { type, payload }) {

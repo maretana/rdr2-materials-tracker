@@ -1,14 +1,14 @@
 import React from 'react'
 import { createStackNavigator, createDrawerNavigator } from 'react-navigation'
-import HomeScreen from 'screens/Recipes/HomeScreen'
-import MarketScreen from 'screens/Recipes/MarketScreen'
+import HomeScreen from 'screens/Shops/HomeScreen'
+import ShopScreen from 'screens/Shops/ShopScreen'
 import { TouchableOpacity } from 'react-native'
 import { Icon } from 'expo'
 import { getString } from 'utils/localization'
 
-const RecipesStack = createStackNavigator({
+const ShopsStack = createStackNavigator({
   Home: HomeScreen,
-  Market: MarketScreen
+  Shop: ShopScreen
 }, {
   initialRouteName: 'Home',
   navigationOptions: ({ navigation }) => ({
@@ -33,10 +33,10 @@ const RecipesStack = createStackNavigator({
 })
 
 export default createDrawerNavigator({
-  Recipes: {
-    screen: RecipesStack,
+  Shops: {
+    screen: ShopsStack,
     navigationOptions: {
-      drawerLabel: getString('app.recipes')
+      drawerLabel: getString('app.shops')
     }
   }
 })
