@@ -3,7 +3,7 @@
     "name": "RDR2: Hunt Log",
     "description": "An app to help keep track of crafting materials, such as pelts, a player needs and already has delivered.",
     "slug": "rdr2-hunt-log",
-    "privacy": "public",
+    "privacy": "unlisted",
     "sdkVersion": "31.0.0",
     "platforms": ["ios", "android"],
     "version": "1.0.0",
@@ -20,8 +20,12 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "android": {
+      "package": "com.tucanosolutions.rdr2huntlog"
+    },
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.tucanosolutions.rdr2huntlog",
+      "supportsTablet": false
     }
   }
 }
