@@ -28,7 +28,7 @@ export default class ShopScreen extends React.Component {
     return <Recipe key={recipe.name} recipe={recipe} />
   }
 
-  renderSubmarketButtons ({ ingredient, shopKey }) {
+  renderShopNavigationButton ({ ingredient, shopKey }) {
     return (
       <Button
         key={ingredient.name}
@@ -47,7 +47,7 @@ export default class ShopScreen extends React.Component {
           if (this.isRecipe(ingredient)) {
             return this.renderRecipe({ ...ingredient, shopKey })
           } else {
-            return this.renderSubmarketButtons({ ingredient, shopKey })
+            return this.renderShopNavigationButton({ ingredient, shopKey })
           }
         })}
       </ScrollView>
