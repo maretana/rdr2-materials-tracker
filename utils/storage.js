@@ -20,7 +20,7 @@ export async function readMaterialCount (materialKey) {
  * @param {String} materialKey value used to identify the material
  * @param {Object} newValue    New value to save as the material counts object
  */
-export async function writeMaterialCount ({ materialKey, newValue }) {
+export async function writeMaterialCount (materialKey, newValue) {
   try {
     await AsyncStorage.setItem(materialKey, JSON.stringify(newValue))
   } catch (error) {

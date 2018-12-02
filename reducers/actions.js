@@ -45,7 +45,7 @@ function onMaterialCountSaved () {
 export function setMaterialCount (materialKey, count) {
   return dispatch => {
     dispatch(updateMaterialCounts(materialKey, count))
-    writeMaterialCount({ materialKey, count }).then(() => {
+    writeMaterialCount(materialKey, count).then(() => {
       dispatch(onMaterialCountSaved())
     })
   }
