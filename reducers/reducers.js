@@ -12,4 +12,12 @@ reducer[ACTIONS.UPDATE_MATERIAL_COUNT] = (state, { materialKey, materialCount })
   }
 }
 
+reducer[ACTIONS.RESET_APP_DATA] = (state, payload) => {
+  let materials = {}
+  return {
+    ...state,
+    materials
+  }
+}
+
 export default reducer

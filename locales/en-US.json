@@ -283,6 +283,7 @@
   "app": {
     "home": "Home",
     "shops": "Shops",
+    "settings": "Settings",
     "cost": "Cost",
     "crafted": "Set as crafted",
     "notCrafted": "Set as not crafted",

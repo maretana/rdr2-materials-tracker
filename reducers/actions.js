@@ -1,8 +1,10 @@
-import { readMaterialCount, writeMaterialCount } from 'utils/storage'
+import { ToastAndroid } from 'react-native'
+import { readMaterialCount, writeMaterialCount, clearAppData } from 'utils/storage'
 
 export const ACTIONS = {
   UPDATE_MATERIAL_COUNT: 'UPDATE_MATERIAL_COUNT',
-  ON_MATERIAL_COUNT_SAVED: 'ON_MATERIAL_COUNT_SAVED'
+  ON_MATERIAL_COUNT_SAVED: 'ON_MATERIAL_COUNT_SAVED',
+  RESET_APP_DATA: 'RESET_APP_DATA'
 }
 
 // Dispatchers
@@ -47,6 +49,24 @@ export function setMaterialCount (materialKey, count) {
     dispatch(updateMaterialCounts(materialKey, count))
     writeMaterialCount(materialKey, count).then(() => {
       dispatch(onMaterialCountSaved())
+    })
+  }
+}
+
+function resetStateUserData () {
+  return {
+    type: ACTIONS.RESET_APP_DATA
+  }
+}
+
+/**
+ * Deletes all user data for this app and resets the app state
+ */
+export function resetAppData () {
+  return dispatch => {
+    clearAppData().then(() => {
+      ToastAndroid.show('App data was reset', ToastAndroid.SHORT) // TODO: Remove this or at least check for platform (Andorid|iOS)
+      dispatch(resetStateUserData())
     })
   }
 }

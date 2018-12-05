@@ -35,7 +35,7 @@ export async function writeMaterialCount (materialKey, newValue) {
 export async function clearAppData () {
   try {
     let keys = await AsyncStorage.getAllKeys()
-    await AsyncStorage.multiRemove(keys)
+    if (keys.length) await AsyncStorage.multiRemove(keys)
   } catch (error) {
     // TODO: Catch error!!!
     console.error(error)
