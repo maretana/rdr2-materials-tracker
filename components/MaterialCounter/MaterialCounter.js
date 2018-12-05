@@ -65,7 +65,7 @@ export default class MaterialCounter extends React.Component {
 
   render () {
     return (
-      <View style={styles.container}>
+      <View style={[this.props.style, styles.container]}>
         {this.renderUpdateButton('remove-circle', -1)}
         {this.renderMaterialCount()}
         {this.renderUpdateButton('add-circle', 1)}
