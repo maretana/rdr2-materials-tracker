@@ -1,26 +1,248 @@
 [
   {
-    "key": "perfectDeerPelt",
-    "name": "materials.perfectDeerPelt",
+    "key": "blueJayFeather",
+    "name": "materials.blueJayFeather",
     "quantity": {
-      "camp": 7,
-      "trapper": 5
+      "trapper": 3
     }
   },
   {
-    "key": "perfectBuckPelt",
-    "name": "materials.perfectBuckPelt",
+    "key": "buckAntlers",
+    "name": "materials.buckAntlers",
     "quantity": {
-      "camp": 1,
+      "camp": 1
+    }
+  },
+  {
+    "key": "cardinalFeather",
+    "name": "materials.cardinalFeather",
+    "quantity": {
+      "trapper": 2
+    }
+  },
+  {
+    "key": "cedarWaxwingFeather",
+    "name": "materials.cedarWaxwingFeather",
+    "quantity": {
+      "trapper": 2
+    }
+  },
+  {
+    "key": "chickenFeather",
+    "name": "materials.chickenFeather",
+    "quantity": {
       "trapper": 4
     }
   },
   {
-    "key": "perfectElkPelt",
-    "name": "materials.perfectElkPelt",
+    "key": "condorFeather",
+    "name": "materials.condorFeather",
     "quantity": {
-      "camp": 2,
+      "trapper": 1
+    }
+  },
+  {
+    "key": "crowFeather",
+    "name": "materials.crowFeather",
+    "quantity": {
+      "trapper": 2
+    }
+  },
+  {
+    "key": "duckFeather",
+    "name": "materials.duckFeather",
+    "quantity": {
+      "trapper": 3
+    }
+  },
+  {
+    "key": "eagleFeather",
+    "name": "materials.eagleFeather",
+    "quantity": {
+      "trapper": 4
+    }
+  },
+  {
+    "key": "elkAntler",
+    "name": "materials.elkAntler",
+    "quantity": {
+      "camp": 1
+    }
+  },
+  {
+    "key": "gooseFeather",
+    "name": "materials.gooseFeather",
+    "quantity": {
+      "trapper": 2
+    }
+  },
+  {
+    "key": "hawkFeather",
+    "name": "materials.hawkFeather",
+    "quantity": {
+      "trapper": 3
+    }
+  },
+  {
+    "key": "legendaryAlligatorSkin",
+    "name": "materials.legendaryAlligatorSkin",
+    "quantity": {
+      "trapper": 3
+    }
+  },
+  {
+    "key": "legendaryBearPelt",
+    "name": "materials.legendaryBearPelt",
+    "quantity": {
+      "trapper": 3
+    }
+  },
+  {
+    "key": "legendaryBeaverCavalry",
+    "name": "materials.legendaryBeaverCavalry",
+    "quantity": {
+      "trapper": 1
+    }
+  },
+  {
+    "key": "legendaryBeaverPelt",
+    "name": "materials.legendaryBeaverPelt",
+    "quantity": {
+      "trapper": 1
+    }
+  },
+  {
+    "key": "legendaryBoarPelt",
+    "name": "materials.legendaryBoarPelt",
+    "quantity": {
+      "trapper": 1
+    }
+  },
+  {
+    "key": "legendaryBuckPelt",
+    "name": "materials.legendaryBuckPelt",
+    "quantity": {
+      "trapper": 2
+    }
+  },
+  {
+    "key": "legendaryCougarPelt",
+    "name": "materials.legendaryCougarPelt",
+    "quantity": {
+      "trapper": 3
+    }
+  },
+  {
+    "key": "legendaryCoyotePelt",
+    "name": "materials.legendaryCoyotePelt",
+    "quantity": {
+      "trapper": 2
+    }
+  },
+  {
+    "key": "legendaryElkPelt",
+    "name": "materials.legendaryElkPelt",
+    "quantity": {
+      "trapper": 3
+    }
+  },
+  {
+    "key": "legendaryFoxPelt",
+    "name": "materials.legendaryFoxPelt",
+    "quantity": {
+      "trapper": 2
+    }
+  },
+  {
+    "key": "legendaryMoosePelt",
+    "name": "materials.legendaryMoosePelt",
+    "quantity": {
+      "trapper": 2
+    }
+  },
+  {
+    "key": "legendaryPantherPelt",
+    "name": "materials.legendaryPantherPelt",
+    "quantity": {
+      "trapper": 2
+    }
+  },
+  {
+    "key": "legendaryPronghornHide",
+    "name": "materials.legendaryPronghornHide",
+    "quantity": {
+      "trapper": 2
+    }
+  },
+  {
+    "key": "legendaryRamHide",
+    "name": "materials.legendaryRamHide",
+    "quantity": {
+      "trapper": 3
+    }
+  },
+  {
+    "key": "legendaryTatankaBisonPelt",
+    "name": "materials.legendaryTatankaBisonPelt",
+    "quantity": {
+      "trapper": 3
+    }
+  },
+  {
+    "key": "legendaryWhiteBisonPelt",
+    "name": "materials.legendaryWhiteBisonPelt",
+    "quantity": {
+      "trapper": 2
+    }
+  },
+  {
+    "key": "legendaryWolfPelt",
+    "name": "materials.legendaryWolfPelt",
+    "quantity": {
+      "trapper": 2
+    }
+  },
+  {
+    "key": "loonFeather",
+    "name": "materials.loonFeather",
+    "quantity": {
+      "trapper": 2
+    }
+  },
+  {
+    "key": "mooseAntler",
+    "name": "materials.mooseAntler",
+    "quantity": {
+      "camp": 1
+    }
+  },
+  {
+    "key": "orioleFeather",
+    "name": "materials.orioleFeather",
+    "quantity": {
       "trapper": 5
+    }
+  },
+  {
+    "key": "owlFeather",
+    "name": "materials.owlFeather",
+    "quantity": {
+      "trapper": 1
+    }
+  },
+  {
+    "key": "perfectAlligatorSkin",
+    "name": "materials.perfectAlligatorSkin",
+    "quantity": {
+      "camp": 1,
+      "trapper": 1
+    }
+  },
+  {
+    "key": "perfectArmadilloSkin",
+    "name": "materials.perfectArmadilloSkin",
+    "quantity": {
+      "trapper": 1
     }
   },
   {
@@ -32,50 +254,9 @@
     }
   },
   {
-    "key": "perfectSquirrelPelt",
-    "name": "materials.perfectSquirrelPelt",
+    "key": "perfectBearPelt",
+    "name": "materials.perfectBearPelt",
     "quantity": {
-      "camp": 1,
-      "trapper": 6
-    }
-  },
-  {
-    "key": "perfectPantherPelt",
-    "name": "materials.perfectPantherPelt",
-    "quantity": {
-      "camp": 1,
-      "trapper": 2
-    }
-  },
-  {
-    "key": "perfectBisonPelt",
-    "name": "materials.perfectBisonPelt",
-    "quantity": {
-      "camp": 1,
-      "trapper": 3
-    }
-  },
-  {
-    "key": "perfectRaccoonPelt",
-    "name": "materials.perfectRaccoonPelt",
-    "quantity": {
-      "camp": 1,
-      "trapper": 1
-    }
-  },
-  {
-    "key": "perfectBoarPelt",
-    "name": "materials.perfectBoarPelt",
-    "quantity": {
-      "camp": 6,
-      "trapper": 10
-    }
-  },
-  {
-    "key": "perfectIguanaSkin",
-    "name": "materials.perfectIguanaSkin",
-    "quantity": {
-      "camp": 1,
       "trapper": 2
     }
   },
@@ -88,11 +269,55 @@
     }
   },
   {
-    "key": "perfectRabbitPelt",
-    "name": "materials.perfectRabbitPelt",
+    "key": "perfectBisonPelt",
+    "name": "materials.perfectBisonPelt",
     "quantity": {
       "camp": 1,
-      "trapper": 7
+      "trapper": 3
+    }
+  },
+  {
+    "key": "perfectBlackBearPelt",
+    "name": "materials.perfectBlackBearPelt",
+    "quantity": {
+      "trapper": 3
+    }
+  },
+  {
+    "key": "perfectBoarPelt",
+    "name": "materials.perfectBoarPelt",
+    "quantity": {
+      "camp": 6,
+      "trapper": 10
+    }
+  },
+  {
+    "key": "perfectBuckPelt",
+    "name": "materials.perfectBuckPelt",
+    "quantity": {
+      "camp": 1,
+      "trapper": 4
+    }
+  },
+  {
+    "key": "perfectBullHide",
+    "name": "materials.perfectBullHide",
+    "quantity": {
+      "trapper": 3
+    }
+  },
+  {
+    "key": "perfectCardinalCarcass",
+    "name": "materials.perfectCardinalCarcass",
+    "quantity": {
+      "wae": 1
+    }
+  },
+  {
+    "key": "perfectCollaredPeccaryPigPelt",
+    "name": "materials.perfectCollaredPeccaryPigPelt",
+    "quantity": {
+      "trapper": 3
     }
   },
   {
@@ -104,16 +329,152 @@
     }
   },
   {
-    "key": "perfectWolfPelt",
-    "name": "materials.perfectWolfPelt",
+    "key": "perfectCowHide",
+    "name": "materials.perfectCowHide",
     "quantity": {
-      "camp": 3,
+      "camp": 1,
+      "trapper": 5
+    }
+  },
+  {
+    "key": "perfectCoyotePelt",
+    "name": "materials.perfectCoyotePelt",
+    "quantity": {
       "trapper": 3
     }
   },
   {
-    "key": "perfectAlligatorSkin",
-    "name": "materials.perfectAlligatorSkin",
+    "key": "perfectDeerPelt",
+    "name": "materials.perfectDeerPelt",
+    "quantity": {
+      "camp": 7,
+      "trapper": 5
+    }
+  },
+  {
+    "key": "perfectElkPelt",
+    "name": "materials.perfectElkPelt",
+    "quantity": {
+      "camp": 2,
+      "trapper": 5
+    }
+  },
+  {
+    "key": "perfectFoxPelt",
+    "name": "materials.perfectFoxPelt",
+    "quantity": {
+      "camp": 1,
+      "trapper": 3
+    }
+  },
+  {
+    "key": "perfectGilaMonsterSkin",
+    "name": "materials.perfectGilaMonsterSkin",
+    "quantity": {
+      "trapper": 2
+    }
+  },
+  {
+    "key": "perfectGoatHide",
+    "name": "materials.perfectGoatHide",
+    "quantity": {
+      "camp": 2,
+      "trapper": 7
+    }
+  },
+  {
+    "key": "perfectIguanaSkin",
+    "name": "materials.perfectIguanaSkin",
+    "quantity": {
+      "camp": 1,
+      "trapper": 2
+    }
+  },
+  {
+    "key": "perfectMoosePelt",
+    "name": "materials.perfectMoosePelt",
+    "quantity": {
+      "trapper": 4
+    }
+  },
+  {
+    "key": "perfectMuskratPelt",
+    "name": "materials.perfectMuskratPelt",
+    "quantity": {
+      "camp": 1,
+      "trapper": 7
+    }
+  },
+  {
+    "key": "perfectOpossumPelt",
+    "name": "materials.perfectOpossumPelt",
+    "quantity": {
+      "trapper": 4
+    }
+  },
+  {
+    "key": "perfectOxHide",
+    "name": "materials.perfectOxHide",
+    "quantity": {
+      "camp": 2,
+      "trapper": 3
+    }
+  },
+  {
+    "key": "perfectPantherHide",
+    "name": "materials.perfectPantherHide",
+    "quantity": {
+      "trapper": 1
+    }
+  },
+  {
+    "key": "perfectPantherPelt",
+    "name": "materials.perfectPantherPelt",
+    "quantity": {
+      "camp": 1,
+      "trapper": 2
+    }
+  },
+  {
+    "key": "perfectPigHide",
+    "name": "materials.perfectPigHide",
+    "quantity": {
+      "trapper": 2
+    }
+  },
+  {
+    "key": "perfectPronghornCarcass",
+    "name": "materials.perfectPronghornCarcass",
+    "quantity": {
+      "camp": 1
+    }
+  },
+  {
+    "key": "perfectPronghornHide",
+    "name": "materials.perfectPronghornHide",
+    "quantity": {
+      "camp": 2,
+      "trapper": 3
+    }
+  },
+  {
+    "key": "perfectRabbitCarcass",
+    "name": "materials.perfectRabbitCarcass",
+    "quantity": {
+      "wae": 1
+    }
+  },
+  {
+    "key": "perfectRabbitPelt",
+    "name": "materials.perfectRabbitPelt",
+    "quantity": {
+      "camp": 1,
+      "trapper": 7
+    }
+  },
+  {
+    "key": "perfectRaccoonPelt",
+    "name": "materials.perfectRaccoonPelt",
     "quantity": {
       "camp": 1,
       "trapper": 1
@@ -127,115 +488,17 @@
     }
   },
   {
-    "key": "perfectOxHide",
-    "name": "materials.perfectOxHide",
+    "key": "perfectRamHide",
+    "name": "materials.perfectRamHide",
     "quantity": {
-      "camp": 2,
-      "trapper": 3
+      "trapper": 6
     }
   },
   {
-    "key": "perfectPronghornHide",
-    "name": "materials.perfectPronghornHide",
+    "key": "perfectRatCarcass",
+    "name": "materials.perfectRatCarcass",
     "quantity": {
-      "camp": 2,
-      "trapper": 3
-    }
-  },
-  {
-    "key": "perfectPronghornCarcass",
-    "name": "materials.perfectPronghornCarcass",
-    "quantity": {
-      "camp": 1
-    }
-  },
-  {
-    "key": "mooseAntler",
-    "name": "materials.mooseAntler",
-    "quantity": {
-      "camp": 1
-    }
-  },
-  {
-    "key": "perfectWolfCarcass",
-    "name": "materials.perfectWolfCarcass",
-    "quantity": {
-      "camp": 1
-    }
-  },
-  {
-    "key": "perfectSnakeSkin",
-    "name": "materials.perfectSnakeSkin",
-    "quantity": {
-      "camp": 2,
-      "trapper": 15
-    }
-  },
-  {
-    "key": "perfectMuskratPelt",
-    "name": "materials.perfectMuskratPelt",
-    "quantity": {
-      "camp": 1,
-      "trapper": 7
-    }
-  },
-  {
-    "key": "perfectFoxPelt",
-    "name": "materials.perfectFoxPelt",
-    "quantity": {
-      "camp": 1,
-      "trapper": 3
-    }
-  },
-  {
-    "key": "perfectCowHide",
-    "name": "materials.perfectCowHide",
-    "quantity": {
-      "camp": 1,
-      "trapper": 5
-    }
-  },
-  {
-    "key": "perfectGoatHide",
-    "name": "materials.perfectGoatHide",
-    "quantity": {
-      "camp": 2,
-      "trapper": 7
-    }
-  },
-  {
-    "key": "elkAntler",
-    "name": "materials.elkAntler",
-    "quantity": {
-      "camp": 1
-    }
-  },
-  {
-    "key": "buckAntlers",
-    "name": "materials.buckAntlers",
-    "quantity": {
-      "camp": 1
-    }
-  },
-  {
-    "key": "perfectBearPelt",
-    "name": "materials.perfectBearPelt",
-    "quantity": {
-      "trapper": 2
-    }
-  },
-  {
-    "key": "perfectSkunkPelt",
-    "name": "materials.perfectSkunkPelt",
-    "quantity": {
-      "trapper": 3
-    }
-  },
-  {
-    "key": "perfectBlackBearPelt",
-    "name": "materials.perfectBlackBearPelt",
-    "quantity": {
-      "trapper": 3
+      "wae": 1
     }
   },
   {
@@ -253,8 +516,67 @@
     }
   },
   {
-    "key": "perfectGilaMonsterSkin",
-    "name": "materials.perfectGilaMonsterSkin",
+    "key": "perfectSkunkPelt",
+    "name": "materials.perfectSkunkPelt",
+    "quantity": {
+      "trapper": 3
+    }
+  },
+  {
+    "key": "perfectSnakeSkin",
+    "name": "materials.perfectSnakeSkin",
+    "quantity": {
+      "camp": 2,
+      "trapper": 15
+    }
+  },
+  {
+    "key": "perfectSquirrelCarcass",
+    "name": "materials.perfectSquirrelCarcass",
+    "quantity": {
+      "wae": 1
+    }
+  },
+  {
+    "key": "perfectSquirrelPelt",
+    "name": "materials.perfectSquirrelPelt",
+    "quantity": {
+      "camp": 1,
+      "trapper": 6
+    }
+  },
+  {
+    "key": "perfectWolfCarcass",
+    "name": "materials.perfectWolfCarcass",
+    "quantity": {
+      "camp": 1
+    }
+  },
+  {
+    "key": "perfectWolfPelt",
+    "name": "materials.perfectWolfPelt",
+    "quantity": {
+      "camp": 3,
+      "trapper": 3
+    }
+  },
+  {
+    "key": "perfectWoodpeckerCarcass",
+    "name": "materials.perfectWoodpeckerCarcass",
+    "quantity": {
+      "wae": 1
+    }
+  },
+  {
+    "key": "pheasantFeather",
+    "name": "materials.pheasantFeather",
+    "quantity": {
+      "trapper": 2
+    }
+  },
+  {
+    "key": "pigeonFeather",
+    "name": "materials.pigeonFeather",
     "quantity": {
       "trapper": 2
     }
@@ -267,10 +589,10 @@
     }
   },
   {
-    "key": "perfectOpossumPelt",
-    "name": "materials.perfectOpossumPelt",
+    "key": "quailFeather",
+    "name": "materials.quailFeather",
     "quantity": {
-      "trapper": 4
+      "trapper": 2
     }
   },
   {
@@ -288,31 +610,10 @@
     }
   },
   {
-    "key": "orioleFeather",
-    "name": "materials.orioleFeather",
+    "key": "roosterFeather",
+    "name": "materials.roosterFeather",
     "quantity": {
-      "trapper": 5
-    }
-  },
-  {
-    "key": "loonFeather",
-    "name": "materials.loonFeather",
-    "quantity": {
-      "trapper": 2
-    }
-  },
-  {
-    "key": "condorFeather",
-    "name": "materials.condorFeather",
-    "quantity": {
-      "trapper": 1
-    }
-  },
-  {
-    "key": "vultureFeather",
-    "name": "materials.vultureFeather",
-    "quantity": {
-      "trapper": 1
+      "trapper": 4
     }
   },
   {
@@ -323,8 +624,8 @@
     }
   },
   {
-    "key": "pheasantFeather",
-    "name": "materials.pheasantFeather",
+    "key": "songbirdFeather",
+    "name": "materials.songbirdFeather",
     "quantity": {
       "trapper": 2
     }
@@ -344,59 +645,10 @@
     }
   },
   {
-    "key": "cedarWaxwingFeather",
-    "name": "materials.cedarWaxwingFeather",
+    "key": "vultureFeather",
+    "name": "materials.vultureFeather",
     "quantity": {
-      "trapper": 2
-    }
-  },
-  {
-    "key": "blueJayFeather",
-    "name": "materials.blueJayFeather",
-    "quantity": {
-      "trapper": 3
-    }
-  },
-  {
-    "key": "hawkFeather",
-    "name": "materials.hawkFeather",
-    "quantity": {
-      "trapper": 3
-    }
-  },
-  {
-    "key": "quailFeather",
-    "name": "materials.quailFeather",
-    "quantity": {
-      "trapper": 2
-    }
-  },
-  {
-    "key": "duckFeather",
-    "name": "materials.duckFeather",
-    "quantity": {
-      "trapper": 3
-    }
-  },
-  {
-    "key": "chickenFeather",
-    "name": "materials.chickenFeather",
-    "quantity": {
-      "trapper": 4
-    }
-  },
-  {
-    "key": "crowFeather",
-    "name": "materials.crowFeather",
-    "quantity": {
-      "trapper": 2
-    }
-  },
-  {
-    "key": "cardinalFeather",
-    "name": "materials.cardinalFeather",
-    "quantity": {
-      "trapper": 2
+      "trapper": 1
     }
   },
   {
@@ -404,258 +656,6 @@
     "name": "materials.woodpeckerFeather",
     "quantity": {
       "trapper": 6
-    }
-  },
-  {
-    "key": "eagleFeather",
-    "name": "materials.eagleFeather",
-    "quantity": {
-      "trapper": 4
-    }
-  },
-  {
-    "key": "pigeonFeather",
-    "name": "materials.pigeonFeather",
-    "quantity": {
-      "trapper": 2
-    }
-  },
-  {
-    "key": "roosterFeather",
-    "name": "materials.roosterFeather",
-    "quantity": {
-      "trapper": 4
-    }
-  },
-  {
-    "key": "songbirdFeather",
-    "name": "materials.songbirdFeather",
-    "quantity": {
-      "trapper": 2
-    }
-  },
-  {
-    "key": "gooseFeather",
-    "name": "materials.gooseFeather",
-    "quantity": {
-      "trapper": 2
-    }
-  },
-  {
-    "key": "owlFeather",
-    "name": "materials.owlFeather",
-    "quantity": {
-      "trapper": 1
-    }
-  },
-  {
-    "key": "perfectPigHide",
-    "name": "materials.perfectPigHide",
-    "quantity": {
-      "trapper": 2
-    }
-  },
-  {
-    "key": "perfectRamHide",
-    "name": "materials.perfectRamHide",
-    "quantity": {
-      "trapper": 6
-    }
-  },
-  {
-    "key": "perfectMoosePelt",
-    "name": "materials.perfectMoosePelt",
-    "quantity": {
-      "trapper": 4
-    }
-  },
-  {
-    "key": "perfectCollaredPeccaryPigPelt",
-    "name": "materials.perfectCollaredPeccaryPigPelt",
-    "quantity": {
-      "trapper": 3
-    }
-  },
-  {
-    "key": "legendaryBearPelt",
-    "name": "materials.legendaryBearPelt",
-    "quantity": {
-      "trapper": 3
-    }
-  },
-  {
-    "key": "perfectBullHide",
-    "name": "materials.perfectBullHide",
-    "quantity": {
-      "trapper": 3
-    }
-  },
-  {
-    "key": "legendaryBuckPelt",
-    "name": "materials.legendaryBuckPelt",
-    "quantity": {
-      "trapper": 2
-    }
-  },
-  {
-    "key": "legendaryFoxPelt",
-    "name": "materials.legendaryFoxPelt",
-    "quantity": {
-      "trapper": 2
-    }
-  },
-  {
-    "key": "legendaryBeaverPelt",
-    "name": "materials.legendaryBeaverPelt",
-    "quantity": {
-      "trapper": 1
-    }
-  },
-  {
-    "key": "legendaryTatankaBisonPelt",
-    "name": "materials.legendaryTatankaBisonPelt",
-    "quantity": {
-      "trapper": 3
-    }
-  },
-  {
-    "key": "legendaryBoarPelt",
-    "name": "materials.legendaryBoarPelt",
-    "quantity": {
-      "trapper": 1
-    }
-  },
-  {
-    "key": "legendaryBeaverCavalry",
-    "name": "materials.legendaryBeaverCavalry",
-    "quantity": {
-      "trapper": 1
-    }
-  },
-  {
-    "key": "legendaryCougarPelt",
-    "name": "materials.legendaryCougarPelt",
-    "quantity": {
-      "trapper": 3
-    }
-  },
-  {
-    "key": "legendaryWolfPelt",
-    "name": "materials.legendaryWolfPelt",
-    "quantity": {
-      "trapper": 2
-    }
-  },
-  {
-    "key": "legendaryCoyotePelt",
-    "name": "materials.legendaryCoyotePelt",
-    "quantity": {
-      "trapper": 2
-    }
-  },
-  {
-    "key": "legendaryPronghornHide",
-    "name": "materials.legendaryPronghornHide",
-    "quantity": {
-      "trapper": 2
-    }
-  },
-  {
-    "key": "legendaryAlligatorSkin",
-    "name": "materials.legendaryAlligatorSkin",
-    "quantity": {
-      "trapper": 3
-    }
-  },
-  {
-    "key": "legendaryPantherPelt",
-    "name": "materials.legendaryPantherPelt",
-    "quantity": {
-      "trapper": 2
-    }
-  },
-  {
-    "key": "legendaryRamHide",
-    "name": "materials.legendaryRamHide",
-    "quantity": {
-      "trapper": 3
-    }
-  },
-  {
-    "key": "legendaryMoosePelt",
-    "name": "materials.legendaryMoosePelt",
-    "quantity": {
-      "trapper": 2
-    }
-  },
-  {
-    "key": "legendaryWhiteBisonPelt",
-    "name": "materials.legendaryWhiteBisonPelt",
-    "quantity": {
-      "trapper": 2
-    }
-  },
-  {
-    "key": "legendaryElkPelt",
-    "name": "materials.legendaryElkPelt",
-    "quantity": {
-      "trapper": 3
-    }
-  },
-  {
-    "key": "perfectPantherHide",
-    "name": "materials.perfectPantherHide",
-    "quantity": {
-      "trapper": 1
-    }
-  },
-  {
-    "key": "perfectCoyotePelt",
-    "name": "materials.perfectCoyotePelt",
-    "quantity": {
-      "trapper": 3
-    }
-  },
-  {
-    "key": "perfectArmadilloSkin",
-    "name": "materials.perfectArmadilloSkin",
-    "quantity": {
-      "trapper": 1
-    }
-  },
-  {
-    "key": "perfectRabbitCarcass",
-    "name": "materials.perfectRabbitCarcass",
-    "quantity": {
-      "wae": 1
-    }
-  },
-  {
-    "key": "perfectSquirrelCarcass",
-    "name": "materials.perfectSquirrelCarcass",
-    "quantity": {
-      "wae": 1
-    }
-  },
-  {
-    "key": "perfectCardinalCarcass",
-    "name": "materials.perfectCardinalCarcass",
-    "quantity": {
-      "wae": 1
-    }
-  },
-  {
-    "key": "perfectRatCarcass",
-    "name": "materials.perfectRatCarcass",
-    "quantity": {
-      "wae": 1
-    }
-  },
-  {
-    "key": "perfectWoodpeckerCarcass",
-    "name": "materials.perfectWoodpeckerCarcass",
-    "quantity": {
-      "wae": 1
     }
   }
 ]
