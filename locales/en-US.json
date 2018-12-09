@@ -287,6 +287,7 @@
     "cost": "Cost",
     "crafted": "Set as crafted",
     "notCrafted": "Set as not crafted",
-    "askAutofill": "Autofill missing materials?"
+    "askAutofill": "Autofill missing materials?",
+    "materials": "Materials"
   }
 }
