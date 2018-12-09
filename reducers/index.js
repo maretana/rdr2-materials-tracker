@@ -1,6 +1,6 @@
-import * as trapper from '../shops/trapper.json'
-import * as camp from '../shops/camp.json'
-import * as wae from '../shops/wae.json'
+import * as trapper from '../data/trapper.json'
+import * as camp from '../data/camp.json'
+import * as wae from '../data/wae.json'
 import reducer from './reducers'
 
 const initialState = {
