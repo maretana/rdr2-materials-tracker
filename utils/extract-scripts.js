@@ -153,3 +153,26 @@ let addMaterialKeys = (jsonTree) => {
     }
   }
 }
+
+////////////////////////////////////////////////////////////////////////////////
+////////// Materials Consolidated List
+////////////////////////////////////////////////////////////////////////////////
+let updateMaterialsList = (shop, materialsList) => {
+  let shopKey = shop.shopKey
+  let queue = [...shop.ingredients]
+  while (queue.length) {
+    const node = queue.shift()
+    if (node.ingredients) {
+      queue = [...queue, ...node.ingredients]
+    } else {
+      let material = materialsList.find(material => material.key === node.key)
+      if (material) {
+        material.quantity[shopKey] = (material.quantity[shopKey] || 0) + node.quantity
+      } else {
+        material = { key: node.key, name: node.name, quantity: {} }
+        material.quantity[shopKey] = node.quantity
+        materialsList.push(material)
+      }
+    }
+  }
+}
