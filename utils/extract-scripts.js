@@ -138,3 +138,18 @@ let localizeNames = (jsonTree, locale) => {
     }
   }
 }
+
+////////////////////////////////////////////////////////////////////////////////
+////////// Material Keys
+////////////////////////////////////////////////////////////////////////////////
+let addMaterialKeys = (jsonTree) => {
+  let queue = [jsonTree]
+  while (queue.length) {
+    const node = queue.shift()
+    if (node.ingredients) {
+      queue = [...queue, ...node.ingredients]
+    } else {
+      node.key = node.name.replace('materials.', '')
+    }
+  }
+}
