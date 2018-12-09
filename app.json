@@ -21,10 +21,10 @@
       "**/*"
     ],
     "android": {
-      "package": "com.tucanosolutions.rdr2huntlog"
+      "package": "retana.mario.rdr2huntlog"
     },
     "ios": {
-      "bundleIdentifier": "com.tucanosolutions.rdr2huntlog",
+      "bundleIdentifier": "retana.mario.rdr2huntlog",
       "supportsTablet": false
     }
   }
