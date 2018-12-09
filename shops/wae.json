@@ -7,11 +7,13 @@
       "ingredients": [
         {
           "name": "materials.perfectRabbitCarcass",
-          "quantity": 1
+          "quantity": 1,
+          "key": "perfectRabbitCarcass"
         },
         {
           "name": "materials.perfectSquirrelCarcass",
-          "quantity": 1
+          "quantity": 1,
+          "key": "perfectSquirrelCarcass"
         }
       ]
     },
@@ -20,15 +22,18 @@
       "ingredients": [
         {
           "name": "materials.perfectCardinalCarcass",
-          "quantity": 1
+          "quantity": 1,
+          "key": "perfectCardinalCarcass"
         },
         {
           "name": "materials.perfectRatCarcass",
-          "quantity": 1
+          "quantity": 1,
+          "key": "perfectRatCarcass"
         },
         {
           "name": "materials.perfectWoodpeckerCarcass",
-          "quantity": 1
+          "quantity": 1,
+          "key": "perfectWoodpeckerCarcass"
         }
       ]
     }

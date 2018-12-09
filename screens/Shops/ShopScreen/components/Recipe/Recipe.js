@@ -42,7 +42,7 @@ export default class Recipe extends React.Component {
               <Text style={styles.text}>
                 {`${getString(ingredient.name)} x${ingredient.quantity}`}
               </Text>
-              <MaterialCounter materialKey={ingredient.name} shopKey={shopKey} />
+              <MaterialCounter materialKey={ingredient.key} shopKey={shopKey} />
             </View>
           )
         })}

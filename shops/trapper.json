@@ -13,7 +13,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectBadgerPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectBadgerPelt"
                 }
               ],
               "_cost": 26
@@ -23,7 +24,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectBeaverPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectBeaverPelt"
                 }
               ],
               "_cost": 28
@@ -33,7 +35,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectFoxPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectFoxPelt"
                 }
               ],
               "_cost": 30
@@ -43,7 +46,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectSkunkPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectSkunkPelt"
                 }
               ],
               "_cost": 23
@@ -53,7 +57,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectBlackBearPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectBlackBearPelt"
                 }
               ],
               "_cost": 24
@@ -63,7 +68,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectSquirrelPelt",
-                  "quantity": 6
+                  "quantity": 6,
+                  "key": "perfectSquirrelPelt"
                 }
               ],
               "_cost": 16
@@ -73,7 +79,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectRatPelt",
-                  "quantity": 10
+                  "quantity": 10,
+                  "key": "perfectRatPelt"
                 }
               ],
               "_cost": 12
@@ -83,11 +90,13 @@
               "ingredients": [
                 {
                   "name": "materials.perfectSheepHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectSheepHide"
                 },
                 {
                   "name": "materials.perfectSnakeSkin",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectSnakeSkin"
                 }
               ],
               "_cost": 23
@@ -97,11 +106,13 @@
               "ingredients": [
                 {
                   "name": "materials.perfectCowHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectCowHide"
                 },
                 {
                   "name": "materials.perfectIguanaSkin",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectIguanaSkin"
                 }
               ],
               "_cost": 14
@@ -111,11 +122,13 @@
               "ingredients": [
                 {
                   "name": "materials.perfectElkPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectElkPelt"
                 },
                 {
                   "name": "materials.perfectGilaMonsterSkin",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectGilaMonsterSkin"
                 }
               ],
               "_cost": 16
@@ -125,11 +138,13 @@
               "ingredients": [
                 {
                   "name": "materials.pronghornHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "pronghornHide"
                 },
                 {
                   "name": "materials.perfectOpossumPelt",
-                  "quantity": 4
+                  "quantity": 4,
+                  "key": "perfectOpossumPelt"
                 }
               ],
               "_cost": 12
@@ -139,11 +154,13 @@
               "ingredients": [
                 {
                   "name": "materials.perfectDeerPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectDeerPelt"
                 },
                 {
                   "name": "materials.ravenFeather",
-                  "quantity": 10
+                  "quantity": 10,
+                  "key": "ravenFeather"
                 }
               ],
               "_cost": 20
@@ -153,15 +170,18 @@
               "ingredients": [
                 {
                   "name": "materials.perfectBisonPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectBisonPelt"
                 },
                 {
                   "name": "materials.robinFeather",
-                  "quantity": 4
+                  "quantity": 4,
+                  "key": "robinFeather"
                 },
                 {
                   "name": "materials.orioleFeather",
-                  "quantity": 4
+                  "quantity": 4,
+                  "key": "orioleFeather"
                 }
               ],
               "_cost": 18
@@ -171,11 +191,13 @@
               "ingredients": [
                 {
                   "name": "materials.perfectGoatHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectGoatHide"
                 },
                 {
                   "name": "materials.perfectRatPelt",
-                  "quantity": 6
+                  "quantity": 6,
+                  "key": "perfectRatPelt"
                 }
               ],
               "_cost": 17
@@ -185,15 +207,18 @@
               "ingredients": [
                 {
                   "name": "materials.loonFeather",
-                  "quantity": 2
+                  "quantity": 2,
+                  "key": "loonFeather"
                 },
                 {
                   "name": "materials.condorFeather",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "condorFeather"
                 },
                 {
                   "name": "materials.ravenFeather",
-                  "quantity": 3
+                  "quantity": 3,
+                  "key": "ravenFeather"
                 }
               ],
               "_cost": 13
@@ -203,11 +228,13 @@
               "ingredients": [
                 {
                   "name": "materials.vultureFeather",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "vultureFeather"
                 },
                 {
                   "name": "materials.seagullFeather",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "seagullFeather"
                 }
               ],
               "_cost": 11
@@ -217,15 +244,18 @@
               "ingredients": [
                 {
                   "name": "materials.pheasantFeather",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "pheasantFeather"
                 },
                 {
                   "name": "materials.sparrowFeather",
-                  "quantity": 4
+                  "quantity": 4,
+                  "key": "sparrowFeather"
                 },
                 {
                   "name": "materials.robinFeather",
-                  "quantity": 3
+                  "quantity": 3,
+                  "key": "robinFeather"
                 }
               ],
               "_cost": 10
@@ -235,15 +265,18 @@
               "ingredients": [
                 {
                   "name": "materials.turkeyFeather",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "turkeyFeather"
                 },
                 {
                   "name": "materials.cedarWaxwingFeather",
-                  "quantity": 2
+                  "quantity": 2,
+                  "key": "cedarWaxwingFeather"
                 },
                 {
                   "name": "materials.blueJayFeather",
-                  "quantity": 3
+                  "quantity": 3,
+                  "key": "blueJayFeather"
                 }
               ],
               "_cost": 11
@@ -253,15 +286,18 @@
               "ingredients": [
                 {
                   "name": "materials.perfectBoarPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectBoarPelt"
                 },
                 {
                   "name": "materials.hawkFeather",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "hawkFeather"
                 },
                 {
                   "name": "materials.quailFeather",
-                  "quantity": 2
+                  "quantity": 2,
+                  "key": "quailFeather"
                 }
               ],
               "_cost": 10
@@ -271,15 +307,18 @@
               "ingredients": [
                 {
                   "name": "materials.turkeyFeather",
-                  "quantity": 3
+                  "quantity": 3,
+                  "key": "turkeyFeather"
                 },
                 {
                   "name": "materials.duckFeather",
-                  "quantity": 3
+                  "quantity": 3,
+                  "key": "duckFeather"
                 },
                 {
                   "name": "materials.chickenFeather",
-                  "quantity": 3
+                  "quantity": 3,
+                  "key": "chickenFeather"
                 }
               ],
               "_cost": 11
@@ -289,11 +328,13 @@
               "ingredients": [
                 {
                   "name": "materials.crowFeather",
-                  "quantity": 2
+                  "quantity": 2,
+                  "key": "crowFeather"
                 },
                 {
                   "name": "materials.cardinalFeather",
-                  "quantity": 2
+                  "quantity": 2,
+                  "key": "cardinalFeather"
                 }
               ],
               "_cost": 15
@@ -303,11 +344,13 @@
               "ingredients": [
                 {
                   "name": "materials.orioleFeather",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "orioleFeather"
                 },
                 {
                   "name": "materials.woodpeckerFeather",
-                  "quantity": 4
+                  "quantity": 4,
+                  "key": "woodpeckerFeather"
                 }
               ],
               "_cost": 10
@@ -317,11 +360,13 @@
               "ingredients": [
                 {
                   "name": "materials.eagleFeather",
-                  "quantity": 2
+                  "quantity": 2,
+                  "key": "eagleFeather"
                 },
                 {
                   "name": "materials.pigeonFeather",
-                  "quantity": 2
+                  "quantity": 2,
+                  "key": "pigeonFeather"
                 }
               ],
               "_cost": 13
@@ -331,15 +376,18 @@
               "ingredients": [
                 {
                   "name": "materials.roosterFeather",
-                  "quantity": 4
+                  "quantity": 4,
+                  "key": "roosterFeather"
                 },
                 {
                   "name": "materials.woodpeckerFeather",
-                  "quantity": 2
+                  "quantity": 2,
+                  "key": "woodpeckerFeather"
                 },
                 {
                   "name": "materials.songbirdFeather",
-                  "quantity": 2
+                  "quantity": 2,
+                  "key": "songbirdFeather"
                 }
               ],
               "_cost": 15
@@ -349,11 +397,13 @@
               "ingredients": [
                 {
                   "name": "materials.chickenFeather",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "chickenFeather"
                 },
                 {
                   "name": "materials.gooseFeather",
-                  "quantity": 2
+                  "quantity": 2,
+                  "key": "gooseFeather"
                 }
               ],
               "_cost": 10
@@ -363,11 +413,13 @@
               "ingredients": [
                 {
                   "name": "materials.pheasantFeather",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "pheasantFeather"
                 },
                 {
                   "name": "materials.owlFeather",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "owlFeather"
                 }
               ],
               "_cost": 10
@@ -382,7 +434,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectPigHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectPigHide"
                 }
               ]
             },
@@ -391,7 +444,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectRamHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectRamHide"
                 }
               ]
             },
@@ -400,7 +454,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectCougarPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectCougarPelt"
                 }
               ]
             }
@@ -414,7 +469,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectBearPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectBearPelt"
                 }
               ]
             },
@@ -423,7 +479,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectOxHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectOxHide"
                 }
               ]
             },
@@ -432,7 +489,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectElkPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectElkPelt"
                 }
               ]
             },
@@ -441,7 +499,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectMoosePelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectMoosePelt"
                 }
               ]
             },
@@ -450,7 +509,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectDeerPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectDeerPelt"
                 }
               ]
             },
@@ -459,7 +519,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectBlackBearPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectBlackBearPelt"
                 }
               ]
             },
@@ -468,7 +529,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectSheepHide",
-                  "quantity": 2
+                  "quantity": 2,
+                  "key": "perfectSheepHide"
                 }
               ]
             },
@@ -477,7 +539,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectMuskratPelt",
-                  "quantity": 2
+                  "quantity": 2,
+                  "key": "perfectMuskratPelt"
                 }
               ]
             },
@@ -486,7 +549,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectDeerPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectDeerPelt"
                 }
               ]
             }
@@ -500,7 +564,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectCollaredPeccaryPigPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectCollaredPeccaryPigPelt"
                 }
               ],
               "_cost": 33
@@ -510,7 +575,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectSkunkPelt",
-                  "quantity": 2
+                  "quantity": 2,
+                  "key": "perfectSkunkPelt"
                 }
               ],
               "_cost": 39
@@ -520,7 +586,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectBuckPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectBuckPelt"
                 }
               ],
               "_cost": 17
@@ -540,7 +607,8 @@
               "ingredients": [
                 {
                   "name": "materials.legendaryBearPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryBearPelt"
                 }
               ],
               "_cost": 40
@@ -550,11 +618,13 @@
               "ingredients": [
                 {
                   "name": "materials.legendaryBearPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryBearPelt"
                 },
                 {
                   "name": "materials.perfectBisonPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectBisonPelt"
                 }
               ],
               "_cost": 28
@@ -564,11 +634,13 @@
               "ingredients": [
                 {
                   "name": "materials.legendaryBearPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryBearPelt"
                 },
                 {
                   "name": "materials.perfectBullHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectBullHide"
                 }
               ],
               "_cost": 34
@@ -578,11 +650,13 @@
               "ingredients": [
                 {
                   "name": "materials.perfectBoarPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectBoarPelt"
                 },
                 {
                   "name": "materials.perfectRabbitPelt",
-                  "quantity": 2
+                  "quantity": 2,
+                  "key": "perfectRabbitPelt"
                 }
               ],
               "_cost": 15
@@ -597,15 +671,18 @@
               "ingredients": [
                 {
                   "name": "materials.perfectRaccoonPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectRaccoonPelt"
                 },
                 {
                   "name": "materials.perfectBeaverPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectBeaverPelt"
                 },
                 {
                   "name": "materials.hawkFeather",
-                  "quantity": 2
+                  "quantity": 2,
+                  "key": "hawkFeather"
                 }
               ],
               "_cost": 21
@@ -615,11 +692,13 @@
               "ingredients": [
                 {
                   "name": "materials.legendaryBuckPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryBuckPelt"
                 },
                 {
                   "name": "materials.perfectRamHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectRamHide"
                 }
               ],
               "_cost": 26
@@ -629,11 +708,13 @@
               "ingredients": [
                 {
                   "name": "materials.perfectElkPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectElkPelt"
                 },
                 {
                   "name": "materials.legendaryFoxPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryFoxPelt"
                 }
               ],
               "_cost": 40
@@ -643,11 +724,13 @@
               "ingredients": [
                 {
                   "name": "materials.legendaryBuckPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryBuckPelt"
                 },
                 {
                   "name": "materials.legendaryFoxPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryFoxPelt"
                 }
               ],
               "_cost": 28
@@ -662,7 +745,8 @@
               "ingredients": [
                 {
                   "name": "materials.legendaryBeaverPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryBeaverPelt"
                 }
               ],
               "_cost": 22
@@ -672,7 +756,8 @@
               "ingredients": [
                 {
                   "name": "materials.legendaryTatankaBisonPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryTatankaBisonPelt"
                 }
               ],
               "_cost": 30
@@ -682,7 +767,8 @@
               "ingredients": [
                 {
                   "name": "materials.legendaryTatankaBisonPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryTatankaBisonPelt"
                 }
               ],
               "_cost": 32
@@ -692,11 +778,13 @@
               "ingredients": [
                 {
                   "name": "materials.legendaryBoarPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryBoarPelt"
                 },
                 {
                   "name": "materials.legendaryTatankaBisonPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryTatankaBisonPelt"
                 }
               ],
               "_cost": 37
@@ -706,7 +794,8 @@
               "ingredients": [
                 {
                   "name": "materials.legendaryBeaverCavalry",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryBeaverCavalry"
                 }
               ],
               "_cost": 18
@@ -721,11 +810,13 @@
               "ingredients": [
                 {
                   "name": "materials.legendaryCougarPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryCougarPelt"
                 },
                 {
                   "name": "materials.turkeyFeather",
-                  "quantity": 2
+                  "quantity": 2,
+                  "key": "turkeyFeather"
                 }
               ],
               "_cost": 19
@@ -735,11 +826,13 @@
               "ingredients": [
                 {
                   "name": "materials.legendaryCougarPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryCougarPelt"
                 },
                 {
                   "name": "materials.legendaryWolfPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryWolfPelt"
                 }
               ],
               "_cost": 42
@@ -749,11 +842,13 @@
               "ingredients": [
                 {
                   "name": "materials.legendaryWolfPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryWolfPelt"
                 },
                 {
                   "name": "materials.perfectGoatHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectGoatHide"
                 }
               ],
               "_cost": 34
@@ -763,11 +858,13 @@
               "ingredients": [
                 {
                   "name": "materials.perfectBoarPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectBoarPelt"
                 },
                 {
                   "name": "materials.perfectBullHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectBullHide"
                 }
               ],
               "_cost": 29
@@ -777,11 +874,13 @@
               "ingredients": [
                 {
                   "name": "materials.legendaryCougarPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryCougarPelt"
                 },
                 {
                   "name": "materials.perfectBoarPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectBoarPelt"
                 }
               ],
               "_cost": 20
@@ -796,11 +895,13 @@
               "ingredients": [
                 {
                   "name": "materials.legendaryCoyotePelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryCoyotePelt"
                 },
                 {
                   "name": "materials.eagleFeather",
-                  "quantity": 2
+                  "quantity": 2,
+                  "key": "eagleFeather"
                 }
               ],
               "_cost": 23
@@ -810,11 +911,13 @@
               "ingredients": [
                 {
                   "name": "materials.legendaryPronghornHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryPronghornHide"
                 },
                 {
                   "name": "materials.perfectMoosePelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectMoosePelt"
                 }
               ],
               "_cost": 35
@@ -824,11 +927,13 @@
               "ingredients": [
                 {
                   "name": "materials.legendaryCoyotePelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryCoyotePelt"
                 },
                 {
                   "name": "materials.perfectFoxPelt",
-                  "quantity": 2
+                  "quantity": 2,
+                  "key": "perfectFoxPelt"
                 }
               ],
               "_cost": 20
@@ -838,11 +943,13 @@
               "ingredients": [
                 {
                   "name": "materials.perfectCowHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectCowHide"
                 },
                 {
                   "name": "materials.perfectGoatHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectGoatHide"
                 }
               ],
               "_cost": 28
@@ -852,11 +959,13 @@
               "ingredients": [
                 {
                   "name": "materials.legendaryPronghornHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryPronghornHide"
                 },
                 {
                   "name": "materials.perfectMuskratPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectMuskratPelt"
                 }
               ],
               "_cost": 17
@@ -871,11 +980,13 @@
               "ingredients": [
                 {
                   "name": "materials.legendaryAlligatorSkin",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryAlligatorSkin"
                 },
                 {
                   "name": "materials.perfectSnakeSkin",
-                  "quantity": 2
+                  "quantity": 2,
+                  "key": "perfectSnakeSkin"
                 }
               ],
               "_cost": 22
@@ -885,7 +996,8 @@
               "ingredients": [
                 {
                   "name": "materials.legendaryPantherPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryPantherPelt"
                 }
               ],
               "_cost": 45
@@ -895,7 +1007,8 @@
               "ingredients": [
                 {
                   "name": "materials.legendaryAlligatorSkin",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryAlligatorSkin"
                 }
               ],
               "_cost": 35
@@ -905,7 +1018,8 @@
               "ingredients": [
                 {
                   "name": "materials.legendaryAlligatorSkin",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryAlligatorSkin"
                 }
               ],
               "_cost": 35
@@ -915,11 +1029,13 @@
               "ingredients": [
                 {
                   "name": "materials.legendaryPantherPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryPantherPelt"
                 },
                 {
                   "name": "materials.perfectGilaMonsterSkin",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectGilaMonsterSkin"
                 }
               ],
               "_cost": 30
@@ -934,7 +1050,8 @@
               "ingredients": [
                 {
                   "name": "materials.legendaryRamHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryRamHide"
                 }
               ],
               "_cost": 17
@@ -944,11 +1061,13 @@
               "ingredients": [
                 {
                   "name": "materials.legendaryMoosePelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryMoosePelt"
                 },
                 {
                   "name": "materials.perfectWolfPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectWolfPelt"
                 }
               ],
               "_cost": 24
@@ -958,7 +1077,8 @@
               "ingredients": [
                 {
                   "name": "materials.legendaryRamHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryRamHide"
                 }
               ],
               "_cost": 33
@@ -968,11 +1088,13 @@
               "ingredients": [
                 {
                   "name": "materials.legendaryMoosePelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryMoosePelt"
                 },
                 {
                   "name": "materials.perfectCowHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectCowHide"
                 }
               ],
               "_cost": 22
@@ -982,11 +1104,13 @@
               "ingredients": [
                 {
                   "name": "materials.legendaryRamHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryRamHide"
                 },
                 {
                   "name": "materials.perfectBoarPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectBoarPelt"
                 }
               ],
               "_cost": 12
@@ -1001,7 +1125,8 @@
               "ingredients": [
                 {
                   "name": "materials.legendaryWhiteBisonPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryWhiteBisonPelt"
                 }
               ],
               "_cost": 45
@@ -1011,7 +1136,8 @@
               "ingredients": [
                 {
                   "name": "materials.legendaryWhiteBisonPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryWhiteBisonPelt"
                 }
               ],
               "_cost": 29
@@ -1021,11 +1147,13 @@
               "ingredients": [
                 {
                   "name": "materials.legendaryElkPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryElkPelt"
                 },
                 {
                   "name": "materials.perfectSheepHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectSheepHide"
                 }
               ],
               "_cost": 16
@@ -1035,11 +1163,13 @@
               "ingredients": [
                 {
                   "name": "materials.legendaryElkPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryElkPelt"
                 },
                 {
                   "name": "materials.perfectGoatHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectGoatHide"
                 }
               ],
               "_cost": 30
@@ -1049,7 +1179,8 @@
               "ingredients": [
                 {
                   "name": "materials.legendaryElkPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "legendaryElkPelt"
                 }
               ],
               "_cost": 13
@@ -1064,7 +1195,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectRamHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectRamHide"
                 }
               ],
               "_cost": 10
@@ -1074,7 +1206,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectPronghornHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectPronghornHide"
                 }
               ],
               "_cost": 22
@@ -1084,11 +1217,13 @@
               "ingredients": [
                 {
                   "name": "materials.perfectCollaredPeccaryPigPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectCollaredPeccaryPigPelt"
                 },
                 {
                   "name": "materials.perfectSnakeSkin",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectSnakeSkin"
                 }
               ],
               "_cost": 18
@@ -1098,11 +1233,13 @@
               "ingredients": [
                 {
                   "name": "materials.perfectCollaredPeccaryPigPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectCollaredPeccaryPigPelt"
                 },
                 {
                   "name": "materials.perfectIguanaSkin",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectIguanaSkin"
                 }
               ],
               "_cost": 27
@@ -1117,11 +1254,13 @@
               "ingredients": [
                 {
                   "name": "materials.perfectPronghornHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectPronghornHide"
                 },
                 {
                   "name": "materials.perfectGoatHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectGoatHide"
                 }
               ],
               "_cost": 12
@@ -1131,7 +1270,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectSheepHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectSheepHide"
                 }
               ],
               "_cost": 32
@@ -1141,11 +1281,13 @@
               "ingredients": [
                 {
                   "name": "materials.perfectPantherHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectPantherHide"
                 },
                 {
                   "name": "materials.perfectGoatHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectGoatHide"
                 }
               ],
               "_cost": 27
@@ -1155,7 +1297,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectBuckPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectBuckPelt"
                 }
               ],
               "_cost": 15
@@ -1165,7 +1308,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectMoosePelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectMoosePelt"
                 }
               ],
               "_cost": 22
@@ -1180,7 +1324,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectElkPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectElkPelt"
                 }
               ],
               "_cost": 12
@@ -1190,11 +1335,13 @@
               "ingredients": [
                 {
                   "name": "materials.perfectOxHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectOxHide"
                 },
                 {
                   "name": "materials.perfectCoyotePelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectCoyotePelt"
                 }
               ],
               "_cost": 20
@@ -1204,11 +1351,13 @@
               "ingredients": [
                 {
                   "name": "materials.perfectSheepHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectSheepHide"
                 },
                 {
                   "name": "materials.perfectDeerPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectDeerPelt"
                 }
               ],
               "_cost": 25
@@ -1218,7 +1367,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectBoarPelt",
-                  "quantity": 2
+                  "quantity": 2,
+                  "key": "perfectBoarPelt"
                 }
               ],
               "_cost": 25
@@ -1228,7 +1378,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectPigHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectPigHide"
                 }
               ],
               "_cost": 8
@@ -1243,11 +1394,13 @@
               "ingredients": [
                 {
                   "name": "materials.perfectRabbitPelt",
-                  "quantity": 4
+                  "quantity": 4,
+                  "key": "perfectRabbitPelt"
                 },
                 {
                   "name": "materials.perfectMuskratPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectMuskratPelt"
                 }
               ],
               "_cost": 15
@@ -1257,11 +1410,13 @@
               "ingredients": [
                 {
                   "name": "materials.perfectCowHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectCowHide"
                 },
                 {
                   "name": "materials.perfectDeerPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectDeerPelt"
                 }
               ],
               "_cost": 18
@@ -1271,7 +1426,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectBullHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectBullHide"
                 }
               ],
               "_cost": 18
@@ -1281,11 +1437,13 @@
               "ingredients": [
                 {
                   "name": "materials.perfectBoarPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectBoarPelt"
                 },
                 {
                   "name": "materials.perfectSnakeSkin",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectSnakeSkin"
                 }
               ],
               "_cost": 26
@@ -1300,7 +1458,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectBisonPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectBisonPelt"
                 }
               ],
               "_cost": 15
@@ -1310,11 +1469,13 @@
               "ingredients": [
                 {
                   "name": "materials.perfectCowHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectCowHide"
                 },
                 {
                   "name": "materials.perfectBeaverPelt",
-                  "quantity": 2
+                  "quantity": 2,
+                  "key": "perfectBeaverPelt"
                 }
               ],
               "_cost": 21
@@ -1324,7 +1485,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectSheepHide",
-                  "quantity": 2
+                  "quantity": 2,
+                  "key": "perfectSheepHide"
                 }
               ],
               "_cost": 20
@@ -1334,7 +1496,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectPronghornHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectPronghornHide"
                 }
               ],
               "_cost": 7
@@ -1344,7 +1507,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectBuckPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectBuckPelt"
                 }
               ],
               "_cost": 5
@@ -1359,7 +1523,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectBeaverPelt",
-                  "quantity": 2
+                  "quantity": 2,
+                  "key": "perfectBeaverPelt"
                 }
               ],
               "_cost": 20
@@ -1369,11 +1534,13 @@
               "ingredients": [
                 {
                   "name": "materials.perfectRamHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectRamHide"
                 },
                 {
                   "name": "materials.perfectWolfPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectWolfPelt"
                 }
               ],
               "_cost": 25
@@ -1383,11 +1550,13 @@
               "ingredients": [
                 {
                   "name": "materials.perfectArmadilloSkin",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectArmadilloSkin"
                 },
                 {
                   "name": "materials.perfectGoatHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectGoatHide"
                 }
               ],
               "_cost": 32
@@ -1397,11 +1566,13 @@
               "ingredients": [
                 {
                   "name": "materials.perfectOxHide",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectOxHide"
                 },
                 {
                   "name": "materials.perfectBoarPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectBoarPelt"
                 }
               ],
               "_cost": 31
@@ -1411,11 +1582,13 @@
               "ingredients": [
                 {
                   "name": "materials.perfectRabbitPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectRabbitPelt"
                 },
                 {
                   "name": "materials.perfectMuskratPelt",
-                  "quantity": 2
+                  "quantity": 2,
+                  "key": "perfectMuskratPelt"
                 }
               ],
               "_cost": 25
@@ -1430,7 +1603,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectCoyotePelt",
-                  "quantity": 2
+                  "quantity": 2,
+                  "key": "perfectCoyotePelt"
                 }
               ],
               "_cost": 16
@@ -1440,11 +1614,13 @@
               "ingredients": [
                 {
                   "name": "materials.perfectCougarPelt",
-                  "quantity": 2
+                  "quantity": 2,
+                  "key": "perfectCougarPelt"
                 },
                 {
                   "name": "materials.perfectBlackBearPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectBlackBearPelt"
                 }
               ],
               "_cost": 39
@@ -1454,11 +1630,13 @@
               "ingredients": [
                 {
                   "name": "materials.perfectWolfPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectWolfPelt"
                 },
                 {
                   "name": "materials.perfectPantherPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectPantherPelt"
                 }
               ],
               "_cost": 28
@@ -1468,7 +1646,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectMoosePelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectMoosePelt"
                 }
               ],
               "_cost": 10
@@ -1478,7 +1657,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectBadgerPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectBadgerPelt"
                 }
               ],
               "_cost": 10
@@ -1493,11 +1673,13 @@
               "ingredients": [
                 {
                   "name": "materials.perfectMuskratPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectMuskratPelt"
                 },
                 {
                   "name": "materials.perfectBeaverPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectBeaverPelt"
                 }
               ],
               "_cost": 24
@@ -1507,7 +1689,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectRamHide",
-                  "quantity": 2
+                  "quantity": 2,
+                  "key": "perfectRamHide"
                 }
               ],
               "_cost": 45
@@ -1517,11 +1700,13 @@
               "ingredients": [
                 {
                   "name": "materials.perfectBuckPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectBuckPelt"
                 },
                 {
                   "name": "materials.perfectBeaverPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectBeaverPelt"
                 }
               ],
               "_cost": 25
@@ -1531,7 +1716,8 @@
               "ingredients": [
                 {
                   "name": "materials.perfectElkPelt",
-                  "quantity": 1
+                  "quantity": 1,
+                  "key": "perfectElkPelt"
                 }
               ],
               "_cost": 12
@@ -1548,7 +1734,8 @@
           "ingredients": [
             {
               "name": "materials.perfectSnakeSkin",
-              "quantity": 10
+              "quantity": 10,
+              "key": "perfectSnakeSkin"
             }
           ]
         },
@@ -1557,7 +1744,8 @@
           "ingredients": [
             {
               "name": "materials.perfectCougarPelt",
-              "quantity": 1
+              "quantity": 1,
+              "key": "perfectCougarPelt"
             }
           ]
         },
@@ -1566,7 +1754,8 @@
           "ingredients": [
             {
               "name": "materials.perfectBoarPelt",
-              "quantity": 1
+              "quantity": 1,
+              "key": "perfectBoarPelt"
             }
           ]
         },
@@ -1575,7 +1764,8 @@
           "ingredients": [
             {
               "name": "materials.perfectAlligatorSkin",
-              "quantity": 1
+              "quantity": 1,
+              "key": "perfectAlligatorSkin"
             }
           ]
         },
@@ -1584,7 +1774,8 @@
           "ingredients": [
             {
               "name": "materials.perfectBearPelt",
-              "quantity": 1
+              "quantity": 1,
+              "key": "perfectBearPelt"
             }
           ]
         },
@@ -1593,7 +1784,8 @@
           "ingredients": [
             {
               "name": "materials.perfectBeaverPelt",
-              "quantity": 1
+              "quantity": 1,
+              "key": "perfectBeaverPelt"
             }
           ]
         },
@@ -1602,7 +1794,8 @@
           "ingredients": [
             {
               "name": "materials.perfectPantherPelt",
-              "quantity": 1
+              "quantity": 1,
+              "key": "perfectPantherPelt"
             }
           ]
         }
