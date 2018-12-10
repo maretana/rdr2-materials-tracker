@@ -19,6 +19,11 @@ export function getString (key, params) {
   return i18n.t(key, params)
 }
 
+/**
+ * Sorts the materials list alphabetically by the localized name
+ * @param  {Array<Object>} materialsList The array of {name: "materials.materialName", ...otherProps}
+ * @return {Array<Object>}               Returns the sorted array.
+ */
 export function sortMaterialsList (materialsList) {
   return materialsList.sort((a, b) => {
     return getString(a.name).localeCompare(getString(b.name), i18n.locale)
