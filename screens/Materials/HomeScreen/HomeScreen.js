@@ -1,14 +1,27 @@
 import React from 'react'
 import { Dimensions, FlatList, Text, View } from 'react-native'
 import { getString } from 'utils/localization'
+import MaterialCounter from 'components/MaterialCounter'
+import ListCard from 'components/ListCard'
 import Header from './components/MaterialsScreenHeader'
 
 export default class HomeScreen extends React.Component {
   renderMaterial ({ item }) {
     return (
-      <View>
-        <Text style={{ color: 'white' }}>{getString(item.name)}</Text>
-      </View>
+      <ListCard title={item.name}>
+        {item.shops.map(shop => {
+          return (
+            <View key={`${item.key}@${shop.key}`}>
+              <Text style={{ color: 'white' }}>{getString(shop.name)}</Text>
+              <MaterialCounter
+                materialKey={item.key}
+                shopKey={shop.key}
+                requiredAmount={shop.quantity}
+              />
+            </View>
+          )
+        })}
+      </ListCard>
     )
   }
 

@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Icon } from 'expo'
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
+import { getString } from 'utils/localization'
 
 export default class MaterialCounter extends React.Component {
   static propTypes = {
@@ -10,6 +11,7 @@ export default class MaterialCounter extends React.Component {
     setMaterialCount: PropTypes.func.isRequired,
     getMaterialCount: PropTypes.func.isRequired,
     materialCount: PropTypes.object.isRequired,
+    requiredAmount: PropTypes.number,
     isReadOnly: PropTypes.bool
   }
 
@@ -47,8 +49,14 @@ export default class MaterialCounter extends React.Component {
   }
 
   renderMaterialCount () {
-    const { materialCount, shopKey } = this.props
-    const formattedCountText = ('0' + (materialCount[shopKey] || 0)).slice(-2)
+    const { materialCount, shopKey, requiredAmount } = this.props
+    let formattedCountText = ('0' + (materialCount[shopKey] || 0)).slice(-2)
+    if (requiredAmount) {
+      formattedCountText = getString('app.materialCounterWithTotal', {
+        count: formattedCountText,
+        total: requiredAmount
+      })
+    }
     return (
       <View style={styles.countTextContainer}>
         <Text style={styles.countText}>{formattedCountText}</Text>

@@ -288,6 +288,7 @@
     "crafted": "Set as crafted",
     "notCrafted": "Set as not crafted",
     "askAutofill": "Autofill missing materials?",
-    "materials": "Materials"
+    "materials": "Materials",
+    "materialCounterWithTotal": "%{count} of %{total}"
   }
 }

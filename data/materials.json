@@ -507,7 +507,7 @@
     "name": "materials.perfectCardinalCarcass",
     "shops": [
       {
-        "name": "wae.name",
+        "name": "wildlifeArtExhibition.name",
         "key": "wae",
         "quantity": 1
       }
@@ -782,7 +782,7 @@
     "name": "materials.perfectRabbitCarcass",
     "shops": [
       {
-        "name": "wae.name",
+        "name": "wildlifeArtExhibition.name",
         "key": "wae",
         "quantity": 1
       }
@@ -847,7 +847,7 @@
     "name": "materials.perfectRatCarcass",
     "shops": [
       {
-        "name": "wae.name",
+        "name": "wildlifeArtExhibition.name",
         "key": "wae",
         "quantity": 1
       }
@@ -907,7 +907,7 @@
     "name": "materials.perfectSquirrelCarcass",
     "shops": [
       {
-        "name": "wae.name",
+        "name": "wildlifeArtExhibition.name",
         "key": "wae",
         "quantity": 1
       }
@@ -961,7 +961,7 @@
     "name": "materials.perfectWoodpeckerCarcass",
     "shops": [
       {
-        "name": "wae.name",
+        "name": "wildlifeArtExhibition.name",
         "key": "wae",
         "quantity": 1
       }
