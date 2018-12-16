@@ -176,3 +176,20 @@ let updateMaterialsList = (shop, materialsList) => {
     }
   }
 }
+
+/**
+ * Deletes the quantity prop and creates the shops array
+ */
+let mapMaterialQuantities = (materialsList) => {
+  materialsList.forEach(material => {
+    let quantities = Object.keys(material.quantity)
+    material.shops = quantities.map(shop => {
+      return {
+        name: `${shop}.name`,
+        key: shop,
+        quantity: material.quantity[shop]
+      }
+    })
+    delete material.quantity
+  })
+}
