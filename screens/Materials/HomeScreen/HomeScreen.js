@@ -1,6 +1,7 @@
 import React from 'react'
-import { FlatList, Text, View } from 'react-native'
+import { Dimensions, FlatList, Text, View } from 'react-native'
 import { getString } from 'utils/localization'
+import Header from './components/MaterialsScreenHeader'
 
 export default class HomeScreen extends React.Component {
   renderMaterial ({ item }) {
@@ -12,11 +13,17 @@ export default class HomeScreen extends React.Component {
   }
 
   render () {
+    const { height } = Dimensions.get('window')
     return (
-      <FlatList
-        data={this.props.materialsList}
-        renderItem={this.renderMaterial}
-      />
+      <View>
+        <Header navigation={this.props.navigation} title={getString('app.materials')} />
+        <View style={{ height: (height - 90) }}>
+          <FlatList
+            data={this.props.materialsList}
+            renderItem={this.renderMaterial}
+          />
+        </View>
+      </View>
     )
   }
 }
