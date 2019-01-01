@@ -3,7 +3,7 @@ import { Text, View } from 'react-native'
 import { getString } from 'utils/localization'
 import styles from './styles'
 
-export default class ListCard extends React.Component {
+export default class ListCard extends React.PureComponent {
   renderCardTitle (title) {
     return (
       <View style={styles.listCardTitleContainer}>

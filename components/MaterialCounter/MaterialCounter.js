@@ -71,6 +71,12 @@ export default class MaterialCounter extends React.Component {
     }
   }
 
+  shouldComponentUpdate (nextProps, nextState) {
+    const { materialCount, shopKey } = this.props
+    const { nMaterialCount, nShopKey } = nextProps
+    return !(nMaterialCount && materialCount[shopKey] === nMaterialCount[nShopKey])
+  }
+
   render () {
     return (
       <View style={[this.props.style, styles.container]}>
