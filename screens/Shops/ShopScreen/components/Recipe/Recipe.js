@@ -3,6 +3,7 @@ import { Text, View } from 'react-native'
 import { getString } from 'utils/localization'
 import ListCard from 'components/ListCard'
 import MaterialCounter from 'components/MaterialCounter'
+import CompletionButton from './components/CompletionButton'
 import styles from './styles'
 
 export default class Recipe extends React.Component {
@@ -36,7 +37,7 @@ export default class Recipe extends React.Component {
             </View>
           )
         })}
-        {/* <Button title={getString('app.crafted')} onPress={() => alert(getString('app.askAutofill'))} /> */}
+        <CompletionButton />
       </ListCard>
     )
   }
