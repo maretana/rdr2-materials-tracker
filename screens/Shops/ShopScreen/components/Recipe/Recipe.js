@@ -6,7 +6,7 @@ import MaterialCounter from 'components/MaterialCounter'
 import CompletionButton from './components/CompletionButton'
 import styles from './styles'
 
-export default class Recipe extends React.Component {
+export default class Recipe extends React.PureComponent {
   renderRecipeCost (cost) {
     if (cost) {
       return (
