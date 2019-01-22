@@ -1,5 +1,17 @@
 import { AsyncStorage } from 'react-native'
 
+const CRAFTED_RECIPES_KEY = 'CRAFTED_RECIPES'
+const CRAFTED_RECIPES_SEPARATOR = ';'
+
+/**
+ * Used  when app is loading resources. The list of crafted materials is first
+ * loaded here when app is loading so that the initial state can have the stored
+ * value. This way the app can do the async call to getItem from storage and
+ * then do a synchronous call to set the value in the reducer initial state.
+ * @type {Array<String>}
+ */
+let initialCraftedMaterials
+
 /**
  * Reads the material counts object in the device
  * @param  {String} materialKey value used to identify the material
@@ -40,4 +52,50 @@ export async function clearAppData () {
     // TODO: Catch error!!!
     console.error(error)
   }
+}
+
+/**
+ * Loads the completed crafted recipes of the user.
+ * @return {Array<String>} An array of the completed recipe names
+ */
+export async function readCraftedRecipes () {
+  try {
+    const value = await AsyncStorage.getItem(CRAFTED_RECIPES_KEY)
+    return value === null ? [] : value.split(CRAFTED_RECIPES_SEPARATOR)
+  } catch (error) {
+    // TODO: Catch error!!!
+    console.error(error)
+  }
+}
+
+/**
+ * Writes the user crafted recipes list to disk
+ * @param  {Array<String>} craftedRecipes The list of crafted recipes names
+ */
+export async function writeCraftedRecipes (craftedRecipes) {
+  try {
+    await AsyncStorage.setItem(
+      CRAFTED_RECIPES_KEY,
+      craftedRecipes.join(CRAFTED_RECIPES_SEPARATOR)
+    )
+  } catch (error) {
+    // TODO: Catch error!!!
+    console.error(error)
+  }
+}
+
+/**
+ * Returns the list of crafted materials names that was previously set by
+ * `getUserData`
+ * @return {Array<String>} The list of crafted recipes names the user had saved.
+ */
+export function getCraftedRecipesListSynchronous () {
+  return initialCraftedMaterials
+}
+
+/**
+ * Loads any user data that must be available to `initialState` in the reducer.
+ */
+export async function getUserData () {
+  initialCraftedMaterials = await readCraftedRecipes()
 }

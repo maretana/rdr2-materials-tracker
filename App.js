@@ -6,6 +6,7 @@ import { applyMiddleware, createStore } from 'redux'
 import { Provider } from 'react-redux'
 import thunk from 'redux-thunk'
 import appReducer from './reducers'
+import { getUserData } from 'utils/storage'
 
 const store = createStore(appReducer, applyMiddleware(thunk))
 
@@ -46,7 +47,8 @@ export default class App extends React.Component {
         // We include SpaceMono because we use it in HomeScreen.js. Feel free
         // to remove this if you are not using it in your app
         'space-mono': require('./assets/fonts/SpaceMono-Regular.ttf')
-      })
+      }),
+      getUserData()
     ])
   };
 
