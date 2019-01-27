@@ -10,7 +10,7 @@ const CRAFTED_RECIPES_SEPARATOR = ';'
  * then do a synchronous call to set the value in the reducer initial state.
  * @type {Array<String>}
  */
-let initialCraftedMaterials
+let initialCraftedRecipes
 
 /**
  * Reads the material counts object in the device
@@ -85,17 +85,23 @@ export async function writeCraftedRecipes (craftedRecipes) {
 }
 
 /**
- * Returns the list of crafted materials names that was previously set by
- * `getUserData`
+ * Returns the user data that was previously set by `getUserData`
  * @return {Array<String>} The list of crafted recipes names the user had saved.
  */
-export function getCraftedRecipesListSynchronous () {
-  return initialCraftedMaterials
+export function getUserDataSynchronous () {
+  return {
+    craftedRecipes: initialCraftedRecipes
+  }
 }
 
 /**
  * Loads any user data that must be available to `initialState` in the reducer.
  */
-export async function getUserData () {
-  initialCraftedMaterials = await readCraftedRecipes()
+export function getUserData () {
+  return new Promise(resolve => {
+    readCraftedRecipes().then(crafted => {
+      initialCraftedRecipes = crafted
+      resolve()
+    })
+  })
 }

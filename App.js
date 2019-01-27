@@ -1,7 +1,7 @@
 import React from 'react'
 import { StatusBar, StyleSheet, View } from 'react-native'
 import { AppLoading, Asset, Font, Icon } from 'expo'
-import AppNavigator from './navigation/AppNavigator'
+import RDR2MaterialsTracker from 'RDR2MaterialsTracker'
 import { applyMiddleware, createStore } from 'redux'
 import { Provider } from 'react-redux'
 import thunk from 'redux-thunk'
@@ -29,7 +29,7 @@ export default class App extends React.Component {
         <Provider store={store}>
           <View style={styles.container}>
             {StatusBar.setHidden(true)}
-            <AppNavigator />
+            <RDR2MaterialsTracker />
           </View>
         </Provider>
       )

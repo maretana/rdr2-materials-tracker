@@ -1,13 +1,15 @@
 import { ToastAndroid } from 'react-native'
-import { readMaterialCount, writeMaterialCount, clearAppData } from 'utils/storage'
+import { readMaterialCount, writeMaterialCount, clearAppData, getUserDataSynchronous } from 'utils/storage'
 
 export const ACTIONS = {
   UPDATE_MATERIAL_COUNT: 'UPDATE_MATERIAL_COUNT',
   ON_MATERIAL_COUNT_SAVED: 'ON_MATERIAL_COUNT_SAVED',
-  RESET_APP_DATA: 'RESET_APP_DATA'
+  RESET_APP_DATA: 'RESET_APP_DATA',
+  LOG_REDUX_STATE: 'LOG_REDUX_STATE',
+  LOAD_USER_DATA: 'LOAD_USER_DATA'
 }
 
-// Dispatchers
+// Action creators
 
 function updateMaterialCounts (materialKey, materialCount) {
   return {
@@ -59,6 +61,16 @@ function resetStateUserData () {
   }
 }
 
+export function loadUserData () {
+  const userData = getUserDataSynchronous()
+  return {
+    type: ACTIONS.LOAD_USER_DATA,
+    payload: {
+      ...userData
+    }
+  }
+}
+
 /**
  * Deletes all user data for this app and resets the app state
  */
@@ -68,5 +80,16 @@ export function resetAppData () {
       ToastAndroid.show('App data was reset', ToastAndroid.SHORT) // TODO: Remove this or at least check for platform (Andorid|iOS)
       dispatch(resetStateUserData())
     })
+  }
+}
+
+/**
+ * TODO: DELETE THIS
+ * Logs in console the current redux state.
+ * @return {Object} The action creator
+ */
+export function logReduxState () {
+  return {
+    type: ACTIONS.LOG_REDUX_STATE
   }
 }

@@ -12,12 +12,24 @@ reducer[ACTIONS.UPDATE_MATERIAL_COUNT] = (state, { materialKey, materialCount })
   }
 }
 
+reducer[ACTIONS.LOAD_USER_DATA] = (state, payload) => {
+  return {
+    ...state,
+    ...payload
+  }
+}
+
 reducer[ACTIONS.RESET_APP_DATA] = (state, payload) => {
   let materials = {}
   return {
     ...state,
     materials
   }
+}
+
+reducer[ACTIONS.LOG_REDUX_STATE] = (state, payload) => {
+  console.log('Redux state:', state)
+  return state
 }
 
 export default reducer
