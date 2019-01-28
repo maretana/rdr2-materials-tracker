@@ -21,9 +21,13 @@ reducer[ACTIONS.LOAD_USER_DATA] = (state, payload) => {
 
 reducer[ACTIONS.RESET_APP_DATA] = (state, payload) => {
   let materials = {}
+  let userData = {
+    craftedRecipes: []
+  }
   return {
     ...state,
-    materials
+    materials,
+    ...userData
   }
 }
 
