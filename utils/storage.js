@@ -97,11 +97,6 @@ export function getUserDataSynchronous () {
 /**
  * Loads any user data that must be available to `initialState` in the reducer.
  */
-export function getUserData () {
-  return new Promise(resolve => {
-    readCraftedRecipes().then(crafted => {
-      initialCraftedRecipes = crafted
-      resolve()
-    })
-  })
+export async function getUserData () {
+  initialCraftedRecipes = await readCraftedRecipes()
 }
