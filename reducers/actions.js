@@ -61,6 +61,11 @@ function resetStateUserData () {
   }
 }
 
+/**
+ * Gets user data that was loaded asynchronous when the app was loaded and merge
+ * it with state
+ * @return {Object} The action to merge the data.
+ */
 export function loadUserData () {
   const userData = getUserDataSynchronous()
   return {
