@@ -37,7 +37,7 @@ export default class Recipe extends React.PureComponent {
             </View>
           )
         })}
-        <CompletionButton />
+        <CompletionButton shopKey={shopKey} ingredients={ingredients} />
       </ListCard>
     )
   }

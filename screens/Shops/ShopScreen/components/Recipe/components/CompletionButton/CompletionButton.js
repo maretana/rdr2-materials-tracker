@@ -3,13 +3,22 @@ import { Alert, Button } from 'react-native'
 import { getString } from 'utils/localization'
 
 export default class CompletionButton extends React.Component {
+  _onPress = () => {
+    const { hasAllRequiredMaterials } = this.props
+    if (hasAllRequiredMaterials) {
+      console.log('can mark as crafted and lock min materials count')
+    } else {
+      this.askAutofill()
+    }
+  }
+
   askAutofill () {
     Alert.alert(
       'Alert Title',
       getString('app.askAutofill'),
       [
         { text: 'Cancel', onPress: () => console.log('Cancel Pressed'), style: 'cancel' },
-        { text: 'OK', onPress: () => console.log('OK Pressed') }
+        { text: 'Yes', onPress: () => console.log('OK Pressed') }
       ],
       { cancelable: false }
     )
@@ -17,7 +26,7 @@ export default class CompletionButton extends React.Component {
 
   render () {
     return (
-      <Button title={getString('app.crafted')} onPress={this.askAutofill} />
+      <Button title={getString('app.crafted')} onPress={this._onPress} />
     )
   }
 }
