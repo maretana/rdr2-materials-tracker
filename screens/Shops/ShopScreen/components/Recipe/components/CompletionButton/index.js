@@ -1,5 +1,6 @@
 import { connect } from 'react-redux'
 import CompletionButton from './CompletionButton'
+import { editCraftedRecipe, saveCraftedRecipesList } from 'reducers/actions'
 
 function mapStateToProps (state, ownProps) {
   const { shopKey, ingredients } = ownProps
@@ -7,8 +8,9 @@ function mapStateToProps (state, ownProps) {
     ingredient => state.materials[ingredient.key][shopKey] >= ingredient.quantity
   )
   return {
-    hasAllRequiredMaterials
+    hasAllRequiredMaterials,
+    craftedRecipes: state.craftedRecipes
   }
 }
 
-export default connect(mapStateToProps, {})(CompletionButton)
+export default connect(mapStateToProps, { editCraftedRecipe, saveCraftedRecipesList })(CompletionButton)

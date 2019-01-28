@@ -19,6 +19,20 @@ reducer[ACTIONS.LOAD_USER_DATA] = (state, payload) => {
   }
 }
 
+reducer[ACTIONS.EDIT_CRAFTED_RECIPE] = (state, { recipeName }) => {
+  let recipeIndex = state.craftedRecipes.indexOf(recipeName)
+  let craftedRecipes = [...state.craftedRecipes]
+  if (recipeIndex > -1) {
+    craftedRecipes.splice(recipeIndex, 1)
+  } else {
+    craftedRecipes.push(recipeName)
+  }
+  return {
+    ...state,
+    craftedRecipes
+  }
+}
+
 reducer[ACTIONS.RESET_APP_DATA] = (state, payload) => {
   let materials = {}
   let userData = {

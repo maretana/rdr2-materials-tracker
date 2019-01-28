@@ -1,12 +1,17 @@
 import { ToastAndroid } from 'react-native'
-import { readMaterialCount, writeMaterialCount, clearAppData, getUserDataSynchronous } from 'utils/storage'
+import {
+  readMaterialCount, writeMaterialCount, clearAppData,
+  getUserDataSynchronous, writeCraftedRecipes
+} from 'utils/storage'
 
 export const ACTIONS = {
   UPDATE_MATERIAL_COUNT: 'UPDATE_MATERIAL_COUNT',
   ON_MATERIAL_COUNT_SAVED: 'ON_MATERIAL_COUNT_SAVED',
   RESET_APP_DATA: 'RESET_APP_DATA',
   LOG_REDUX_STATE: 'LOG_REDUX_STATE',
-  LOAD_USER_DATA: 'LOAD_USER_DATA'
+  LOAD_USER_DATA: 'LOAD_USER_DATA',
+  EDIT_CRAFTED_RECIPE: 'EDIT_CRAFTED_RECIPE',
+  ON_CRAFTED_RECIPE_SAVED: 'ON_CRAFTED_RECIPE_SAVED'
 }
 
 // Action creators
@@ -73,6 +78,29 @@ export function loadUserData () {
     payload: {
       ...userData
     }
+  }
+}
+
+export function editCraftedRecipe (recipeName) {
+  return {
+    type: ACTIONS.EDIT_CRAFTED_RECIPE,
+    payload: {
+      recipeName
+    }
+  }
+}
+
+function onCraftedRecipeSaved () {
+  return {
+    type: ACTIONS.ON_CRAFTED_RECIPE_SAVED
+  }
+}
+
+export function saveCraftedRecipesList (craftedRecipesList) {
+  return dispatch => {
+    writeCraftedRecipes(craftedRecipesList).then(() => {
+      dispatch(onCraftedRecipeSaved())
+    })
   }
 }
 
