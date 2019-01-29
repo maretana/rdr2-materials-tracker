@@ -38,6 +38,12 @@ export default class ShopScreen extends React.Component {
     )
   }
 
+  componentDidUpdate (prevProps) {
+    if (prevProps.craftedRecipes.length !== this.props.craftedRecipes.length) {
+      this.props.saveCraftedRecipesList(this.props.craftedRecipes)
+    }
+  }
+
   render () {
     const data = this.props.navigation.getParam('data')
     const shopKey = data.shopKey
