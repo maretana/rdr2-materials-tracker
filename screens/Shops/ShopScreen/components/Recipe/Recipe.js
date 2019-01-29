@@ -22,7 +22,10 @@ export default class Recipe extends React.PureComponent {
   }
 
   render () {
-    const { shopKey, ingredients, _cost = 0, name } = this.props.recipe
+    const {
+      hasAllRequiredMaterials, editCraftedRecipe,
+      recipe: { shopKey, ingredients, _cost = 0, name }
+    } = this.props
     return (
       <ListCard title={name}>
         {this.renderRecipeCost(_cost)}
@@ -37,7 +40,11 @@ export default class Recipe extends React.PureComponent {
             </View>
           )
         })}
-        <CompletionButton recipeName={name} shopKey={shopKey} ingredients={ingredients} />
+        <CompletionButton
+          recipeName={name}
+          hasAllRequiredMaterials={hasAllRequiredMaterials}
+          editCraftedRecipe={editCraftedRecipe}
+        />
       </ListCard>
     )
   }
