@@ -15,22 +15,22 @@
     "preset": "jest-expo"
   },
   "dependencies": {
-    "@expo/samples": "2.1.1",
-    "expo": "^31.0.2",
-    "i18n-js": "^3.1.0",
-    "react": "16.5.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz",
-    "react-navigation": "^2.18.2",
-    "react-redux": "^5.1.1",
+    "expo": "^32.0.6",
+    "i18n-js": "^3.2.1",
+    "react": "^16.8.3",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-navigation": "^3.3.0",
+    "react-redux": "^6.0.1",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
-    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-plugin-module-resolver": "^3.2.0",
     "babel-preset-expo": "^5.0.0",
-    "expo-cli": "^2.7.0",
-    "jest-expo": "^31.0.0",
+    "expo-cli": "^2.11.2",
+    "jest-expo": "^32.0.0",
+    "schedule": "^0.4.0",
     "standard": "^12.0.1"
   },
   "standard": {

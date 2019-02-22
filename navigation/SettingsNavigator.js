@@ -7,7 +7,7 @@ import SettingsScreen from 'screens/Settings/SettingsScreen'
 export default createStackNavigator({
   Settings: SettingsScreen
 }, {
-  navigationOptions: ({ navigation }) => ({
+  defaultNavigationOptions: ({ navigation }) => ({
     headerRight: (
       <TouchableOpacity
         onPress={() => navigation.openDrawer()}

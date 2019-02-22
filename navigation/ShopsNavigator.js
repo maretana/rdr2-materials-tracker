@@ -10,7 +10,7 @@ export default createStackNavigator({
   Shop: ShopScreen
 }, {
   initialRouteName: 'Home',
-  navigationOptions: ({ navigation }) => ({
+  defaultNavigationOptions: ({ navigation }) => ({
     headerRight: (
       <TouchableOpacity
         onPress={() => navigation.openDrawer()}
