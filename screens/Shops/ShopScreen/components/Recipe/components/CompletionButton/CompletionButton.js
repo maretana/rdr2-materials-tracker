@@ -13,13 +13,19 @@ export default class CompletionButton extends React.Component {
     }
   }
 
+  onAutofill = () => {
+    // Add missing materials
+    // Set new min count
+    // Save recipe as crafted <- standalone method?
+  }
+
   askAutofill () {
     Alert.alert(
       'Alert Title',
       getString('app.askAutofill'),
       [
-        { text: 'Cancel', onPress: () => console.log('Cancel Pressed'), style: 'cancel' },
-        { text: 'Yes', onPress: () => console.log('OK Pressed') }
+        { text: 'Cancel', onPress: () => {}, style: 'cancel' },
+        { text: 'Yes', onPress: this.onAutofill }
       ],
       { cancelable: false }
     )
