@@ -11,11 +11,15 @@ export default class Recipe extends React.PureComponent {
     const { recipe: { shopKey, ingredients }, materials, setMaterialCount } = this.props
     ingredients.forEach(ingredient => {
       let materialCount = materials[ingredient.key]
-      if ((materialCount[shopKey] || 0) < ingredient.quantity) {
-        let newCount = Object.assign({}, materialCount)
-        newCount[shopKey] = ingredient.quantity
-        setMaterialCount(ingredient.key, newCount)
+      let newCount = Object.assign({}, materialCount)
+      let minCount = materialCount.min || {}
+      let count = (materialCount[shopKey] || 0) - (minCount[shopKey] || 0)
+      if (count < ingredient.quantity) {
+        newCount[shopKey] = (newCount[shopKey] || 0) + (ingredient.quantity - count)
       }
+      newCount.min = Object.assign({}, minCount)
+      newCount.min[shopKey] = (newCount.min[shopKey] || 0) + ingredient.quantity
+      setMaterialCount(ingredient.key, newCount)
     })
   }
   renderRecipeCost (cost) {
