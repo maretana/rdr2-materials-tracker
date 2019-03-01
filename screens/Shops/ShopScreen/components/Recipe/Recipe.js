@@ -52,7 +52,13 @@ export default class Recipe extends React.PureComponent {
               <Text style={styles.text}>
                 {`${getString(ingredient.name)} x${ingredient.quantity}`}
               </Text>
-              <MaterialCounter materialKey={ingredient.key} shopKey={shopKey} />
+              <MaterialCounter
+                materialKey={ingredient.key}
+                shopKey={shopKey}
+                isReadOnly={isRecipeCrafted}
+                subtractMinCount={!isRecipeCrafted}
+                countOverride={isRecipeCrafted && ingredient.quantity}
+              />
             </View>
           )
         })}

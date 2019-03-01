@@ -12,11 +12,14 @@ export default class MaterialCounter extends React.Component {
     getMaterialCount: PropTypes.func.isRequired,
     materialCount: PropTypes.object.isRequired,
     requiredAmount: PropTypes.number,
-    isReadOnly: PropTypes.bool
+    isReadOnly: PropTypes.bool,
+    subtractMinCount: PropTypes.bool,
+    countOverride: PropTypes.oneOfType([PropTypes.number, PropTypes.bool])
   }
 
   static defaultProps = {
-    isReadOnly: false
+    isReadOnly: false,
+    subtractMinCount: false
   }
 
   _onPress = (updateModifier) => {
@@ -31,7 +34,7 @@ export default class MaterialCounter extends React.Component {
   updateMaterialCount (updateModifier) {
     const { setMaterialCount, materialKey, shopKey, materialCount } = this.props
     let newCount = Object.assign({}, materialCount)
-    let minCount = materialCount.min || {}
+    let minCount = newCount.min || {}
     let countValue = (materialCount[shopKey] || 0) + updateModifier
     countValue = Math.max((minCount[shopKey] || 0), countValue)
     countValue = Math.min(99, countValue)
@@ -43,15 +46,20 @@ export default class MaterialCounter extends React.Component {
 
   renderUpdateButton (iconName, updateModifier) {
     return (
-      <TouchableOpacity onPress={this._onPress(updateModifier)}>
+      <TouchableOpacity onPress={this._onPress(updateModifier)} disabled={this.props.isReadOnly}>
         <Icon.MaterialIcons name={iconName} style={styles.icon} />
       </TouchableOpacity>
     )
   }
 
   renderMaterialCount () {
-    const { materialCount, shopKey, requiredAmount } = this.props
-    let formattedCountText = ('0' + (materialCount[shopKey] || 0)).slice(-2)
+    const { materialCount, shopKey, requiredAmount, subtractMinCount, countOverride } = this.props
+    let count = countOverride || materialCount[shopKey] || 0
+    if (subtractMinCount) {
+      let minCount = materialCount.min || {}
+      count -= minCount[shopKey] || 0
+    }
+    let formattedCountText = ('0' + count).slice(-2)
     if (requiredAmount) {
       formattedCountText = getString('app.materialCounterWithTotal', {
         count: formattedCountText,
