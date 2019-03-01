@@ -4,15 +4,15 @@ import { getString } from 'utils/localization'
 
 export default class CompletionButton extends React.Component {
   _onPress = () => {
-    const { hasAllRequiredMaterials, recipeName, editCraftedRecipe } = this.props
+    const { hasAllRequiredMaterials } = this.props
     if (hasAllRequiredMaterials) {
-      editCraftedRecipe(recipeName)
+      this.completeRecipe()
     } else {
       this.askAutofill()
     }
   }
 
-  onAutofill = () => {
+  completeRecipe = () => {
     const { autofillMaterials, editCraftedRecipe, recipeName } = this.props
     autofillMaterials()
     editCraftedRecipe(recipeName)
@@ -20,11 +20,11 @@ export default class CompletionButton extends React.Component {
 
   askAutofill () {
     Alert.alert(
-      'Alert Title',
+      getString('app.askAutofillTitle'),
       getString('app.askAutofill'),
       [
         { text: 'Cancel', onPress: () => {}, style: 'cancel' },
-        { text: 'Yes', onPress: this.onAutofill }
+        { text: 'Yes', onPress: this.completeRecipe }
       ],
       { cancelable: false }
     )
