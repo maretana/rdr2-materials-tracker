@@ -31,8 +31,9 @@ export default class MaterialCounter extends React.Component {
   updateMaterialCount (updateModifier) {
     const { setMaterialCount, materialKey, shopKey, materialCount } = this.props
     let newCount = Object.assign({}, materialCount)
+    let minCount = materialCount.min || {}
     let countValue = (materialCount[shopKey] || 0) + updateModifier
-    countValue = Math.max(0, countValue)
+    countValue = Math.max((minCount[shopKey] || 0), countValue)
     countValue = Math.min(99, countValue)
     if (countValue !== materialCount[shopKey]) {
       newCount[shopKey] = countValue
