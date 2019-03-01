@@ -7,6 +7,17 @@ import CompletionButton from './components/CompletionButton'
 import styles from './styles'
 
 export default class Recipe extends React.PureComponent {
+  autofillMaterials = () => {
+    const { recipe: { shopKey, ingredients }, materials, setMaterialCount } = this.props
+    ingredients.forEach(ingredient => {
+      let materialCount = materials[ingredient.key]
+      if ((materialCount[shopKey] || 0) < ingredient.quantity) {
+        let newCount = Object.assign({}, materialCount)
+        newCount[shopKey] = ingredient.quantity
+        setMaterialCount(ingredient.key, newCount)
+      }
+    })
+  }
   renderRecipeCost (cost) {
     if (cost) {
       return (
@@ -24,7 +35,8 @@ export default class Recipe extends React.PureComponent {
   render () {
     const {
       hasAllRequiredMaterials, editCraftedRecipe,
-      recipe: { shopKey, ingredients, _cost = 0, name }
+      recipe: { shopKey, ingredients, _cost = 0, name },
+      isRecipeCrafted
     } = this.props
     return (
       <ListCard title={name}>
@@ -44,6 +56,8 @@ export default class Recipe extends React.PureComponent {
           recipeName={name}
           hasAllRequiredMaterials={hasAllRequiredMaterials}
           editCraftedRecipe={editCraftedRecipe}
+          isRecipeCrafted={isRecipeCrafted}
+          autofillMaterials={this.autofillMaterials}
         />
       </ListCard>
     )

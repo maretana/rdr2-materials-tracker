@@ -1,9 +1,9 @@
 import { connect } from 'react-redux'
-import { editCraftedRecipe } from 'reducers/actions'
+import { editCraftedRecipe, setMaterialCount } from 'reducers/actions'
 import Recipe from './Recipe'
 
 function mapStateToProps (state, ownProps) {
-  const { shopKey, ingredients } = ownProps.recipe
+  const { shopKey, ingredients, name } = ownProps.recipe
   const hasAllRequiredMaterials = ingredients.every(
     ingredient => {
       return state.materials[ingredient.key] &&
@@ -11,8 +11,10 @@ function mapStateToProps (state, ownProps) {
     }
   )
   return {
-    hasAllRequiredMaterials
+    hasAllRequiredMaterials,
+    isRecipeCrafted: state.craftedRecipes.includes(name),
+    materials: state.materials
   }
 }
 
-export default connect(mapStateToProps, { editCraftedRecipe })(Recipe)
+export default connect(mapStateToProps, { editCraftedRecipe, setMaterialCount })(Recipe)

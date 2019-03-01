@@ -24,20 +24,6 @@ export default class ShopScreen extends React.Component {
     return data.ingredients[0].ingredients === undefined
   }
 
-  renderRecipe (recipe) {
-    return <Recipe key={recipe.name} recipe={recipe} />
-  }
-
-  renderShopNavigationButton ({ ingredient, shopKey }) {
-    return (
-      <Button
-        key={ingredient.name}
-        title={getString(ingredient.name)}
-        onPress={this._onPress({ navigation: this.props.navigation, ingredient, shopKey })}
-      />
-    )
-  }
-
   componentDidUpdate (prevProps) {
     if (prevProps.craftedRecipes.length !== this.props.craftedRecipes.length) {
       this.props.saveCraftedRecipesList(this.props.craftedRecipes)
@@ -51,9 +37,16 @@ export default class ShopScreen extends React.Component {
       <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
         {data.ingredients.map(ingredient => {
           if (this.isRecipe(ingredient)) {
-            return this.renderRecipe({ ...ingredient, shopKey })
+            let recipe = { ...ingredient, shopKey }
+            return <Recipe key={recipe.name} recipe={recipe} />
           } else {
-            return this.renderShopNavigationButton({ ingredient, shopKey })
+            return (
+              <Button
+                key={ingredient.name}
+                title={getString(ingredient.name)}
+                onPress={this._onPress({ navigation: this.props.navigation, ingredient, shopKey })}
+              />
+            )
           }
         })}
       </ScrollView>
