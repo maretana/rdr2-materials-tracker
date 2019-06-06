@@ -13,8 +13,7 @@ export default class MaterialCounter extends React.Component {
     materialCount: PropTypes.object.isRequired,
     requiredAmount: PropTypes.number,
     isReadOnly: PropTypes.bool,
-    subtractMinCount: PropTypes.bool,
-    countOverride: PropTypes.oneOfType([PropTypes.number, PropTypes.bool])
+    subtractMinCount: PropTypes.bool
   }
 
   static defaultProps = {
@@ -53,8 +52,8 @@ export default class MaterialCounter extends React.Component {
   }
 
   renderMaterialCount () {
-    const { materialCount, shopKey, requiredAmount, subtractMinCount, countOverride } = this.props
-    let count = countOverride || materialCount[shopKey] || 0
+    const { materialCount, shopKey, requiredAmount, subtractMinCount } = this.props
+    let count = materialCount[shopKey] || 0
     if (subtractMinCount) {
       let minCount = materialCount.min || {}
       count -= minCount[shopKey] || 0
