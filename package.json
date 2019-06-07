@@ -25,6 +25,7 @@
     "redux": "^4.0.1",
     "redux-immutable": "^4.0.0",
     "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0",
     "with-immutable-props-to-js": "^1.2.0"
   },
   "devDependencies": {
