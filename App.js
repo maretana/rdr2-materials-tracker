@@ -2,13 +2,9 @@ import React from 'react'
 import { StatusBar, StyleSheet, View } from 'react-native'
 import { AppLoading, Asset, Font, Icon } from 'expo'
 import RDR2MaterialsTracker from 'RDR2MaterialsTracker'
-import { applyMiddleware, createStore } from 'redux'
 import { Provider } from 'react-redux'
-import thunk from 'redux-thunk'
-import appReducer from './reducers'
 import { getUserData } from 'utils/storage'
-
-const store = createStore(appReducer, applyMiddleware(thunk))
+import store from 'store'
 
 export default class App extends React.Component {
   state = {
