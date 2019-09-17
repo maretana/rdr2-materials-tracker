@@ -3,7 +3,7 @@ import { fromJS } from 'immutable'
 
 const reducer = {}
 
-reducer[ACTION_TYPES.UPDATE_MATERIAL_COUNT] = (state, { materialKey, materialCount }) => {
+reducer[ACTION_TYPES.SET_MATERIAL_COUNT] = (state, { materialKey, materialCount }) => {
   return state.set(materialKey, fromJS(materialCount))
 }
 

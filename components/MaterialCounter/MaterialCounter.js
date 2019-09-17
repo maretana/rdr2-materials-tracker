@@ -8,7 +8,7 @@ export default class MaterialCounter extends React.PureComponent {
   static propTypes = {
     materialKey: PropTypes.string.isRequired,
     shopKey: PropTypes.string.isRequired,
-    // setMaterialCount: PropTypes.func.isRequired,
+    setMaterialCount: PropTypes.func.isRequired,
     materialCount: PropTypes.object.isRequired,
     requiredAmount: PropTypes.number,
     isReadOnly: PropTypes.bool,

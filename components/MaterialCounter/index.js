@@ -1,7 +1,8 @@
 import { connect } from 'react-redux'
+import withImmutablePropsToJS from 'with-immutable-props-to-js'
+import { setMaterialCount } from 'store/actions/materials'
 import { getMaterialCount } from './selectors'
 import MaterialCounter from './MaterialCounter'
-import withImmutablePropsToJS from 'with-immutable-props-to-js'
 
 function mapStateToProps (state, ownProps) {
   return {
@@ -10,8 +11,7 @@ function mapStateToProps (state, ownProps) {
 }
 
 const mapDispatchToProps = {
-  // getMaterialCount,
-  // setMaterialCount
+  setMaterialCount
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(withImmutablePropsToJS(MaterialCounter))
