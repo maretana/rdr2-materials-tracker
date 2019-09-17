@@ -4,12 +4,11 @@ import { Icon } from 'expo'
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import { getString } from 'utils/localization'
 
-export default class MaterialCounter extends React.Component {
+export default class MaterialCounter extends React.PureComponent {
   static propTypes = {
     materialKey: PropTypes.string.isRequired,
     shopKey: PropTypes.string.isRequired,
-    setMaterialCount: PropTypes.func.isRequired,
-    getMaterialCount: PropTypes.func.isRequired,
+    // setMaterialCount: PropTypes.func.isRequired,
     materialCount: PropTypes.object.isRequired,
     requiredAmount: PropTypes.number,
     isReadOnly: PropTypes.bool,
@@ -70,19 +69,6 @@ export default class MaterialCounter extends React.Component {
         <Text style={styles.countText}>{formattedCountText}</Text>
       </View>
     )
-  }
-
-  componentDidMount () {
-    const { materialCount, materialKey, shopKey, getMaterialCount } = this.props
-    if (!materialCount[shopKey]) {
-      getMaterialCount(materialKey)
-    }
-  }
-
-  shouldComponentUpdate (nextProps, nextState) {
-    const { materialCount, shopKey } = this.props
-    const { nMaterialCount, nShopKey } = nextProps
-    return !(nMaterialCount && materialCount[shopKey] === nMaterialCount[nShopKey])
   }
 
   render () {

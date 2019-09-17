@@ -5,7 +5,7 @@ import MaterialCounter from 'components/MaterialCounter'
 import ListCard from 'components/ListCard'
 import Header from './components/MaterialsScreenHeader'
 
-export default class HomeScreen extends React.Component {
+export default class HomeScreen extends React.PureComponent {
   renderMaterial ({ item }) {
     return (
       <ListCard title={item.name}>
