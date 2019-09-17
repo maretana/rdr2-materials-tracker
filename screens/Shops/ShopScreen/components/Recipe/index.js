@@ -2,6 +2,8 @@ import { connect } from 'react-redux'
 import Recipe from './Recipe'
 import withImmutablePropsToJS from 'with-immutable-props-to-js'
 import { makeGetHasAllRequiredMaterials, makeGetIsRecipeCrafted, getMaterials } from './selectors'
+import { setMaterialCount } from 'store/actions/materials'
+import { toggleCraftedRecipe } from 'store/actions/craftedRecipes'
 
 function makeMapStateToProps () {
   const getHasAllRequiredMaterials = makeGetHasAllRequiredMaterials()
@@ -16,8 +18,8 @@ function makeMapStateToProps () {
 }
 
 const mapDispatchToProps = {
-  // editCraftedRecipe,
-  // setMaterialCount
+  toggleCraftedRecipe,
+  setMaterialCount
 }
 
 export default connect(makeMapStateToProps, mapDispatchToProps)(withImmutablePropsToJS(Recipe))

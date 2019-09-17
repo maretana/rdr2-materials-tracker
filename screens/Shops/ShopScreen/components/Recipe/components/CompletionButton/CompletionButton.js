@@ -13,9 +13,9 @@ export default class CompletionButton extends React.PureComponent {
   }
 
   completeRecipe = () => {
-    const { autofillMaterials, editCraftedRecipe, recipeName } = this.props
+    const { autofillMaterials, toggleCraftedRecipe, recipeName } = this.props
     autofillMaterials()
-    editCraftedRecipe(recipeName)
+    toggleCraftedRecipe(recipeName)
   }
 
   askAutofill () {

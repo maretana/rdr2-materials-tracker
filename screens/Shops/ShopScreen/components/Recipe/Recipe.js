@@ -12,8 +12,8 @@ export default class Recipe extends React.PureComponent {
     ingredients.forEach(ingredient => {
       let materialCount = materials[ingredient.key]
       let newCount = Object.assign({}, materialCount)
-      let minCount = materialCount.min || {}
-      let count = (materialCount[shopKey] || 0) - (minCount[shopKey] || 0)
+      let minCount = newCount.min || {}
+      let count = (newCount[shopKey] || 0) - (minCount[shopKey] || 0)
       if (count < ingredient.quantity) {
         newCount[shopKey] = (newCount[shopKey] || 0) + (ingredient.quantity - count)
       }
@@ -38,7 +38,7 @@ export default class Recipe extends React.PureComponent {
 
   render () {
     const {
-      hasAllRequiredMaterials, editCraftedRecipe,
+      hasAllRequiredMaterials, toggleCraftedRecipe,
       recipe: { shopKey, ingredients, _cost = 0, name },
       isRecipeCrafted
     } = this.props
@@ -65,7 +65,7 @@ export default class Recipe extends React.PureComponent {
         <CompletionButton
           recipeName={name}
           hasAllRequiredMaterials={hasAllRequiredMaterials}
-          editCraftedRecipe={editCraftedRecipe}
+          toggleCraftedRecipe={toggleCraftedRecipe}
           isRecipeCrafted={isRecipeCrafted}
           autofillMaterials={this.autofillMaterials}
         />
