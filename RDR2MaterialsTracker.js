@@ -5,7 +5,7 @@ import { loadUserData } from 'reducers/actions'
 
 /**
  * This class acts as a setup stage to perform state actions once the app loads
- * for the first time. Use it to load async data sucha s user saved data or user
+ * for the first time. Use it to load async data such as user saved data or user
  * settings.
  * @extends React
  */
