@@ -6,7 +6,7 @@ import {
 } from 'react-native'
 import { getString } from 'utils/localization'
 
-export default class HomeScreen extends React.Component {
+export default class HomeScreen extends React.PureComponent {
   static navigationOptions = {
     title: getString('app.home')
   };

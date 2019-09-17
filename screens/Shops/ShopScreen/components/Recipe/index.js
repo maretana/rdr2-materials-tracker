@@ -1,20 +1,23 @@
 import { connect } from 'react-redux'
-import { editCraftedRecipe, setMaterialCount } from 'reducers/actions'
 import Recipe from './Recipe'
+import withImmutablePropsToJS from 'with-immutable-props-to-js'
+import { makeGetHasAllRequiredMaterials, makeGetIsRecipeCrafted, getMaterials } from './selectors'
 
-function mapStateToProps (state, ownProps) {
-  const { shopKey, ingredients, name } = ownProps.recipe
-  const hasAllRequiredMaterials = ingredients.every(
-    ingredient => {
-      return state.materials[ingredient.key] &&
-      state.materials[ingredient.key][shopKey] >= ingredient.quantity
+function makeMapStateToProps () {
+  const getHasAllRequiredMaterials = makeGetHasAllRequiredMaterials()
+  const getIsRecipeCrafted = makeGetIsRecipeCrafted()
+  return function mapStateToProps (state, ownProps) {
+    return {
+      hasAllRequiredMaterials: getHasAllRequiredMaterials(state, ownProps),
+      isRecipeCrafted: getIsRecipeCrafted(state, ownProps),
+      materials: getMaterials(state)
     }
-  )
-  return {
-    hasAllRequiredMaterials,
-    isRecipeCrafted: state.craftedRecipes.includes(name),
-    materials: state.materials
   }
 }
 
-export default connect(mapStateToProps, { editCraftedRecipe, setMaterialCount })(Recipe)
+const mapDispatchToProps = {
+  // editCraftedRecipe,
+  // setMaterialCount
+}
+
+export default connect(makeMapStateToProps, mapDispatchToProps)(withImmutablePropsToJS(Recipe))

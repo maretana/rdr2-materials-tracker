@@ -3,7 +3,7 @@ import { ScrollView, Button, StyleSheet } from 'react-native'
 import { getString } from 'utils/localization'
 import Recipe from './components/Recipe'
 
-export default class ShopScreen extends React.Component {
+export default class ShopScreen extends React.PureComponent {
   static navigationOptions = ({ navigation }) => ({
     title: getString(navigation.getParam('data').name)
   })
@@ -26,7 +26,7 @@ export default class ShopScreen extends React.Component {
 
   componentDidUpdate (prevProps) {
     if (prevProps.craftedRecipes.length !== this.props.craftedRecipes.length) {
-      this.props.saveCraftedRecipesList(this.props.craftedRecipes)
+      // this.props.saveCraftedRecipesList(this.props.craftedRecipes)
     }
   }
 

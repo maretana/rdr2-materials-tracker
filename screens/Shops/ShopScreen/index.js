@@ -1,11 +1,16 @@
 import { connect } from 'react-redux'
-import { saveCraftedRecipesList } from 'reducers/actions'
 import ShopScreen from './ShopScreen'
+import { getCraftedRecipes } from './selectors'
+import withImmutablePropsToJS from 'with-immutable-props-to-js'
 
 function mapStateToProps (state) {
   return {
-    craftedRecipes: state.craftedRecipes
+    craftedRecipes: getCraftedRecipes(state)
   }
 }
 
-export default connect(mapStateToProps, { saveCraftedRecipesList })(ShopScreen)
+const mapDispatchToProps = {
+  // saveCraftedRecipesList
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(withImmutablePropsToJS(ShopScreen))

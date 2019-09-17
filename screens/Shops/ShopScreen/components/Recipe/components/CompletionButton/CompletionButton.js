@@ -2,7 +2,7 @@ import React from 'react'
 import { Alert, Button } from 'react-native'
 import { getString } from 'utils/localization'
 
-export default class CompletionButton extends React.Component {
+export default class CompletionButton extends React.PureComponent {
   _onPress = () => {
     const { hasAllRequiredMaterials } = this.props
     if (hasAllRequiredMaterials) {
