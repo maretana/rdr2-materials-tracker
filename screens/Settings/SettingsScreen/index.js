@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import { resetAppData } from 'reducers/actions'
+import { resetAppData } from 'store/actions/settings'
 import SettingsScreen from './SettingsScreen'
 import withImmutablePropsToJS from 'with-immutable-props-to-js'
 
