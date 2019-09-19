@@ -1,7 +1,7 @@
 import { ToastAndroid } from 'react-native'
 import {
   readMaterialCount, writeMaterialCount, clearAppData,
-  getUserDataSynchronous, writeCraftedRecipes
+  loadAppData, writeCraftedRecipes
 } from 'utils/storage'
 
 export const ACTIONS = {
@@ -72,7 +72,7 @@ function resetStateUserData () {
  * @return {Object} The action to merge the data.
  */
 export function loadUserData () {
-  const userData = getUserDataSynchronous()
+  const userData = loadAppData()
   return {
     type: ACTIONS.LOAD_USER_DATA,
     payload: {

@@ -3,7 +3,7 @@ import { StatusBar, StyleSheet, View } from 'react-native'
 import { AppLoading, Asset, Font, Icon } from 'expo'
 import RDR2MaterialsTracker from 'RDR2MaterialsTracker'
 import { Provider } from 'react-redux'
-import { getUserData } from 'utils/storage'
+import { readAppData } from 'utils/storage'
 import store from 'store'
 
 export default class App extends React.Component {
@@ -44,7 +44,7 @@ export default class App extends React.Component {
         // to remove this if you are not using it in your app
         'space-mono': require('./assets/fonts/SpaceMono-Regular.ttf')
       }),
-      getUserData()
+      readAppData(store.getState().get('materialsList'))
     ])
   };
 

@@ -4,13 +4,13 @@ const CRAFTED_RECIPES_KEY = 'CRAFTED_RECIPES'
 const CRAFTED_RECIPES_SEPARATOR = ';'
 
 /**
- * Used  when app is loading resources. The list of crafted materials is first
+ * Used  when app is loading previously stored data. The user saved data is first
  * loaded here when app is loading so that the initial state can have the stored
  * value. This way the app can do the async call to getItem from storage and
  * then do a synchronous call to set the value in the reducer initial state.
  * @type {Array<String>}
  */
-let initialCraftedRecipes
+let firstLoadAppData = null
 
 /**
  * Reads the material counts object in the device
@@ -88,15 +88,25 @@ export async function writeCraftedRecipes (craftedRecipes) {
  * Returns the user data that was previously set by `getUserData`
  * @return {Array<String>} The list of crafted recipes names the user had saved.
  */
-export function getUserDataSynchronous () {
-  return {
-    craftedRecipes: initialCraftedRecipes
+export function loadAppData () {
+  const appData = {
+    craftedRecipes: firstLoadAppData.initialCraftedRecipes,
+    materials: firstLoadAppData.materials
   }
+  firstLoadAppData = undefined
+  return appData
 }
 
 /**
  * Loads any user data that must be available to `initialState` in the reducer.
  */
-export async function getUserData () {
-  initialCraftedRecipes = await readCraftedRecipes()
+export async function readAppData (materialsList) {
+  firstLoadAppData = {}
+  firstLoadAppData.initialCraftedRecipes = await readCraftedRecipes()
+  firstLoadAppData.materials = {}
+  for (let material of materialsList) {
+    const materialKey = material.get('key')
+    let count = await readMaterialCount(materialKey)
+    firstLoadAppData.materials[materialKey] = count
+  }
 }
