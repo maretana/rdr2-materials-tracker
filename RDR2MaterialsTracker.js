@@ -1,7 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import AppNavigator from 'navigation/AppNavigator'
-import { loadUserData } from 'reducers/actions'
+import { loadAppData } from 'store/actions/settings'
 
 /**
  * This class acts as a setup stage to perform state actions once the app loads
@@ -11,7 +11,7 @@ import { loadUserData } from 'reducers/actions'
  */
 class RDR2MaterialsTracker extends React.Component {
   componentDidMount () {
-    this.props.loadUserData()
+    this.props.loadAppData()
   }
 
   render () {
@@ -19,4 +19,4 @@ class RDR2MaterialsTracker extends React.Component {
   }
 }
 
-export default connect(null, { loadUserData })(RDR2MaterialsTracker)
+export default connect(null, { loadAppData })(RDR2MaterialsTracker)

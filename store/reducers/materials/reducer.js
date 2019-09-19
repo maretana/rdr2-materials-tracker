@@ -13,4 +13,8 @@ reducer['RESET_APP_DATA'] = (state, action) => {
   return initialState
 }
 
+reducer['LOAD_APP_DATA'] = (state, { materials }) => {
+  return fromJS(materials)
+}
+
 export default reducer

@@ -1,4 +1,4 @@
-import { List } from 'immutable'
+import { List, fromJS } from 'immutable'
 import { ACTION_TYPES } from '../../actions/craftedRecipes'
 
 export const initialState = List()
@@ -16,6 +16,10 @@ reducer[ACTION_TYPES.TOGGLE_CRAFTED_RECIPE] = (state, { recipeName }) => {
 // TODO: Delete this
 reducer['RESET_APP_DATA'] = (state, action) => {
   return initialState
+}
+
+reducer['LOAD_APP_DATA'] = (state, { craftedRecipes }) => {
+  return fromJS(craftedRecipes)
 }
 
 export default reducer

@@ -85,10 +85,10 @@ export async function writeCraftedRecipes (craftedRecipes) {
 }
 
 /**
- * Returns the user data that was previously set by `getUserData`
+ * Returns the user data that was previously set by `readAppData`
  * @return {Array<String>} The list of crafted recipes names the user had saved.
  */
-export function loadAppData () {
+export function getAppData () {
   const appData = {
     craftedRecipes: firstLoadAppData.initialCraftedRecipes,
     materials: firstLoadAppData.materials
