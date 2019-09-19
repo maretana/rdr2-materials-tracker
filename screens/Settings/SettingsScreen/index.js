@@ -1,5 +1,16 @@
 import { connect } from 'react-redux'
-import { resetAppData, logReduxState } from 'reducers/actions'
+import { resetAppData } from 'reducers/actions'
 import SettingsScreen from './SettingsScreen'
+import withImmutablePropsToJS from 'with-immutable-props-to-js'
 
-export default connect(null, { resetAppData, logReduxState })(SettingsScreen)
+function mapStateToProps (state) {
+  return {
+    state // TODO: For debug purposes only.
+  }
+}
+
+const mapDispatchToProps = {
+  resetAppData
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(withImmutablePropsToJS(SettingsScreen))
