@@ -1,6 +1,6 @@
-import { Icon } from 'expo'
+import { MaterialIcons } from '@expo/vector-icons'
 import React from 'react'
-import { createStackNavigator } from 'react-navigation'
+import { createStackNavigator } from 'react-navigation-stack'
 import { TouchableOpacity } from 'react-native'
 import HomeScreen from 'screens/Shops/HomeScreen'
 import ShopScreen from 'screens/Shops/ShopScreen'
@@ -15,7 +15,7 @@ export default createStackNavigator({
       <TouchableOpacity
         onPress={() => navigation.openDrawer()}
       >
-        <Icon.MaterialIcons name='menu' size={26} color='black' />
+        <MaterialIcons name='menu' size={26} color='black' />
       </TouchableOpacity>
     ),
     headerRightContainerStyle: {

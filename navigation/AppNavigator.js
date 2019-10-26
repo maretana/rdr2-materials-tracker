@@ -1,4 +1,5 @@
-import { createDrawerNavigator, createAppContainer } from 'react-navigation'
+import { createAppContainer } from 'react-navigation'
+import { createDrawerNavigator } from 'react-navigation-drawer'
 import { getString } from 'utils/localization'
 import ShopsStack from './ShopsNavigator'
 import SettingsStack from './SettingsNavigator'

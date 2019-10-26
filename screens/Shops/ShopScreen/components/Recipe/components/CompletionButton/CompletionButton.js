@@ -3,7 +3,7 @@ import { Alert, Button } from 'react-native'
 import { getString } from 'utils/localization'
 
 export default class CompletionButton extends React.PureComponent {
-  _onPress = () => {
+  handleOnPress = () => {
     const { hasAllRequiredMaterials } = this.props
     if (hasAllRequiredMaterials) {
       this.completeRecipe()
@@ -32,7 +32,7 @@ export default class CompletionButton extends React.PureComponent {
 
   render () {
     return (
-      <Button title={getString('app.crafted')} onPress={this._onPress} disabled={this.props.isRecipeCrafted} />
+      <Button title={getString('app.crafted')} onPress={this.handleOnPress} disabled={this.props.isRecipeCrafted} />
     )
   }
 }

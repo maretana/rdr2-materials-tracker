@@ -1,5 +1,5 @@
 import React from 'react'
-import { Icon } from 'expo'
+import { MaterialIcons } from '@expo/vector-icons'
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 
 export default class MaterialsScreenHeader extends React.PureComponent {
@@ -12,7 +12,7 @@ export default class MaterialsScreenHeader extends React.PureComponent {
           <TouchableOpacity
             onPress={() => navigation.openDrawer()}
           >
-            <Icon.MaterialIcons name='menu' size={26} color='black' />
+            <MaterialIcons name='menu' size={26} color='black' />
           </TouchableOpacity>
         </View>
       </View>

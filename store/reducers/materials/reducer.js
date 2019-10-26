@@ -9,12 +9,12 @@ reducer[ACTION_TYPES.SET_MATERIAL_COUNT] = (state, { materialKey, materialCount 
 }
 
 // TODO: Delete this
-reducer['RESET_APP_DATA'] = (state, action) => {
+reducer.RESET_APP_DATA = (state, action) => {
   return initialState
 }
 
-reducer['LOAD_APP_DATA'] = (state, { materials }) => {
-  return fromJS(materials)
+reducer.LOAD_APP_DATA = (state, { materials }) => {
+  return fromJS({ ...materials })
 }
 
 export default reducer

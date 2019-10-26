@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Icon } from 'expo'
+import { MaterialIcons } from '@expo/vector-icons'
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import { getString } from 'utils/localization'
 
@@ -31,8 +31,8 @@ export default class MaterialCounter extends React.PureComponent {
 
   updateMaterialCount (updateModifier) {
     const { setMaterialCount, materialKey, shopKey, materialCount } = this.props
-    let newCount = Object.assign({}, materialCount)
-    let minCount = newCount.min || {}
+    const newCount = Object.assign({}, materialCount)
+    const minCount = newCount.min || {}
     let countValue = (materialCount[shopKey] || 0) + updateModifier
     countValue = Math.max((minCount[shopKey] || 0), countValue)
     countValue = Math.min(99, countValue)
@@ -45,7 +45,7 @@ export default class MaterialCounter extends React.PureComponent {
   renderUpdateButton (iconName, updateModifier) {
     return (
       <TouchableOpacity onPress={this._onPress(updateModifier)} disabled={this.props.isReadOnly}>
-        <Icon.MaterialIcons name={iconName} style={styles.icon} />
+        <MaterialIcons name={iconName} style={styles.icon} />
       </TouchableOpacity>
     )
   }
@@ -54,7 +54,7 @@ export default class MaterialCounter extends React.PureComponent {
     const { materialCount, shopKey, requiredAmount, subtractMinCount } = this.props
     let count = materialCount[shopKey] || 0
     if (subtractMinCount) {
-      let minCount = materialCount.min || {}
+      const minCount = materialCount.min || {}
       count -= minCount[shopKey] || 0
     }
     let formattedCountText = ('0' + count).slice(-2)

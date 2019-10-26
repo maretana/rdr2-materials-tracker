@@ -10,10 +10,10 @@ export default class Recipe extends React.PureComponent {
   autofillMaterials = () => {
     const { recipe: { shopKey, ingredients }, materials, setMaterialCount } = this.props
     ingredients.forEach(ingredient => {
-      let materialCount = materials[ingredient.key]
-      let newCount = Object.assign({}, materialCount)
-      let minCount = materialCount.min || {}
-      let count = (newCount[shopKey] || 0) - (minCount[shopKey] || 0)
+      const materialCount = materials[ingredient.key]
+      const newCount = Object.assign({}, materialCount)
+      const minCount = materialCount.min || {}
+      const count = (newCount[shopKey] || 0) - (minCount[shopKey] || 0)
       if (count < ingredient.quantity) {
         newCount[shopKey] = (newCount[shopKey] || 0) + (ingredient.quantity - count)
       }
@@ -22,6 +22,7 @@ export default class Recipe extends React.PureComponent {
       setMaterialCount(ingredient.key, newCount)
     })
   }
+
   renderRecipeCost (cost) {
     if (cost) {
       return (

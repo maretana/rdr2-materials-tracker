@@ -37,7 +37,7 @@ export default class ShopScreen extends React.PureComponent {
       <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
         {data.ingredients.map(ingredient => {
           if (this.isRecipe(ingredient)) {
-            let recipe = { ...ingredient, shopKey }
+            const recipe = { ...ingredient, shopKey }
             return <Recipe key={recipe.name} recipe={recipe} />
           } else {
             return (

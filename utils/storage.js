@@ -46,7 +46,7 @@ export async function writeMaterialCount (materialKey, newValue) {
  */
 export async function clearAppData () {
   try {
-    let keys = await AsyncStorage.getAllKeys()
+    const keys = await AsyncStorage.getAllKeys()
     if (keys.length) await AsyncStorage.multiRemove(keys)
   } catch (error) {
     // TODO: Catch error!!!
@@ -104,9 +104,9 @@ export async function readAppData (materialsList) {
   firstLoadAppData = {}
   firstLoadAppData.initialCraftedRecipes = await readCraftedRecipes()
   firstLoadAppData.materials = {}
-  for (let material of materialsList) {
+  for (const material of materialsList) {
     const materialKey = material.get('key')
-    let count = await readMaterialCount(materialKey)
+    const count = await readMaterialCount(materialKey)
     firstLoadAppData.materials[materialKey] = count
   }
 }

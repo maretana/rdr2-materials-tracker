@@ -10,8 +10,8 @@ export default class SettingsScreen extends React.Component {
   render () {
     return (
       <View>
-        <Button title={'Reset App Data'} onPress={() => this.props.resetAppData()} />
-        <Button title={'Log Redux State'} onPress={() => { console.log(this.props.state) }} />
+        <Button title='Reset App Data' onPress={() => this.props.resetAppData()} />
+        <Button title='Log Redux State' onPress={() => { console.log(this.props.state) }} />
       </View>
     )
   }

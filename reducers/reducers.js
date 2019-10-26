@@ -1,9 +1,9 @@
 import { ACTIONS } from './actions'
 
-let reducer = {}
+const reducer = {}
 
 reducer[ACTIONS.UPDATE_MATERIAL_COUNT] = (state, { materialKey, materialCount }) => {
-  let materialUpdate = {}
+  const materialUpdate = {}
   materialUpdate[materialKey] = materialCount
   const materials = Object.assign({ ...state.materials }, materialUpdate)
   return {
@@ -20,8 +20,8 @@ reducer[ACTIONS.LOAD_USER_DATA] = (state, payload) => {
 }
 
 reducer[ACTIONS.EDIT_CRAFTED_RECIPE] = (state, { recipeName }) => {
-  let recipeIndex = state.craftedRecipes.indexOf(recipeName)
-  let craftedRecipes = [...state.craftedRecipes]
+  const recipeIndex = state.craftedRecipes.indexOf(recipeName)
+  const craftedRecipes = [...state.craftedRecipes]
   if (recipeIndex > -1) {
     craftedRecipes.splice(recipeIndex, 1)
   } else {
@@ -34,8 +34,8 @@ reducer[ACTIONS.EDIT_CRAFTED_RECIPE] = (state, { recipeName }) => {
 }
 
 reducer[ACTIONS.RESET_APP_DATA] = (state, payload) => {
-  let materials = {}
-  let userData = {
+  const materials = {}
+  const userData = {
     craftedRecipes: []
   }
   return {
