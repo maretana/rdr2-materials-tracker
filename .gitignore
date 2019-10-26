@@ -7,3 +7,6 @@ npm-debug.*
 *.key
 *.keystore
 *.mobileprovision
+
+# VS Code config
+jsconfig.json
