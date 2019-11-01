@@ -11,7 +11,7 @@ import { writeCraftedRecipes } from 'utils/storage'
  * settings.
  * @extends React
  */
-class RDR2MaterialsTracker extends React.Component {
+class RDR2MaterialsTracker extends React.PureComponent {
   state = {
     firstLoad: true // prevents app from writing the data it just read on first load
   }
@@ -20,12 +20,12 @@ class RDR2MaterialsTracker extends React.Component {
     this.props.loadAppData()
   }
 
-  componentDidUpdate (prevProps) {
+  async componentDidUpdate (prevProps) {
     if (prevProps.craftedRecipes !== this.props.craftedRecipes) {
       if (this.state.firstLoad) {
         this.setState({ firstLoad: false })
       } else {
-        writeCraftedRecipes(this.props.craftedRecipes)
+        await writeCraftedRecipes(this.props.craftedRecipes)
       }
     }
   }
