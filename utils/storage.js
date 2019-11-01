@@ -90,8 +90,8 @@ export async function writeCraftedRecipes (craftedRecipes) {
  */
 export function getAppData () {
   const appData = {
-    craftedRecipes: firstLoadAppData.initialCraftedRecipes,
-    materials: firstLoadAppData.materials
+    craftedRecipes: [...firstLoadAppData.initialCraftedRecipes],
+    materials: { ...firstLoadAppData.materials }
   }
   firstLoadAppData = undefined
   return appData
