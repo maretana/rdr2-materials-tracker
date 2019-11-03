@@ -10,7 +10,7 @@ reducer[ACTION_TYPES.SET_MATERIAL_COUNT] = (state, { materialKey, materialCount 
 
 // TODO: Delete this
 reducer.RESET_APP_DATA = (state, action) => {
-  return initialState
+  return state.map(materialCount => new Map())
 }
 
 reducer.LOAD_APP_DATA = (state, { materials }) => {
