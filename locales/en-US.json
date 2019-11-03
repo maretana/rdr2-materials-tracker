@@ -290,7 +290,7 @@
     "askAutofill": "Autofill missing materials?",
     "askAutofillTitle": "There's missing materials!",
     "askNotCraftedTitle": "Unmark as crafted?",
-    "askNotCrafted": "Are you sure you want to umark %{recipeName} as crafted?\n\nMaterials count will not be edited.",
+    "askNotCrafted": "Are you sure you want to umark %{recipeName} as crafted?\n\nMaterials count will not be affected.",
     "materials": "Materials",
     "materialCounterWithTotal": "%{count} of %{total}",
     "yes": "Yes",
