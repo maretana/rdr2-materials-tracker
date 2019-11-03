@@ -23,6 +23,16 @@ export default class Recipe extends React.PureComponent {
     })
   }
 
+  unlockMinMaterials = () => {
+    const { recipe: { shopKey, ingredients }, materials, setMaterialCount } = this.props
+    ingredients.forEach(ingredient => {
+      const materialCount = materials[ingredient.key]
+      const newCount = Object.assign({}, materialCount)
+      newCount.min[shopKey] -= ingredient.quantity
+      setMaterialCount(ingredient.key, newCount)
+    })
+  }
+
   renderRecipeCost (cost) {
     if (cost) {
       return (
@@ -69,6 +79,7 @@ export default class Recipe extends React.PureComponent {
           toggleCraftedRecipe={toggleCraftedRecipe}
           isRecipeCrafted={isRecipeCrafted}
           autofillMaterials={this.autofillMaterials}
+          unlockMinMaterials={this.unlockMinMaterials}
         />
       </ListCard>
     )

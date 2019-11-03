@@ -285,11 +285,15 @@
     "shops": "Shops",
     "settings": "Settings",
     "cost": "Cost",
-    "crafted": "Set as crafted",
-    "notCrafted": "Set as not crafted",
+    "notCrafted": "Mark crafted",
+    "crafted": "Unmark crafted",
     "askAutofill": "Autofill missing materials?",
     "askAutofillTitle": "There's missing materials!",
+    "askNotCraftedTitle": "Unmark as crafted?",
+    "askNotCrafted": "Are you sure you want to umark %{recipeName} as crafted?\n\nMaterials count will not be edited.",
     "materials": "Materials",
-    "materialCounterWithTotal": "%{count} of %{total}"
+    "materialCounterWithTotal": "%{count} of %{total}",
+    "yes": "Yes",
+    "cancel": "Cancel"
   }
 }

@@ -4,12 +4,35 @@ import { getString } from 'utils/localization'
 
 export default class CompletionButton extends React.PureComponent {
   handleOnPress = () => {
-    const { hasAllRequiredMaterials } = this.props
-    if (hasAllRequiredMaterials) {
-      this.completeRecipe()
+    const { hasAllRequiredMaterials, isRecipeCrafted } = this.props
+    if (!isRecipeCrafted) {
+      if (hasAllRequiredMaterials) {
+        this.completeRecipe()
+      } else {
+        this.askAutofill()
+      }
     } else {
-      this.askAutofill()
+      this.askUnmarkAsCrafted()
     }
+  }
+
+  askUnmarkAsCrafted () {
+    const { recipeName } = this.props
+    Alert.alert(
+      getString('app.askNotCraftedTitle'),
+      getString('app.askNotCrafted', { recipeName: getString(recipeName) }),
+      [
+        { text: getString('app.cancel'), onPress: () => {}, style: 'cancel' },
+        { text: getString('app.yes'), onPress: this.unmarkRecipeAsCrafted }
+      ],
+      { cancelable: false }
+    )
+  }
+
+  unmarkRecipeAsCrafted = () => {
+    const { recipeName, toggleCraftedRecipe, unlockMinMaterials } = this.props
+    unlockMinMaterials()
+    toggleCraftedRecipe(recipeName)
   }
 
   completeRecipe = () => {
@@ -23,16 +46,18 @@ export default class CompletionButton extends React.PureComponent {
       getString('app.askAutofillTitle'),
       getString('app.askAutofill'),
       [
-        { text: 'Cancel', onPress: () => {}, style: 'cancel' },
-        { text: 'Yes', onPress: this.completeRecipe }
+        { text: getString('app.cancel'), onPress: () => {}, style: 'cancel' },
+        { text: getString('app.yes'), onPress: this.completeRecipe }
       ],
       { cancelable: false }
     )
   }
 
   render () {
+    const { isRecipeCrafted } = this.props
+    const buttonTitle = isRecipeCrafted ? getString('app.crafted') : getString('app.notCrafted')
     return (
-      <Button title={getString('app.crafted')} onPress={this.handleOnPress} disabled={this.props.isRecipeCrafted} />
+      <Button title={buttonTitle} onPress={this.handleOnPress} />
     )
   }
 }
