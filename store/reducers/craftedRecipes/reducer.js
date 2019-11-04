@@ -21,7 +21,7 @@ reducer[ACTION_TYPES.TOGGLE_CRAFTED_RECIPE] = (state, { recipeName }) => {
 
 // TODO: Delete this
 reducer.RESET_APP_DATA = (state, action) => {
-  return initialState
+  return new List()
 }
 
 reducer.LOAD_APP_DATA = (state, { craftedRecipes }) => {

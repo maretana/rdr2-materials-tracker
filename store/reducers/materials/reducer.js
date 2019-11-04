@@ -8,7 +8,7 @@ export const initialState = fromJS({
 const reducer = {}
 
 reducer[ACTION_TYPES.SET_MATERIAL_COUNT] = (state, { materialKey, materialCount }) => {
-  return state.set(materialKey, fromJS(materialCount))
+  return state.setIn(['counts', materialKey], fromJS(materialCount))
 }
 
 reducer[ACTION_TYPES.SET_MATERIALS_FILTER] = (state, { filter }) => {
@@ -17,7 +17,11 @@ reducer[ACTION_TYPES.SET_MATERIALS_FILTER] = (state, { filter }) => {
 
 // TODO: Delete this
 reducer.RESET_APP_DATA = (state, action) => {
-  return state.get('counts').map(materialCount => new Map())
+  return state.withMutations(nextState => {
+    nextState
+      .set('filter', '')
+      .set('counts', nextState.get('counts').map(materialCount => new Map()))
+  })
 }
 
 reducer.LOAD_APP_DATA = (state, { materials }) => {
