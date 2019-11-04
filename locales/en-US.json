@@ -294,6 +294,7 @@
     "materials": "Materials",
     "materialCounterWithTotal": "%{count} of %{total}",
     "yes": "Yes",
-    "cancel": "Cancel"
+    "cancel": "Cancel",
+    "searchMaterialPlaceholder": "Type search here..."
   }
 }

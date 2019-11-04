@@ -2,7 +2,7 @@ import { createSelector } from 'reselect'
 
 const getRecipeFromProps = (state, props) => props.recipe
 const getCraftedRecipes = state => state.get('craftedRecipes')
-export const getMaterials = state => state.get('materials')
+export const getMaterials = state => state.getIn(['materials', 'counts'])
 
 export function makeGetIsRecipeCrafted () {
   return createSelector(
