@@ -1,5 +1,5 @@
-import { ACTION_TYPES } from '../../actions/materials'
 import { fromJS, Map } from 'immutable'
+import { ACTION_TYPES } from 'store/actions/materials'
 
 export const initialState = fromJS({
   counts: {},

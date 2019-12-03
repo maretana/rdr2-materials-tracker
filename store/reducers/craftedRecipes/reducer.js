@@ -1,5 +1,5 @@
 import { List, fromJS } from 'immutable'
-import { ACTION_TYPES } from '../../actions/craftedRecipes'
+import { ACTION_TYPES } from 'store/actions/craftedRecipes'
 
 /**
  * The initial state is `[null]` so that it is different from an empty list
