@@ -1,1 +1,1 @@
-export const getShops = state => state.get('shops')
+export const getShops = state => state.getIn(['recipes', 'shops'])
